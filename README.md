@@ -1,9 +1,6 @@
 # Openclash Rule Set
 backup file openclash
 rule-providers:
-#
-# ================= RULE SET DIRECT==================
-#
   Direct:
     type: file
     behavior: classical
@@ -14,9 +11,6 @@ rule-providers:
     path: "./rule_provider/XL_Akrab.yaml"
     url: https://raw.githubusercontent.com/helmiau/clashrules/main/rule_provider/XL_Akrab.yaml
     interval: 14400
-#
-# ============== RULE SET MATCH GLOBAL ==============
-#
   rule_umum:
     type: http
     behavior: classical
@@ -29,9 +23,6 @@ rule-providers:
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_speedtest.yaml
     path: "./rule_provider/rule_speedtest.yaml"
     interval: 86400
-#
-# ================= RULE SET REJECT =================
-#
   Reject:
     type: file
     behavior: classical
@@ -115,12 +106,8 @@ rules:
 - RULE-SET,rule_abpindo,REJECT
 - RULE-SET,rule_adaway,REJECT
 - RULE-SET,rule_hijacking,REJECT
-#
-#==================CUSTOM=======================
 - RULE-SET,rule_adult,REJECT
 - RULE-SET,rule_nsfw,REJECT
-#==================CUSTOM=======================
-#
-#- RULE-SET,rule_umum,GLOBAL
+- RULE-SET,rule_umum,GLOBAL
 - RULE-SET,rule_speedtest,GLOBAL
 - MATCH,GLOBAL    
