@@ -1,5 +1,5 @@
 # adblock
-trial automatic update rule adblock openclash
+rule adblock openclash
 
 Untuk menggunakan, edit `config.yaml` pada `/etc/openclash/config/config.yaml` seperti ini:
 ```
