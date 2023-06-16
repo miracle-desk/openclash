@@ -65,7 +65,7 @@ proxy-groups:
 #================ DNS + FALLBACK-FILTER =================
 dns:
   enable: true
-  ipv6: false
+  ipv6: true
   enhanced-mode: redir-host
   listen: 0.0.0.0:7874
 #=============== FAKE-IP mode ================
@@ -243,7 +243,7 @@ external-controller-access: true
 secret: reyre
 bind-address: "*"
 external-ui: "/usr/share/openclash/ui"
-ipv6: false
+ipv6: true
 tun:
   enable: true
   stack: system
@@ -255,6 +255,7 @@ tun:
 profile:
   store-selected: true
   store-fake-ip: true
+  store-fakeip: true
 rules:
 - RULE-SET,Direct,DIRECT
 - RULE-SET,xl-akrab,DIRECT
