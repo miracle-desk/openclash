@@ -1,6 +1,3 @@
-# config.yaml
-
-```
 ---
 rule-providers:
 # ================= RULE SET DIRECT==================
@@ -21,41 +18,11 @@ rule-providers:
     type: file
     behavior: classical
     path: "./rule_provider/reject.yaml"
-  rule_oisd-full:
+  rule_allAds:
     type: http
     behavior: classical
-    path: "./rule_provider/rule_oisd-full.yaml"
-    url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_oisd-full.yaml
-    interval: 86400
-  rule_AdAway:
-    type: http
-    behavior: classical
-    path: "./rule_provider/rule_AdAway.yaml"
-    url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_AdAway.yaml
-    interval: 86400
-  rule_antiMalware:
-    type: http
-    behavior: classical
-    path: "./rule_provider/rule_Dandelion-AntiMalware.yaml"
-    url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_Dandelion-AntiMalware.yaml
-    interval: 86400
-  rule_Malicious-URLhaus:
-    type: http
-    behavior: classical
-    path: "./rule_provider/rule_Malicious-URLhaus.yaml"
-    url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_Malicious-URLhaus.yaml
-    interval: 86400
-  rule_Phishing-URL:
-    type: http
-    behavior: classical
-    path: "./rule_provider/rule_Phishing-URL.yaml"
-    url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_Phishing-URL.yaml
-    interval: 86400
-  rule_StevenBlackList: # only block: fakenews, gambling, social
-    type: http
-    behavior: classical
-    path: "./rule_provider/rule_StevenBlackList.yaml"
-    url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_StevenBlackList.yaml
+    path: "./rule_provider/rule_allAds.yaml"
+    url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_allAds.yaml
     interval: 86400
   rule_custom:
     type: http
@@ -107,17 +74,16 @@ dns:
   ipv6: false
   enhanced-mode: redir-host
   listen: 0.0.0.0:7874
-#=============== FAKE-IP mode ================
   fake-ip-filter:
     - "+.*"
-#
-#============== DNS ================
   nameserver:
   - 1.1.1.1
   - 8.8.8.8
+  - 9.9.9.9
   fallback:
   - 1.1.1.1
   - 8.8.8.8
+  - 9.9.9.9
   default-nameserver:
   - 8.8.8.8
   - 8.8.4.4
@@ -131,7 +97,6 @@ mixed-port: 7893
 mode: rule
 log-level: silent
 allow-lan: true
-unified-delay: true
 external-controller: 0.0.0.0:9090
 secret: reyre
 bind-address: "*"
@@ -152,13 +117,8 @@ rules:
 - RULE-SET,Direct,DIRECT
 - RULE-SET,xl-akrab,DIRECT
 - RULE-SET,Reject,REJECT
-- RULE-SET,rule_oisd-full,REJECT
-- RULE-SET,rule_AdAway,REJECT
-- RULE-SET,rule_antiMalware,REJECT
-- RULE-SET,rule_Malicious-URLhaus,REJECT
-- RULE-SET,rule_Phishing-URL,REJECT
-- RULE-SET,rule_StevenBlackList,REJECT
+- RULE-SET,rule_allAds,REJECT
 - RULE-SET,rule_custom,REJECT
 - MATCH,GLOBAL
+unified-delay: true
 tcp-concurrent: true
-```
