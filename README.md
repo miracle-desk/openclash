@@ -1,5 +1,5 @@
 # config.yaml
-```
+```yaml
 ---
 rule-providers:
 # ================= RULE SET DIRECT==================
