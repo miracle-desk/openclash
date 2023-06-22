@@ -12,7 +12,7 @@ rule-providers:
     behavior: classical
     path: "./rule_provider/xl-akrab.yaml"
     url: https://raw.githubusercontent.com/miracle-desk/Openclash/main/Backup/rule_provider/xl-akrab.yaml
-    interval: 14400
+    interval: 86400
 #
 #
 # ================= RULE SET REJECT =================
@@ -20,18 +20,12 @@ rule-providers:
     type: file
     behavior: classical
     path: "./rule_provider/reject.yaml"
-  rule_allAds:
-    type: http
-    behavior: classical
-    path: "./rule_provider/rule_allAds.yaml"
-    url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_allAds.yaml
-    interval: 86400
   rule_custom:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/miracle-desk/Openclash/main/Backup/rule_provider/rule_custom.yaml
     path: "./rule_provider/rule_custom.yaml"
-    interval: 43200
+    url: https://raw.githubusercontent.com/miracle-desk/Openclash/main/Backup/rule_provider/rule_custom.yaml
+    interval: 86400
 #
 #
 #================= PROXY PROVIDERS =================
@@ -119,7 +113,6 @@ rules:
 - RULE-SET,Direct,DIRECT
 - RULE-SET,xl-akrab,DIRECT
 - RULE-SET,Reject,REJECT
-- RULE-SET,rule_allAds,REJECT
 - RULE-SET,rule_custom,REJECT
 - MATCH,GLOBAL
 unified-delay: true
