@@ -25,49 +25,61 @@ rule-providers:
     behavior: classical
     path: "./rule_provider/rule_ABPindo.yaml"
     url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_ABPindo.yaml
-    interval: 86400 # Update rules every 24 hours
+    interval: 43200
   rule_AdAway:
     type: http
     behavior: classical
     path: "./rule_provider/rule_AdAway.yaml"
     url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_AdAway.yaml
-    interval: 86400 # Update rules every 24 hours
+    interval: 43200
   rule_Malicious-URLhaus:
     type: http
     behavior: classical
     path: "./rule_provider/rule_Malicious-URLhaus.yaml"
     url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_Malicious-URLhaus.yaml
-    interval: 86400 # Update rules every 24 hours
+    interval: 43200
+  rule_NoCoin-filter:
+    type: http
+    behavior: classical
+    path: "./rule_provider/rule_NoCoin-filter.yaml"
+    url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_NoCoin-filter.yaml
+    interval: 43200
   rule_oisd-small:
     type: http
     behavior: classical
     path: "./rule_provider/rule_oisd-small.yaml"
     url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_oisd-small.yaml
-    interval: 86400 # Update rules every 24 hours
+    interval: 43200
   rule_Phishing-URL:
     type: http
     behavior: classical
     path: "./rule_provider/rule_Phishing-URL.yaml"
     url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_Phishing-URL.yaml
-    interval: 86400 # Update rules every 24 hours
+    interval: 43200
+  rule_ShadowWhisperer-Malware:
+    type: http
+    behavior: classical
+    path: "./rule_provider/rule_ShadowWhisperer-Malware.yaml"
+    url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_ShadowWhisperer-Malware.yaml
+    interval: 43200
   rule_Stalkerware: # Untuk Android+iOS
     type: http
     behavior: classical
     path: "./rule_provider/rule_Stalkerware.yaml"
     url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_Stalkerware.yaml
-    interval: 86400 # Update rules every 24 hours
+    interval: 43200
   rule_StevenBlackList: #block: fakenews+gambling
     type: http
     behavior: classical
     path: "./rule_provider/rule_StevenBlackList.yaml"
     url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_StevenBlackList.yaml
-    interval: 86400 # Update rules every 24 hours
+    interval: 43200
   rule_custom:
     type: http
     behavior: classical
     path: "./rule_provider/rule_custom.yaml"
     url: https://raw.githubusercontent.com/miracle-desk/Openclash/main/Backup/rule_provider/rule_custom.yaml
-    interval: 86400 # Update rules every 24 hours
+    interval: 43200
 #
 #
 #================= PROXY PROVIDERS =================
@@ -157,11 +169,13 @@ rules:
 - RULE-SET,Reject,REJECT
 - RULE-SET,rule_ABPindo,REJECT
 - RULE-SET,rule_AdAway,REJECT
+- RULE-SET,rule_Malicious-URLhaus,REJECT
+- RULE-SET,rule_NoCoin-filter,REJECT
 - RULE-SET,rule_oisd-small,REJECT
 - RULE-SET,rule_Phishing-URL,REJECT
-- RULE-SET,rule_StevenBlackList,REJECT
-- RULE-SET,rule_Malicious-URLhaus,REJECT
+- RULE-SET,rule_ShadowWhisperer-Malware,REJECT
 - RULE-SET,rule_Stalkerware,REJECT
+- RULE-SET,rule_StevenBlackList,REJECT
 - RULE-SET,rule_custom,REJECT
 - MATCH,GLOBAL
 unified-delay: true
