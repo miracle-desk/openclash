@@ -20,18 +20,6 @@ rule-providers:
     type: file
     behavior: classical
     path: "./rule_provider/reject.yaml"
-  rule_ABPindo:
-    type: http
-    behavior: classical
-    path: "./rule_provider/rule_ABPindo.yaml"
-    url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_ABPindo.yaml
-    interval: 43200
-  rule_AdAway:
-    type: http
-    behavior: classical
-    path: "./rule_provider/rule_AdAway.yaml"
-    url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_AdAway.yaml
-    interval: 43200
   rule_Malicious-URLhaus:
     type: http
     behavior: classical
@@ -43,12 +31,6 @@ rule-providers:
     behavior: classical
     path: "./rule_provider/rule_NoCoin-filter.yaml"
     url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_NoCoin-filter.yaml
-    interval: 43200
-  rule_oisd-small:
-    type: http
-    behavior: classical
-    path: "./rule_provider/rule_oisd-small.yaml"
-    url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_oisd-small.yaml
     interval: 43200
   rule_Phishing-URL:
     type: http
@@ -129,7 +111,6 @@ dns:
   nameserver:
   - 1.1.1.1
   - 8.8.8.8
-  - 9.9.9.9
   fallback:
   - 1.1.1.1
   - 8.8.8.8
@@ -167,16 +148,16 @@ rules:
 - RULE-SET,Direct,DIRECT
 - RULE-SET,xl-akrab,DIRECT
 - RULE-SET,Reject,REJECT
-- RULE-SET,rule_ABPindo,REJECT
-- RULE-SET,rule_AdAway,REJECT
 - RULE-SET,rule_Malicious-URLhaus,REJECT
 - RULE-SET,rule_NoCoin-filter,REJECT
-- RULE-SET,rule_oisd-small,REJECT
 - RULE-SET,rule_Phishing-URL,REJECT
 - RULE-SET,rule_ShadowWhisperer-Malware,REJECT
 - RULE-SET,rule_Stalkerware,REJECT
 - RULE-SET,rule_StevenBlackList,REJECT
 - RULE-SET,rule_custom,REJECT
+#================ TORAM ===============
+- DST-PORT,30100,DIRECT
+- DOMAIN-KEYWORD,toram,DIRECT
 - MATCH,GLOBAL
 unified-delay: true
 tcp-concurrent: true
