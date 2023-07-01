@@ -20,17 +20,23 @@ rule-providers:
     type: file
     behavior: classical
     path: "./rule_provider/reject.yaml"
+  rule_AdAway:
+    type: http
+    behavior: classical
+    path: "./rule_provider/rule_AdAway.yaml"
+    url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_AdAway.yaml
+    interval: 43200
   rule_Malicious-URLhaus:
     type: http
     behavior: classical
     path: "./rule_provider/rule_Malicious-URLhaus.yaml"
     url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_Malicious-URLhaus.yaml
     interval: 43200
-  rule_NoCoin-filter:
+  rule_Malware-Websites:
     type: http
     behavior: classical
-    path: "./rule_provider/rule_NoCoin-filter.yaml"
-    url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_NoCoin-filter.yaml
+    path: "./rule_provider/rule_Malware-Websites.yaml"
+    url: https://raw.githubusercontent.com/miracle-desk/clash_rule-provider/main/rule_Malware-Websites.yaml
     interval: 43200
   rule_Phishing-URL:
     type: http
@@ -80,6 +86,15 @@ proxy-providers:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 30
+  fool:
+    type: http
+    url: "http://fool.azurewebsites.net/get?format=clash&mode=cdn&cdn=172.67.73.39&sni=meet.google.com&vpn=trojan,vmess,vless&region=Asia&cc=SG,ID&limit=3&pass=#####"
+    interval: 3600
+    path: "./proxy_provider/fool-vpn.yaml"
+    health-check:
+      enable: true
+      interval: 600
+      url: https://cp.cloudflare.com/generate_204
 #
 #
 #================= PROXY GROUPS =================
@@ -98,6 +113,12 @@ proxy-groups:
   - Proxy-ID
   url: http://www.gstatic.com/generate_204
   interval: '30'
+- name: fool-vpn
+  type: url-test
+  use:
+  - fool
+  url: http://cp.cloudflare.com/generate_204
+  interval: '30'
 #
 #
 #================ DNS + FALLBACK-FILTER =================
@@ -111,15 +132,18 @@ dns:
   nameserver:
   - 1.1.1.1
   - 8.8.8.8
+#  - 9.9.9.9
   fallback:
   - 1.1.1.1
   - 8.8.8.8
-  - 9.9.9.9
+#  - 9.9.9.9
   default-nameserver:
   - 8.8.8.8
   - 8.8.4.4
   - 1.1.1.1
   - 1.0.0.1
+#  - 9.9.9.9
+#  - 149.112.112.112
 redir-port: 7892
 tproxy-port: 7895
 port: 7890
@@ -148,17 +172,18 @@ rules:
 - RULE-SET,Direct,DIRECT
 - RULE-SET,xl-akrab,DIRECT
 - RULE-SET,Reject,REJECT
-- RULE-SET,rule_Malicious-URLhaus,REJECT
-- RULE-SET,rule_NoCoin-filter,REJECT
-- RULE-SET,rule_Phishing-URL,REJECT
-- RULE-SET,rule_ShadowWhisperer-Malware,REJECT
-- RULE-SET,rule_Stalkerware,REJECT
-- RULE-SET,rule_StevenBlackList,REJECT
-- RULE-SET,rule_custom,REJECT
-#================ TORAM ===============
-- DST-PORT,30100,DIRECT
-- DOMAIN-KEYWORD,toram,DIRECT
+- RULE-SET,rule_AdAway,REJECT                   #general
+- RULE-SET,rule_Malicious-URLhaus,REJECT        #security
+- RULE-SET,rule_Malware-Websites,REJECT         #security
+- RULE-SET,rule_Phishing-URL,REJECT             #security
+- RULE-SET,rule_ShadowWhisperer-Malware,REJECT  #security
+- RULE-SET,rule_Stalkerware,REJECT              #security
+- RULE-SET,rule_StevenBlackList,REJECT          #security
+- RULE-SET,rule_custom,REJECT                   #general
+#================ TORAM ONLINE ===============
+#- DST-PORT,30100,DIRECT
+#- DOMAIN-KEYWORD,toram,DIRECT
 - MATCH,GLOBAL
 unified-delay: true
-tcp-concurrent: true
+#tcp-concurrent: true
 ```
