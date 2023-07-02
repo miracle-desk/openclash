@@ -1,0 +1,25 @@
+name: Update provider.yaml
+
+on:
+  schedule:
+    - cron:  '0 1 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+    - name: Show python version
+      run: python3 --version
+    - name: Run a script update provider
+      run: python3 get-update-provider.py    
+    - name: Commit changes
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git commit -a -m "Automatic update"
+    - name: Push changes
+      run: |
+        git push -u origin main
