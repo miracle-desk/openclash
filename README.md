@@ -88,8 +88,9 @@ proxy-providers:
       interval: 30
   fool:
     type: http
-    url: "https://fool.azurewebsites.net/get?format=clash&mode=cdn&cdn=104.17.3.81&vpn=trojan,vmess,vless&region=Asia&cc=SG,ID&limit=3&pass=your_password"
+    url: "https://raw.githubusercontent.com/miracle-desk/Openclash/main/fool-provider.yaml"
     path: "./proxy_provider/fool-vpn.yaml"
+    interval: 21600
     health-check:
       enable: true
       interval: 600
@@ -184,5 +185,4 @@ rules:
 #- DOMAIN-KEYWORD,toram,DIRECT
 - MATCH,GLOBAL
 unified-delay: true
-#tcp-concurrent: true
 ```
