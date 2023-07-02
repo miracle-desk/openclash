@@ -3,7 +3,7 @@ import yaml
 
 accounts = []  # List untuk menyimpan akun yang telah dikumpulkan
 
-# Perulangan untuk membuka URL sebanyak 10 kali
+# Perulangan untuk membuka URL sebanyak 30 kali
 for _ in range(30):
     url = "https://fool.azurewebsites.net/get?format=clash&mode=cdn&cdn=104.17.3.81&network=ws&arg=xudp,key:value&vpn=trojan,vmess,vless&region=Asia&cc=SG,ID&limit=3&pass=1oqrsj6c"  # Ganti dengan URL yang sesuai
     
