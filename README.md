@@ -88,7 +88,7 @@ proxy-providers:
       interval: 30
   fool:
     type: http
-    url: "http://fool.azurewebsites.net/get?format=clash&mode=cdn&cdn=172.67.73.39&sni=meet.google.com&vpn=trojan,vmess,vless&region=Asia&cc=SG,ID&limit=3&pass=#####"
+    url: "https://fool.azurewebsites.net/get?format=clash&mode=cdn&cdn=104.17.3.81&vpn=trojan,vmess,vless&region=Asia&cc=SG,ID&limit=3&pass=password"
     interval: 3600
     path: "./proxy_provider/fool-vpn.yaml"
     health-check:
