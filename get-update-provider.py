@@ -5,7 +5,7 @@ accounts = []  # List untuk menyimpan akun yang telah dikumpulkan
 
 # Perulangan untuk membuka URL sebanyak 10 kali
 for _ in range(10):
-    url = "https://fool.azurewebsites.net/get?format=clash&mode=cdn&cdn=104.17.3.81&vpn=trojan,vmess,vless&region=Asia&cc=SG,ID&limit=3&pass=1oqrsj6c"  # Ganti dengan URL yang sesuai
+    url = "https://fool.azurewebsites.net/get?format=clash&mode=cdn&cdn=104.17.3.81&tls=1&network=ws&port=443&vpn=trojan,vmess,vless&region=Asia&cc=SG,ID&limit=3&pass=1oqrsj6c"  # Ganti dengan URL yang sesuai
     
     response = requests.get(url)
     data = response.text
