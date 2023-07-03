@@ -1,5 +1,6 @@
 import requests
 import yaml
+import os
 
 accounts = []  # List untuk menyimpan akun yang telah dikumpulkan
 
@@ -22,7 +23,7 @@ for _ in range(10):
         if (host, port) not in [(acc["servername"], acc["port"]) for acc in accounts]:
             accounts.append(account)
 
-# Menentukan kunci khusus untuk mengurutkan proxies berdasarkan nama proxies dengan aturan yang diberikan, karena di clash saya mau menggunakan mode fallback
+# Menentukan kunci khusus untuk mengurutkan proxies berdasarkan nama proxies dengan aturan yang diberikan
 def custom_sort_key(acc):
     name = acc["name"]
     
@@ -42,9 +43,16 @@ def custom_sort_key(acc):
 # Mengurutkan proxies berdasarkan kunci khusus
 accounts.sort(key=custom_sort_key)
 
-# Membuat file YAML baru
-with open("fool-provider.yaml", "w") as file:
-    # Menulis data akun ke dalam file YAML
-    yaml.dump({"proxies": accounts}, file, sort_keys=False)  # Menggunakan sort_keys=False agar urutan penulisan tetap
+# Menentukan path file YAML
+output_dir = "Backup/proxy_provider"
+output_path = os.path.join(output_dir, "fool-provider.yaml")
 
-print("File fool-provider.yaml berhasil dibuat.")
+# Membuat folder jika belum ada
+os.makedirs(output_dir, exist_ok=True)
+
+# Membuat file YAML baru
+with open(output_path, "w") as file:
+    # Menulis data akun ke dalam file YAML
+    yaml.dump({"proxies": accounts}, file, sort_keys=False)
+
+print("File fool-provider.yaml berhasil dibuat di folder", output_dir)
