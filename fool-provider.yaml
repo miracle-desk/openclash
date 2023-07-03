@@ -1,8 +1,38 @@
 proxies:
+<<<<<<< HEAD
 - name: "622 \U0001F1F8\U0001F1EC AS31898 ORACLE CORPORATION WS CDN TLS"
   server: 104.17.3.81
+=======
+- alterId: 0
+  cipher: auto
+  key: value
+  name: "199 \U0001F1F8\U0001F1EC AS63949 AKAMAI CONNECTED CLOUD WS CDN TLS"
+  network: ws
+>>>>>>> 832becc5c1c2b4b95e6acf885317a784b38dc5b9
   port: 443
   type: vmess
+<<<<<<< HEAD
+=======
+  udp: true
+  uuid: 132633a9-b53e-4352-82a6-93eae114482e
+  ws-opts:
+    headers:
+      Host: dynamic-sg1b.obfs.xyz
+    path: /worryfree
+  xudp: true
+- alterId: 0
+  cipher: auto
+  key: value
+  name: "622 \U0001F1F8\U0001F1EC AS31898 ORACLE CORPORATION WS CDN TLS"
+  network: ws
+  port: 443
+  server: 104.17.3.81
+  servername: meetzoom.disnet.gq
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+>>>>>>> 832becc5c1c2b4b95e6acf885317a784b38dc5b9
   uuid: a869c557-5c7d-426f-9039-0279c16352bc
   cipher: auto
   tls: true
@@ -30,6 +60,7 @@ proxies:
   network: ws
   alterId: 0
   xudp: true
+<<<<<<< HEAD
   key: value
   ws-opts:
     path: /
@@ -71,3 +102,41 @@ proxies:
     path: /vmess
     headers:
       Host: sg2-mlb.securev2ray.com
+=======
+- alterId: 0
+  cipher: auto
+  key: value
+  name: "742 \U0001F1F8\U0001F1EC AS14061 DIGITALOCEAN, LLC WS CDN TLS"
+  network: ws
+  port: 8443
+  server: 104.17.3.81
+  servername: sgp1.looooooongnet.lol
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 92cbe4c3-bd74-46fa-bbe6-ee86b7f834d6
+  ws-opts:
+    headers:
+      Host: sgp1.looooooongnet.lol
+    path: /
+  xudp: true
+- alterId: 0
+  cipher: auto
+  key: value
+  name: "592 \U0001F1F8\U0001F1EC AS8849 MELBIKOMAS UAB WS CDN NTLS"
+  network: ws
+  port: 80
+  server: 104.17.3.81
+  servername: null
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9878857d-50d4-45b0-a97b-e5c5f03d1540
+  ws-opts:
+    headers:
+      Host: sg6.securev2ray.com
+    path: /vmess
+  xudp: true
+>>>>>>> 832becc5c1c2b4b95e6acf885317a784b38dc5b9
