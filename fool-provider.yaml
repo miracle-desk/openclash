@@ -2,61 +2,43 @@ proxies:
 - alterId: 0
   cipher: auto
   key: value
-  name: "1006 \U0001F1F8\U0001F1EC AS63949 AKAMAI CONNECTED CLOUD WS CDN TLS"
+  name: "10 \U0001F1F8\U0001F1EC AS140443 PT HERZA DIGITAL INDONESIA WS CDN TLS"
   network: ws
   port: 443
   server: 104.17.3.81
-  servername: sg1.foolvpn.tech
+  servername: asia1.oceis.net
   skip-cert-verify: true
   tls: true
   type: vmess
   udp: true
-  uuid: 078980ea-b8d7-4101-9cb7-d4c3646fdf56
+  uuid: c7169000-13f9-11ee-b432-205c6d5f5d78
   ws-opts:
     headers:
-      Host: sg1.foolvpn.tech
-    path: /vmess
+      Host: asia1.oceis.net
+    path: /vmws
   xudp: true
 - alterId: 0
   cipher: auto
   key: value
-  name: "1343 \U0001F1EE\U0001F1E9 AS138131 CV. NATANETWORK SOLUTION WS CDN TLS"
+  name: "23 \U0001F1F8\U0001F1EC AS14061 DIGITALOCEAN, LLC WS CDN TLS"
   network: ws
-  port: 443
+  port: 8443
   server: 104.17.3.81
-  servername: id1.foolvpn.tech
+  servername: sgp1.looooooongnet.lol
   skip-cert-verify: true
   tls: true
   type: vmess
   udp: true
-  uuid: 078980ea-b8d7-4101-9cb7-d4c3646fdf56
+  uuid: bf56cc28-1601-4a4d-ae7b-16691486b9f5
   ws-opts:
     headers:
-      Host: id1.foolvpn.tech
-    path: /vmess
+      Host: sgp1.looooooongnet.lol
+    path: /
   xudp: true
 - alterId: 0
   cipher: auto
   key: value
-  name: "1039 \U0001F1F8\U0001F1EC AS14061 DIGITALOCEAN, LLC WS CDN TLS"
-  network: ws
-  port: 443
-  server: 104.17.3.81
-  servername: para-pokemon.139.my.id
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 12d2853a-dd20-43b7-ade3-8d4c8c011333
-  ws-opts:
-    headers:
-      Host: para-pokemon.139.my.id
-    path: /vmess
-  xudp: true
-- alterId: 0
-  cipher: auto
-  key: value
-  name: "1122 \U0001F1F8\U0001F1EC AS141995 CONTABO ASIA PRIVATE LIMITED WS CDN NTLS"
+  name: "1045 \U0001F1F8\U0001F1EC AS8849 MELBIKOMAS UAB WS CDN NTLS"
   network: ws
   port: 80
   server: 104.17.3.81
@@ -65,10 +47,10 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 0baaf014-af04-4028-be53-f5c75bb276ae
+  uuid: 0dfa89a7-fe08-454e-817b-374097be358f
   ws-opts:
     headers:
-      Host: sg-v.sshmax.xyz
+      Host: sg2-mlb.securev2ray.com
     path: /vmess
   xudp: true
 - alterId: 0
@@ -92,24 +74,6 @@ proxies:
 - alterId: 0
   cipher: auto
   key: value
-  name: "465 \U0001F1F8\U0001F1EC AS14061 DIGITALOCEAN, LLC WS CDN TLS"
-  network: ws
-  port: 8443
-  server: 104.17.3.81
-  servername: sgp1.looooooongnet.lol
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: c6bfb3e1-1fb9-48f6-a91a-5be5f53a5a57
-  ws-opts:
-    headers:
-      Host: sgp1.looooooongnet.lol
-    path: /
-  xudp: true
-- alterId: 0
-  cipher: auto
-  key: value
   name: "8 \U0001F1F8\U0001F1EC AS31898 ORACLE CORPORATION WS CDN TLS"
   network: ws
   port: 443
@@ -128,6 +92,60 @@ proxies:
 - alterId: 0
   cipher: auto
   key: value
+  name: "26 \U0001F1F8\U0001F1EC AS63949 AKAMAI CONNECTED CLOUD WS CDN TLS"
+  network: ws
+  port: 443
+  server: 104.17.3.81
+  servername: sg1.foolvpn.tech
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 846e75d7-72c0-48a4-b544-3d32eca461b6
+  ws-opts:
+    headers:
+      Host: sg1.foolvpn.tech
+    path: /vmess
+  xudp: true
+- alterId: 0
+  cipher: auto
+  key: value
+  name: "1039 \U0001F1F8\U0001F1EC AS14061 DIGITALOCEAN, LLC WS CDN TLS"
+  network: ws
+  port: 443
+  server: 104.17.3.81
+  servername: para-pokemon.139.my.id
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 12d2853a-dd20-43b7-ade3-8d4c8c011333
+  ws-opts:
+    headers:
+      Host: para-pokemon.139.my.id
+    path: /vmess
+  xudp: true
+- alterId: 0
+  cipher: auto
+  key: value
+  name: "1343 \U0001F1EE\U0001F1E9 AS138131 CV. NATANETWORK SOLUTION WS CDN TLS"
+  network: ws
+  port: 443
+  server: 104.17.3.81
+  servername: id1.foolvpn.tech
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 078980ea-b8d7-4101-9cb7-d4c3646fdf56
+  ws-opts:
+    headers:
+      Host: id1.foolvpn.tech
+    path: /vmess
+  xudp: true
+- alterId: 0
+  cipher: auto
+  key: value
   name: "18 \U0001F1F8\U0001F1EC AS16276 OVH SAS WS CDN TLS"
   network: ws
   port: 443
@@ -142,22 +160,4 @@ proxies:
     headers:
       Host: ovh.mi14.pro
     path: /go
-  xudp: true
-- alterId: 0
-  cipher: auto
-  key: value
-  name: "10 \U0001F1F8\U0001F1EC AS140443 PT HERZA DIGITAL INDONESIA WS CDN TLS"
-  network: ws
-  port: 443
-  server: 104.17.3.81
-  servername: asia1.oceis.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: c7169000-13f9-11ee-b432-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: asia1.oceis.net
-    path: /vmws
   xudp: true
