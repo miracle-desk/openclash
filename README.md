@@ -86,11 +86,10 @@ proxy-providers:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 30
-  fool:
+  Proxy-fool:
     type: http
-    url: "https://fool.azurewebsites.net/get?format=clash&mode=cdn&cdn=104.17.3.81&network=ws&arg=xudp,key:value&vpn=trojan,vmess,vless&region=Asia&cc=SG,ID&limit=3&pass=yourpass"
+    url: "https://raw.githubusercontent.com/miracle-desk/Openclash/main/fool-provider.yaml"
     path: "./proxy_provider/fool-vpn.yaml"
-    interval: 21600
     health-check:
       enable: true
       interval: 600
@@ -113,10 +112,10 @@ proxy-groups:
   - Proxy-ID
   url: http://www.gstatic.com/generate_204
   interval: '30'
-- name: fool-vpn
-  type: url-test
+- name: fool
+  type: fallback
   use:
-  - fool
+  - Proxy-fool
   url: http://cp.cloudflare.com/generate_204
   interval: '30'
 #
