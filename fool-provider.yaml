@@ -20,25 +20,7 @@ proxies:
 - alterId: 0
   cipher: auto
   key: value
-  name: "81 \U0001F1F8\U0001F1EC AS16509 AMAZON.COM, INC. WS CDN TLS"
-  network: ws
-  port: 443
-  server: 104.17.3.81
-  servername: link2.kuaidog001.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d652b536-1787-46b8-b7aa-d44cd79524f8
-  ws-opts:
-    headers:
-      Host: link2.kuaidog001.top
-    path: /news
-  xudp: true
-- alterId: 0
-  cipher: auto
-  key: value
-  name: "824 \U0001F1F8\U0001F1EC AS14061 DIGITALOCEAN, LLC WS CDN TLS"
+  name: "3 \U0001F1F8\U0001F1EC AS14061 DIGITALOCEAN, LLC WS CDN TLS"
   network: ws
   port: 8443
   server: 104.17.3.81
@@ -47,7 +29,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 92cbe4c3-bd74-46fa-bbe6-ee86b7f834d6
+  uuid: c6bfb3e1-1fb9-48f6-a91a-5be5f53a5a57
   ws-opts:
     headers:
       Host: sgp1.looooooongnet.lol
@@ -70,4 +52,22 @@ proxies:
     headers:
       Host: dynamic-sg1b.obfs.xyz
     path: /worryfree
+  xudp: true
+- alterId: 0
+  cipher: auto
+  key: value
+  name: "431 \U0001F1F8\U0001F1EC AS31898 ORACLE CORPORATION WS CDN TLS"
+  network: ws
+  port: 443
+  server: 104.17.3.81
+  servername: meetzoom.disnet.gq
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: a869c557-5c7d-426f-9039-0279c16352bc
+  ws-opts:
+    headers:
+      Host: meetzoom.disnet.gq
+    path: /vmessws
   xudp: true
