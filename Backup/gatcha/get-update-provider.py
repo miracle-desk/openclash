@@ -4,8 +4,8 @@ import os
 
 accounts = []  # List untuk menyimpan akun yang telah dikumpulkan
 
-# Perulangan untuk membuka URL sebanyak 10 kali
-for _ in range(10):
+# Perulangan untuk membuka URL sebanyak 5 kali
+for _ in range(5):
     url = "https://fool.azurewebsites.net/get?format=clash&mode=cdn&cdn=104.17.3.81&network=ws&arg=xudp,key:value&vpn=trojan,vmess,vless&region=Asia&cc=SG,ID,JP&exclude=amazon&limit=3&pass=1oqrsj6c"  # Ganti dengan URL yang sesuai
     
     response = requests.get(url)
@@ -17,10 +17,9 @@ for _ in range(10):
     # Memeriksa dan menambahkan akun ke dalam list jika host dan port belum ada
     for account in parsed_data["proxies"]:
         host = account["servername"]
-        port = account["port"]
         
         # Memeriksa apakah host dan port sudah ada dalam list akun
-        if (host, port) not in [(acc["servername"], acc["port"]) for acc in accounts]:
+        if (host) not in [(acc["servername"]) for acc in accounts]:
             accounts.append(account)
 
 # Menentukan kunci khusus untuk mengurutkan proxies berdasarkan nama proxies dengan aturan yang diberikan

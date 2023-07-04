@@ -1,5 +1,5 @@
 proxies:
-- name: "622 \U0001F1F8\U0001F1EC AS31898 ORACLE CORPORATION WS CDN TLS"
+- name: "622 \U0001F1F8\U0001F1EC AS31898 ORACLE CORPORATION WS CDN"
   server: 104.17.3.81
   port: 443
   type: vmess
@@ -53,11 +53,11 @@ proxies:
     path: /worryfree
     headers:
       Host: dynamic-sg1b.obfs.xyz
-- name: "592 \U0001F1F8\U0001F1EC AS8849 MELBIKOMAS UAB WS CDN NTLS"
+- name: "19 \U0001F1F8\U0001F1EC AS8849 MELBIKOMAS UAB WS CDN NTLS"
   server: 104.17.3.81
   port: 80
   type: vmess
-  uuid: 9878857d-50d4-45b0-a97b-e5c5f03d1540
+  uuid: 0dfa89a7-fe08-454e-817b-374097be358f
   cipher: auto
   tls: false
   udp: true
@@ -70,4 +70,4 @@ proxies:
   ws-opts:
     path: /vmess
     headers:
-      Host: sg6.securev2ray.com
+      Host: sg2-mlb.securev2ray.com
