@@ -21,7 +21,7 @@ for _ in range(5):
         server = account["server"]
 
         # Memeriksa koneksi internet dengan ping
-        if ping(server) is not None:
+        if ping(server, timeout=2) is not None:
             accounts.append(account)
             print(f"Akun {name} terhubung ke internet")
         else:
