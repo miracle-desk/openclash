@@ -1,3 +1,4 @@
+import uuid
 import requests
 import yaml
 import os
@@ -14,12 +15,12 @@ for _ in range(5):
     # Parsing akun dari teks menggunakan library YAML
     parsed_data = yaml.safe_load(data)
     
-    # Memeriksa dan menambahkan akun ke dalam list jika host dan port belum ada
+    # Memeriksa dan menambahkan akun ke dalam list jika uuid belum ada
     for account in parsed_data["proxies"]:
-        host = account["servername"]
+        uuid = account["uuid"]
         
-        # Memeriksa apakah host dan port sudah ada dalam list akun
-        if (host) not in [(acc["servername"]) for acc in accounts]:
+        # Memeriksa apakah uuid sudah ada dalam list akun
+        if (uuid) not in [(acc["uuid"]) for acc in accounts]:
             accounts.append(account)
 
 # Menentukan kunci khusus untuk mengurutkan proxies berdasarkan nama proxies dengan aturan yang diberikan
