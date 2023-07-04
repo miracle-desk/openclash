@@ -19,8 +19,8 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git checkout --ours .  # [menyimpan perubahan lokal semua file]
-          git add .              # [add semua file]
+          git checkout --ours .
+          git add .
           git commit -m "Automatic update"
       - name: Push changes
         run: |
