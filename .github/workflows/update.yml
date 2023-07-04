@@ -19,8 +19,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-#         git checkout --ours .
-#         git add .
           git commit -a -m "Automatic update"
       - name: Push changes
         run: |
