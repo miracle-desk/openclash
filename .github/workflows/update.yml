@@ -22,7 +22,5 @@ jobs:
           git add .
           git commit -m "Automatic update"
       - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.TOKEN_GITHUB }}
-          branch: main
+        run: |
+          git push -u origin main
