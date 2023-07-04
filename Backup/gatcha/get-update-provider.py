@@ -1,31 +1,46 @@
-import requests
 import uuid
+import requests
 import yaml
 import os
-from ping3 import ping, verbose_ping
 
 accounts = []  # List untuk menyimpan akun yang telah dikumpulkan
+
+received_accounts = []  # List untuk menyimpan akun yang diterima sebelum parsing
+parsed_accounts = []  # List untuk menyimpan akun yang telah diparsing
 
 # Perulangan untuk membuka URL sebanyak 5 kali
 for _ in range(5):
     url = "https://fool.azurewebsites.net/get?format=clash&mode=cdn&cdn=104.17.3.81&network=ws&arg=xudp,key:value&vpn=trojan,vmess,vless&region=Asia&cc=SG,ID,JP&exclude=amazon&limit=3&pass=1oqrsj6c"  # Ganti dengan URL yang sesuai
 
-    # Parsing akun dari teks menggunakan library YAML
     response = requests.get(url)
     data = response.text
+
+    # Parsing akun dari teks menggunakan library YAML
     parsed_data = yaml.safe_load(data)
 
-    # Memeriksa koneksi internet dari setiap akun dan menambahkan ke dalam list jika terhubung
+    # Memeriksa dan menambahkan akun ke dalam list jika uuid belum ada
     for account in parsed_data["proxies"]:
+        uuid = account["uuid"]
         name = account["name"]
         server = account["server"]
 
-        # Memeriksa koneksi internet dengan ping
-        if ping(server, timeout=2) is not None:
+        # Menyimpan akun yang diterima sebelum parsing
+        received_accounts.append(account)
+        print(f"received account: {name}")
+
+        # Memeriksa apakah uuid sudah ada dalam list akun
+        if uuid not in [acc["uuid"] for acc in accounts]:
             accounts.append(account)
-            print(f"Akun {name} terhubung ke internet")
-        else:
-            print(f"Akun {name} tidak terhubung ke internet")
+            # Menyimpan akun yang telah diparsing
+            parsed_accounts.append(account)
+            print(f"parsed account: {name}")
+
+# Menghitung jumlah total akun yang diterima dan setelah parsing
+total_received = len(received_accounts)
+total_parsed = len(parsed_accounts)
+
+print(f"Total accounts received: {total_received}")
+print(f"Total accounts after parsed: {total_parsed}")
 
 # Menentukan kunci khusus untuk mengurutkan proxies berdasarkan nama proxies dengan aturan yang diberikan
 def custom_sort_key(acc):
