@@ -35,24 +35,6 @@ proxies:
     path: /
     headers:
       Host: sgp1.looooooongnet.lol
-- name: "742 \U0001F1F8\U0001F1EC AS14061 DIGITALOCEAN, LLC WS CDN TLS"
-  server: 104.17.3.81
-  port: 8443
-  type: vmess
-  uuid: 92cbe4c3-bd74-46fa-bbe6-ee86b7f834d6
-  cipher: auto
-  tls: true
-  udp: true
-  skip-cert-verify: true
-  servername: sgp1.looooooongnet.lol
-  network: ws
-  alterId: 0
-  xudp: true
-  key: value
-  ws-opts:
-    path: /
-    headers:
-      Host: sgp1.looooooongnet.lol
 - name: "199 \U0001F1F8\U0001F1EC AS63949 AKAMAI CONNECTED CLOUD WS CDN TLS"
   server: 104.17.3.81
   port: 443
