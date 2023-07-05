@@ -1,22 +1,22 @@
 proxies:
-- name: "741 \U0001F1F8\U0001F1EC AS14061 DIGITALOCEAN, LLC WS CDN NTLS"
+- name: "508 \U0001F1F8\U0001F1EC AS31898 ORACLE CORPORATION WS CDN TLS"
   server: 104.17.3.81
-  port: 80
+  port: 443
   type: vmess
-  uuid: bd67e801-b609-4562-9d33-d0b445b7bf19
+  uuid: a869c557-5c7d-426f-9039-0279c16352bc
   cipher: auto
-  tls: false
+  tls: true
   udp: true
   skip-cert-verify: true
-  servername: null
+  servername: linkedin.disnet.gq
   network: ws
   alterId: 0
   xudp: true
   key: value
   ws-opts:
-    path: /vmess
+    path: /vmessws
     headers:
-      Host: sgdo3.mamzstore.my.id
+      Host: linkedin.disnet.gq
 - name: "692 \U0001F1F8\U0001F1EC AS14061 DIGITALOCEAN, LLC WS CDN TLS"
   server: 104.17.3.81
   port: 8443
@@ -35,6 +35,24 @@ proxies:
     path: /
     headers:
       Host: sgp1.looooooongnet.lol
+- name: "740 \U0001F1F8\U0001F1EC AS14061 DIGITALOCEAN, LLC WS CDN TLS"
+  server: 104.17.3.81
+  port: 443
+  type: vmess
+  uuid: bd67e801-b609-4562-9d33-d0b445b7bf19
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  servername: sgdo3.mamzstore.my.id
+  network: ws
+  alterId: 0
+  xudp: true
+  key: value
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: sgdo3.mamzstore.my.id
 - name: "30 \U0001F1F8\U0001F1EC AS63949 AKAMAI CONNECTED CLOUD WS CDN TLS"
   server: 104.17.3.81
   port: 443
@@ -71,24 +89,6 @@ proxies:
     path: /sgfree
     headers:
       Host: sg-free.adw1681ddaw.tk
-- name: "500 \U0001F1F8\U0001F1EC AS8849 MELBIKOMAS UAB WS CDN NTLS"
-  server: 104.17.3.81
-  port: 80
-  type: vmess
-  uuid: 9878857d-50d4-45b0-a97b-e5c5f03d1540
-  cipher: auto
-  tls: false
-  udp: true
-  skip-cert-verify: true
-  servername: null
-  network: ws
-  alterId: 0
-  xudp: true
-  key: value
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: sg6.securev2ray.com
 - name: "42 \U0001F1F8\U0001F1EC AS8849 MELBIKOMAS UAB WS CDN NTLS"
   server: 104.17.3.81
   port: 80
@@ -107,11 +107,11 @@ proxies:
     path: /vmess
     headers:
       Host: sg2-mlb.securev2ray.com
-- name: "513 \U0001F1EE\U0001F1E9 AS23679 MEDIA ANTAR NUSA PT. WS CDN NTLS"
+- name: "500 \U0001F1F8\U0001F1EC AS8849 MELBIKOMAS UAB WS CDN NTLS"
   server: 104.17.3.81
   port: 80
   type: vmess
-  uuid: b236aba4-7f35-4ef8-b978-ed451608b8b6
+  uuid: 9878857d-50d4-45b0-a97b-e5c5f03d1540
   cipher: auto
   tls: false
   udp: true
@@ -122,6 +122,6 @@ proxies:
   xudp: true
   key: value
   ws-opts:
-    path: /tunnelvmess
+    path: /vmess
     headers:
-      Host: nusa1.hijinetwork.cloud
+      Host: sg6.securev2ray.com
