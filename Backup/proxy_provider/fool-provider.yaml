@@ -1,5 +1,9 @@
 proxies:
+<<<<<<< HEAD
 - name: "316 \U0001F1F8\U0001F1EC AS31898 ORACLE CORPORATION WS CDN TLS"
+=======
+- name: "508 \U0001F1F8\U0001F1EC AS31898 ORACLE CORPORATION WS CDN TLS"
+>>>>>>> 512b13b2f63da3fa819ccf7ed84d7f62823ca1c9
   server: 104.17.3.81
   port: 443
   type: vmess
@@ -17,7 +21,29 @@ proxies:
     path: /vmessws
     headers:
       Host: linkedin.disnet.gq
+<<<<<<< HEAD
 - name: "636 \U0001F1F8\U0001F1EC AS14061 DIGITALOCEAN, LLC WS CDN TLS"
+=======
+- name: "740 \U0001F1F8\U0001F1EC AS14061 DIGITALOCEAN, LLC WS CDN TLS"
+  server: 104.17.3.81
+  port: 443
+  type: vmess
+  uuid: bd67e801-b609-4562-9d33-d0b445b7bf19
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  servername: sgdo3.mamzstore.my.id
+  network: ws
+  alterId: 0
+  xudp: true
+  key: value
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: sgdo3.mamzstore.my.id
+- name: "692 \U0001F1F8\U0001F1EC AS14061 DIGITALOCEAN, LLC WS CDN TLS"
+>>>>>>> 512b13b2f63da3fa819ccf7ed84d7f62823ca1c9
   server: 104.17.3.81
   port: 8443
   type: vmess
@@ -35,7 +61,11 @@ proxies:
     path: /
     headers:
       Host: sgp1.looooooongnet.lol
+<<<<<<< HEAD
 - name: "148 \U0001F1F8\U0001F1EC AS63949 AKAMAI CONNECTED CLOUD WS CDN TLS"
+=======
+- name: "30 \U0001F1F8\U0001F1EC AS63949 AKAMAI CONNECTED CLOUD WS CDN TLS"
+>>>>>>> 512b13b2f63da3fa819ccf7ed84d7f62823ca1c9
   server: 104.17.3.81
   port: 443
   type: vmess
@@ -53,7 +83,11 @@ proxies:
     path: /worryfree
     headers:
       Host: dynamic-sg1b.obfs.xyz
+<<<<<<< HEAD
 - name: "127 \U0001F1F8\U0001F1EC AS212238 DATACAMP LIMITED WS CDN NTLS"
+=======
+- name: "88 \U0001F1F8\U0001F1EC AS212238 DATACAMP LIMITED WS CDN NTLS"
+>>>>>>> 512b13b2f63da3fa819ccf7ed84d7f62823ca1c9
   server: 104.17.3.81
   port: 8080
   type: vmess
@@ -71,6 +105,7 @@ proxies:
     path: /sgfree
     headers:
       Host: sg-free.adw1681ddaw.tk
+<<<<<<< HEAD
 - name: "386 \U0001F1F8\U0001F1EC AS8849 MELBIKOMAS UAB WS CDN NTLS"
   server: 104.17.3.81
   port: 80
@@ -90,6 +125,9 @@ proxies:
     headers:
       Host: sg6.securev2ray.com
 - name: "85 \U0001F1F8\U0001F1EC AS8849 MELBIKOMAS UAB WS CDN NTLS"
+=======
+- name: "42 \U0001F1F8\U0001F1EC AS8849 MELBIKOMAS UAB WS CDN NTLS"
+>>>>>>> 512b13b2f63da3fa819ccf7ed84d7f62823ca1c9
   server: 104.17.3.81
   port: 80
   type: vmess
@@ -107,7 +145,11 @@ proxies:
     path: /vmess
     headers:
       Host: sg2-mlb.securev2ray.com
+<<<<<<< HEAD
 - name: "589 \U0001F1EE\U0001F1E9 AS23679 MEDIA ANTAR NUSA PT. WS CDN NTLS"
+=======
+- name: "513 \U0001F1EE\U0001F1E9 AS23679 MEDIA ANTAR NUSA PT. WS CDN NTLS"
+>>>>>>> 512b13b2f63da3fa819ccf7ed84d7f62823ca1c9
   server: 104.17.3.81
   port: 80
   type: vmess
