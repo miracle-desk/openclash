@@ -10,16 +10,26 @@ def get_update_filter_proxies(url):
     filtered_accounts = []
     sg_accounts = []
     relay_accounts = []
+    premium_accounts = []
 
     lines = data.split("\n")
 
     for line in lines:
         line = line.strip()
-        if line.startswith("- ") and "RELAY" in line and "headers" in line:
-            relay_accounts.append(line)
-        elif line.startswith("- ") and "🇸🇬SG" in line and "headers" in line:
-            sg_accounts.append(line)
-
+        if line.startswith("- ") and ("RELAY" in line or "🇸🇬SG" in line and "headers" in line and "Host" in line):
+            entry = yaml.safe_load(line[2:])
+            if entry and "xmbb" in line:
+                filtered_accounts.insert(0, line)
+            elif "sg1b.obfs.xyz" in line:
+                filtered_accounts.insert(1, line)
+            elif "sg.wyhkaa0.tk" in line:
+                filtered_accounts.insert(2, line)
+                premium_accounts.append(line)
+            elif "RELAY" in line and "headers" in line and "Host" in line:
+                relay_accounts.append(line)
+            elif "🇸🇬SG" in line and "headers" in line and "Host" in line:
+                sg_accounts.append(line)
+    
     # Sort the account entries
     filtered_accounts.extend(sorted(sg_accounts))
     filtered_accounts.extend(sorted(relay_accounts))
@@ -44,22 +54,27 @@ def get_update_filter_proxies(url):
     # Write the filtered accounts to the YAML file with UTF-8 encoding
     output_dir = "Backup/proxy_provider"
     output_path = os.path.join(output_dir, "filter-proxies.yaml")
-    
-    # Membuat folder jika belum ada
+
+    # Create the folder if it doesn't exist
     os.makedirs(output_dir, exist_ok=True)
-    
+
     with open(output_path, "w", encoding="utf-8") as file:
         file.write(yaml_data)
 
     total_accounts = len(filtered_accounts)
     sg_count = len(sg_accounts)
     relay_count = len(relay_accounts)
+    premium_count = len(premium_accounts)
 
     print(f"Total 'SG' accounts written: {sg_count}")
     print(f"Total 'RELAY' accounts written: {relay_count}")
+    print(f"Total premium accounts: {premium_count}")
     print(f"Total accounts written to filter-proxies.yaml: {total_accounts}")
 
-    print("File filter-proxies.yaml berhasil dibuat di folder", output_dir)
+    print("File filter-proxies.yaml successfully created in the folder", output_dir)
+
+get_update_filter_proxies("https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml")
+
 def get_update_fool_proxies(url):
     accounts = []  # List untuk menyimpan akun yang telah dikumpulkan
 
@@ -99,7 +114,7 @@ def get_update_fool_proxies(url):
     print(f"Total accounts after parsed: {total_parsed}")
 
     # Menentukan kunci khusus untuk mengurutkan proxies berdasarkan nama proxies dengan aturan yang diberikan
-    def custom_sort_key(acc):
+    def fool_custom_sort_key(acc):
         name = acc["name"]
 
         if "ORACLE" in name:
@@ -118,7 +133,7 @@ def get_update_fool_proxies(url):
             return 7  # Proxies yang tidak sesuai dengan aturan akan ditempatkan di akhir
 
     # Mengurutkan proxies berdasarkan kunci khusus
-    accounts.sort(key=custom_sort_key)
+    accounts.sort(key=fool_custom_sort_key)
 
     # Menentukan path file YAML
     output_dir = "Backup/proxy_provider"
@@ -134,5 +149,4 @@ def get_update_fool_proxies(url):
 
     print("File fool-provider.yaml berhasil dibuat di folder", output_dir)
 
-get_update_filter_proxies("https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml")
 get_update_fool_proxies("https://fool.azurewebsites.net/get?format=clash&mode=cdn&cdn=104.17.3.81&network=ws&arg=xudp,key:value&vpn=trojan,vmess,vless&region=Asia&cc=SG,ID,JP&exclude=amazon&limit=3&pass=1oqrsj6c")
