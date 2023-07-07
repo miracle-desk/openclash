@@ -18,13 +18,26 @@ def get_update_filter_proxies(url):
         line = line.strip()
         if line.startswith("- ") and ("RELAY" in line or "🇸🇬SG" in line and "headers" in line and "Host" in line):
             entry = yaml.safe_load(line[2:])
-            if entry and "xmbb" in line:
+            if entry and "xmbb.net" in line:
                 filtered_accounts.insert(0, line)
-            elif "sg1b.obfs.xyz" in line:
+                premium_accounts.append(line)
+            elif "meetzoom.disnet.gq" in line:
                 filtered_accounts.insert(1, line)
+                premium_accounts.append(line)
             elif "sg.wyhkaa0.tk" in line:
                 filtered_accounts.insert(2, line)
                 premium_accounts.append(line)
+            elif "linkedin.disnet.gq" in line:
+                filtered_accounts.insert(3, line)
+                premium_accounts.append(line)
+            elif "sg1b.obfs.xyz" in line:
+                filtered_accounts.insert(4, line)
+            elif "sg2-mlb.securev2ray.com" in line:
+                filtered_accounts.insert(5, line)
+            elif "hk.kkpp.online" in line:
+                filtered_accounts.insert(6, line)
+            elif "rochinet.fullaccesstointernet.cn.eu.org" in line:
+                filtered_accounts.insert(7, line)
             elif "RELAY" in line and "headers" in line and "Host" in line:
                 relay_accounts.append(line)
             elif "🇸🇬SG" in line and "headers" in line and "Host" in line:
