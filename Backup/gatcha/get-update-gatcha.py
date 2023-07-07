@@ -46,6 +46,14 @@ def get_update_filter_proxies(url):
                 filtered_accounts.insert(10, line)
             elif "ssrsub.com" in line:
                 filtered_accounts.insert(11, line)
+            elif ".zuhyp4107.workers.dev" in line:
+                filtered_accounts.insert(12, line)
+            elif ".992688.xyz" in line:
+                filtered_accounts.insert(13, line)
+            elif "starsea.vip" in line:
+                filtered_accounts.insert(14, line)
+            elif "dedi2.1808.cf" in line:
+                filtered_accounts.insert(15, line)
             elif "RELAY" in line and "headers" in line and "Host" in line:
                 relay_accounts.append(line)
             elif "🇸🇬SG" in line and "headers" in line and "Host" in line:
