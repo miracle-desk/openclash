@@ -38,6 +38,14 @@ def get_update_filter_proxies(url):
                 filtered_accounts.insert(6, line)
             elif "rochinet.fullaccesstointernet.cn.eu.org" in line:
                 filtered_accounts.insert(7, line)
+            elif "1.freek1.xyz" in line:
+                filtered_accounts.insert(8, line)
+            elif "vceu.vpn66.eu.org" in line:
+                filtered_accounts.insert(9, line)
+            elif "gorgorchicken.one" in line:
+                filtered_accounts.insert(10, line)
+            elif "ssrsub.com" in line:
+                filtered_accounts.insert(11, line)
             elif "RELAY" in line and "headers" in line and "Host" in line:
                 relay_accounts.append(line)
             elif "🇸🇬SG" in line and "headers" in line and "Host" in line:
