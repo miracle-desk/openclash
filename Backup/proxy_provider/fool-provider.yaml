@@ -17,6 +17,24 @@ proxies:
     path: /vmessws
     headers:
       Host: linkedin.disnet.gq
+- name: "710 \U0001F1F8\U0001F1EC AS14061 DIGITALOCEAN, LLC WS CDN TLS"
+  server: 104.17.3.81
+  port: 8443
+  type: vmess
+  uuid: 253d2e8e-a757-4f1c-a54b-11cefd2ca26d
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  servername: sgp1.looooooongnet.lol
+  network: ws
+  alterId: 0
+  xudp: true
+  key: value
+  ws-opts:
+    path: /
+    headers:
+      Host: sgp1.looooooongnet.lol
 - name: "358 \U0001F1F8\U0001F1EC AS63949 AKAMAI CONNECTED CLOUD WS CDN TLS"
   server: 104.17.3.81
   port: 443
@@ -89,3 +107,39 @@ proxies:
     path: /vmess
     headers:
       Host: sg6.securev2ray.com
+- name: "574 \U0001F1F8\U0001F1EC AS36231 TEMPEST HOSTING, LLC WS CDN NTLS"
+  server: 104.17.3.81
+  port: 80
+  type: vmess
+  uuid: 0425d010-19f6-11ee-8be4-1577c1651679
+  cipher: auto
+  tls: false
+  udp: true
+  skip-cert-verify: true
+  servername: null
+  network: ws
+  alterId: 0
+  xudp: true
+  key: value
+  ws-opts:
+    path: /
+    headers:
+      Host: sg.xmbb.net
+- name: "591 \U0001F1EE\U0001F1E9 AS140443 PT HERZA DIGITAL INDONESIA WS CDN NTLS"
+  server: 104.17.3.81
+  port: 80
+  type: vmess
+  uuid: b3b3b680-19f5-11ee-bf9a-1577c1651679
+  cipher: auto
+  tls: false
+  udp: true
+  skip-cert-verify: true
+  servername: null
+  network: ws
+  alterId: 0
+  xudp: true
+  key: value
+  ws-opts:
+    path: /files
+    headers:
+      Host: 2.lowh.net
