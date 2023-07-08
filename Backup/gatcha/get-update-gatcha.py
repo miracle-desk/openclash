@@ -10,6 +10,7 @@ def get_update_filter_proxies(url):
     filtered_accounts = []
     id_accounts = []
     sg_accounts = []
+    jp_accounts = []
     relay_accounts = []
     premium_accounts = []
 
@@ -17,7 +18,7 @@ def get_update_filter_proxies(url):
 
     for line in lines:
         line = line.strip()
-        if line.startswith("- ") and ("RELAY" in line or "🇸🇬SG" in line or "🇮🇩ID" in line and "headers" in line and "Host" in line):
+        if line.startswith("- ") and ("RELAY" in line or "🇸🇬SG" in line or "🇮🇩ID" in line or "🇯🇵JP" in line and "headers" in line and "Host" in line):
             entry = yaml.safe_load(line[2:])
             if entry and "xmbb.net" in line:
                 filtered_accounts.insert(0, line)
@@ -59,17 +60,23 @@ def get_update_filter_proxies(url):
                 filtered_accounts.insert(16, line)
             elif "amstd.digires.shop" in line:
                 filtered_accounts.insert(17, line)
+            elif "jpnat1.doinb.tk" in line:
+                filtered_accounts.insert(18, line)
+            elif ".workers.dev" in line:
+                filtered_accounts.insert(19, line)
             elif "RELAY" in line and "headers" in line and "Host" in line:
                 relay_accounts.append(line)
             elif "🇸🇬SG" in line and "headers" in line and "Host" in line:
                 sg_accounts.append(line)
             elif "🇮🇩ID" in line and "headers" in line and "Host" in line:
                 id_accounts.append(line)
-    
+            elif "🇯🇵JP" in line and "headers" in line and "Host" in line:
+                jp_accounts.append(line)    
     # Sort the account entries
     filtered_accounts.extend(sorted(relay_accounts)) 
     filtered_accounts.extend(sorted(sg_accounts))
     filtered_accounts.extend(sorted(id_accounts))
+    filtered_accounts.extend(sorted(jp_accounts))
 
     # Prepare the account entries with the desired structure
     formatted_accounts = []
@@ -101,11 +108,13 @@ def get_update_filter_proxies(url):
     total_accounts = len(filtered_accounts)
     id_count = len(id_accounts)
     sg_count = len(sg_accounts)
+    jp_count = len(jp_accounts)
     relay_count = len(relay_accounts)
     premium_count = len(premium_accounts)
     
     print(f"Total 'ID' accounts written: {id_count}")
     print(f"Total 'SG' accounts written: {sg_count}")
+    print(f"Total 'JP' accounts written: {jp_count}")
     print(f"Total 'RELAY' accounts written: {relay_count}")
     print(f"Total premium accounts: {premium_count}")
     print(f"Total accounts written to filter-proxies.yaml: {total_accounts}")
