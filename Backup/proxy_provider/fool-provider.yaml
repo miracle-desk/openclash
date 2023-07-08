@@ -107,24 +107,6 @@ proxies:
     path: /vmess
     headers:
       Host: sg2-mlb.securev2ray.com
-- name: "574 \U0001F1F8\U0001F1EC AS36231 TEMPEST HOSTING, LLC WS CDN NTLS"
-  server: 104.17.3.81
-  port: 80
-  type: vmess
-  uuid: 0425d010-19f6-11ee-8be4-1577c1651679
-  cipher: auto
-  tls: false
-  udp: true
-  skip-cert-verify: true
-  servername: null
-  network: ws
-  alterId: 0
-  xudp: true
-  key: value
-  ws-opts:
-    path: /
-    headers:
-      Host: sg.xmbb.net
 - name: "591 \U0001F1EE\U0001F1E9 AS140443 PT HERZA DIGITAL INDONESIA WS CDN NTLS"
   server: 104.17.3.81
   port: 80
@@ -143,3 +125,21 @@ proxies:
     path: /files
     headers:
       Host: 2.lowh.net
+- name: "574 \U0001F1F8\U0001F1EC AS36231 TEMPEST HOSTING, LLC WS CDN NTLS"
+  server: 104.17.3.81
+  port: 80
+  type: vmess
+  uuid: 0425d010-19f6-11ee-8be4-1577c1651679
+  cipher: auto
+  tls: false
+  udp: true
+  skip-cert-verify: true
+  servername: null
+  network: ws
+  alterId: 0
+  xudp: true
+  key: value
+  ws-opts:
+    path: /
+    headers:
+      Host: sg.xmbb.net
