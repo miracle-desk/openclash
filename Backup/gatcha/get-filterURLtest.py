@@ -5,7 +5,7 @@ import subprocess
 
 def get_ping(account):
     server = account.get("server")
-    ping_result = subprocess.run(["ping", "-c", "4", server], capture_output=True, text=True)
+    ping_result = subprocess.run(["ping", "-n", "4", server], capture_output=True, text=True)
     lines = ping_result.stdout.strip().split("\n")
     last_line = lines[-1]
     if "time=" in last_line:
