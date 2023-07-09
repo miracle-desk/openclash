@@ -67,6 +67,10 @@ def get_update_filter_proxies(url):
                 filtered_accounts.insert(20, line)
             elif ".workers.dev" in line:
                 filtered_accounts.insert(21, line)
+            elif ".polycdn.com" in line:
+                filtered_accounts.insert(22, line)
+            elif ".encrypted.my.id" in line:
+                filtered_accounts.insert(23, line)
             elif "RELAY" in line and "headers" in line and "Host" in line:
                 relay_accounts.append(line)
             elif "🇸🇬SG" in line and "headers" in line and "Host" in line:
