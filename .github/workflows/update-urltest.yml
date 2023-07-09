@@ -18,7 +18,7 @@ jobs:
       - name: Install dependencies
         run: pip install requests
       - name: Run script update provider
-        run: python Backup/gatcha/get-filterURLtest.py
+        run: python3 Backup/gatcha/get-filterURLtest.py
       - name: Configure Git
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
