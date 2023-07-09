@@ -16,9 +16,9 @@ jobs:
         with:
           python-version: '3.x'
       - name: Install dependencies
-        run: pip install requests
-      - name: Install modul yaml
-        run: pip install pyyaml
+        run: |
+          pip install requests
+          pip install pyyaml
       - name: Run script update provider
         run: python3 Backup/gatcha/get-filterURLtest.py
       - name: Configure Git
