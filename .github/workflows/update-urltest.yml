@@ -1,0 +1,31 @@
+name: Update filterURLtest.yaml
+
+on:
+  schedule:
+    - cron: '0 1,13 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: pip install requests
+      - name: Run script update provider
+        run: python Backup/gatcha/get-filterURLtest.py
+      - name: Configure Git
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+      - name: Commit changes
+        run: |
+          git commit -a -m "Automatic update"
+      - name: Push changes
+        run: |
+          git push -u origin main
