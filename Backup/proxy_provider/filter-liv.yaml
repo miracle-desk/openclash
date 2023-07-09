@@ -1,4 +1,19 @@
 proxies:
+- name: 🏁RELAY-104.18.1.196-17292
+  server: 104.21.8.121
+  port: 80
+  type: vmess
+  uuid: 0425d010-19f6-11ee-8be4-1577c1651679
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: sg.xmbb.net
+  network: ws
+  ws-opts:
+    path: /files
+  xudp: true
+  key: value
 - name: 🏁RELAY-104.17.3.81-5591
   server: 104.21.8.121
   port: 80
@@ -13,6 +28,186 @@ proxies:
     path: /files
     headers:
       Host: sg.xmbb.net
+  xudp: true
+  key: value
+- name: 🏁RELAY-188.114.96.187-17424
+  server: 104.21.8.121
+  port: 2095
+  type: vmess
+  uuid: f25a0058-37be-4849-90b7-806d7cc8bf38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: sg.wyhkaa0.tk
+  network: ws
+  ws-opts:
+    path: /@hkaa0
+  xudp: true
+  key: value
+- name: 🏁RELAY-104.18.3.198-17582
+  server: 104.21.8.121
+  port: 443
+  type: vmess
+  uuid: a869c557-5c7d-426f-9039-0279c16352bc
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: linkedin.disnet.gq
+  network: ws
+  ws-opts:
+    path: /vmessws
+  xudp: true
+  key: value
+- name: 🏁RELAY-190.93.246.185-17420
+  server: 104.21.8.121
+  port: 2095
+  type: vmess
+  uuid: f25a0058-37be-4849-90b7-806d7cc8bf38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: sg.wyhkaa0.tk
+  network: ws
+  ws-opts:
+    path: /@hkaa0
+  xudp: true
+  key: value
+- name: 🏁RELAY-198.41.201.28-17419
+  server: 104.21.8.121
+  port: 2095
+  type: vmess
+  uuid: f25a0058-37be-4849-90b7-806d7cc8bf38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: sg.wyhkaa0.tk
+  network: ws
+  ws-opts:
+    path: /@hkaa0
+  xudp: true
+  key: value
+- name: 🏁RELAY-190.93.245.203-17416
+  server: 104.21.8.121
+  port: 2095
+  type: vmess
+  uuid: f25a0058-37be-4849-90b7-806d7cc8bf38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: sg.wyhkaa0.tk
+  network: ws
+  ws-opts:
+    path: /@hkaa0
+  xudp: true
+  key: value
+- name: 🏁RELAY-104.16.250.250-17592
+  server: 104.21.8.121
+  port: 443
+  type: vmess
+  uuid: 65864938-ab50-4efa-bc6a-084f42a8de63
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: rochinet.fullaccesstointernet.cn.eu.org
+  network: ws
+  ws-opts:
+    path: /freedom
+  xudp: true
+  key: value
+- name: 🏁RELAY-173.245.59.118-17360
+  server: 104.21.8.121
+  port: 2095
+  type: vmess
+  uuid: f25a0058-37be-4849-90b7-806d7cc8bf38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: sg.wyhkaa0.tk
+  network: ws
+  ws-opts:
+    path: /@hkaa0
+  xudp: true
+  key: value
+- name: 🏁RELAY-103.21.244.37-17350
+  server: 104.21.8.121
+  port: 2095
+  type: vmess
+  uuid: f25a0058-37be-4849-90b7-806d7cc8bf38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: sg.wyhkaa0.tk
+  network: ws
+  ws-opts:
+    path: /@hkaa0
+  xudp: true
+  key: value
+- name: 🏁RELAY-104.20.255.160-17348
+  server: 104.21.8.121
+  port: 2095
+  type: vmess
+  uuid: f25a0058-37be-4849-90b7-806d7cc8bf38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: sg.wyhkaa0.tk
+  network: ws
+  ws-opts:
+    path: /@hkaa0
+  xudp: true
+  key: value
+- name: 🏁RELAY-172.67.244.117-17346
+  server: 104.21.8.121
+  port: 2095
+  type: vmess
+  uuid: f25a0058-37be-4849-90b7-806d7cc8bf38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: sg.wyhkaa0.tk
+  network: ws
+  ws-opts:
+    path: /@hkaa0
+  xudp: true
+  key: value
+- name: 🏁RELAY-104.21.93.38-17341
+  server: 104.21.8.121
+  port: 2095
+  type: vmess
+  uuid: f25a0058-37be-4849-90b7-806d7cc8bf38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: sg.wyhkaa0.tk
+  network: ws
+  ws-opts:
+    path: /@hkaa0
+  xudp: true
+  key: value
+- name: 🏁RELAY-104.20.110.167-17327
+  server: 104.21.8.121
+  port: 2095
+  type: vmess
+  uuid: f25a0058-37be-4849-90b7-806d7cc8bf38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: sg.wyhkaa0.tk
+  network: ws
+  ws-opts:
+    path: /@hkaa0
   xudp: true
   key: value
 - name: 🏁RELAY-104.18.1.196-2439
@@ -112,6 +307,21 @@ proxies:
       Host: sg.xmbb.net
   xudp: true
   key: value
+- name: 🏁RELAY-104.21.23.154-17589
+  server: 104.21.8.121
+  port: 443
+  type: vmess
+  uuid: 02DD674F-898E-4835-9958-97670C4CCA71
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: sweet-darkness-7d26.sourgalmc3532.workers.dev
+  network: ws
+  ws-opts:
+    path: /speedtest/Amsterdam.kotick.site
+  xudp: true
+  key: value
 - name: 🏁RELAY-172.64.80.1-2467
   server: 104.21.8.121
   port: 443
@@ -192,6 +402,21 @@ proxies:
       Host: cloudconeaaa.gorgorchicken.one
   xudp: true
   key: value
+- name: 🏁RELAY-104.20.156.99-17368
+  server: 104.21.8.121
+  port: 443
+  type: vmess
+  uuid: 795CAC68-4CF8-42D6-BCF6-EDAA8EDCC435
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: flat-dust-887e.bangolan116339.workers.dev
+  network: ws
+  ws-opts:
+    path: /speedtest/Dusseldorf.kotick.site
+  xudp: true
+  key: value
 - name: 🏁RELAY-104.21.36.26-10708
   server: 104.21.8.121
   port: 8443
@@ -208,20 +433,19 @@ proxies:
       Host: racknerd.gorgorchicken.one
   xudp: true
   key: value
-- name: 🏁RELAY-104.18.3.198-2451
+- name: 🏁RELAY-194.36.55.106-17189
   server: 104.21.8.121
   port: 443
   type: vmess
-  uuid: a869c557-5c7d-426f-9039-0279c16352bc
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: false
+  servername: delicate-butterfly-93f8.zuhyp4107.workers.dev
   network: ws
   ws-opts:
-    path: /
-    headers:
-      Host: linkedin.disnet.gq
+    path: /vus4.0bad.com/chat
   xudp: true
   key: value
 - name: 🏁RELAY-172.67.192.18-17264
@@ -241,22 +465,6 @@ proxies:
       Host: cf2.992688.xyz
   xudp: true
   key: value
-- name: 🏁RELAY-172.67.112.225-10827
-  server: 104.21.8.121
-  port: 8080
-  type: vmess
-  uuid: b0b12ae2-346c-488b-8d1e-9f3afb8fead5
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cf1.992688.xyz
-  xudp: true
-  key: value
 - name: 🏁RELAY-104.16.67.38-17294
   server: 104.21.8.121
   port: 443
@@ -274,37 +482,19 @@ proxies:
       Host: speed.cloudflare.com
   xudp: true
   key: value
-- name: 🏁RELAY-104.16.67.38-17270
+- name: 🏁RELAY-104.19.38.157-17345
   server: 104.21.8.121
-  port: 80
+  port: 443
   type: vmess
-  uuid: 10ea07e1-417a-4bb2-88e2-72a8a0f9fcd6
+  uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
-  servername: dedi2.1808.cf
+  servername: autumn-queen-b668.bangolan024369.workers.dev
   network: ws
   ws-opts:
-    path: 10ea07e1
-    headers:
-      Host: speed.cloudflare.com
-  xudp: true
-  key: value
-- name: 🏁RELAY-162.159.241.158-10826
-  server: 104.21.8.121
-  port: 8080
-  type: vmess
-  uuid: b0b12ae2-346c-488b-8d1e-9f3afb8fead5
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cf2.992688.xyz
+    path: /speedtest/Dusseldorf.kotick.site
   xudp: true
   key: value
 - name: 🏁RELAY-172.67.173.39-17344
@@ -324,6 +514,52 @@ proxies:
       Host: cjmahdi.online
   xudp: true
   key: value
+- name: 🏁RELAY-104.18.3.198-2451
+  server: 104.21.8.121
+  port: 443
+  type: vmess
+  uuid: a869c557-5c7d-426f-9039-0279c16352bc
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: linkedin.disnet.gq
+  xudp: true
+  key: value
+- name: 🏁RELAY-104.19.191.31-17334
+  server: 104.21.8.121
+  port: 443
+  type: vmess
+  uuid: 795CAC68-4CF8-42D6-BCF6-EDAA8EDCC435
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: aged-wildflower-24f6.bangolan105285.workers.dev
+  network: ws
+  ws-opts:
+    path: /speedtest/Amsterdam.kotick.site
+  xudp: true
+  key: value
+- name: 🏁RELAY-104.21.238.21-17333
+  server: 104.21.8.121
+  port: 443
+  type: vmess
+  uuid: 02DD674F-898E-4835-9958-97670C4CCA71
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: aged-salad-8e8c.walidfree17.workers.dev
+  network: ws
+  ws-opts:
+    path: /speedtest/Amsterdam.kotick.site
+  xudp: true
+  key: value
 - name: 🏁RELAY-199.212.90.0-17332
   server: 104.21.8.121
   port: 443
@@ -341,6 +577,158 @@ proxies:
       Host: psm.ircf.space
   xudp: true
   key: value
+- name: 🏁RELAY-104.18.43.71-17331
+  server: 104.21.8.121
+  port: 443
+  type: vmess
+  uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: rough-voice-82b0.walidfree4.workers.dev
+  network: ws
+  ws-opts:
+    path: /speedtest/Amsterdam.kotick.site
+  xudp: true
+  key: value
+- name: 🏁RELAY-104.20.47.23-17330
+  server: 104.21.8.121
+  port: 443
+  type: vmess
+  uuid: 795CAC68-4CF8-42D6-BCF6-EDAA8EDCC435
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: lucky-fire-4924.walidfree10.workers.dev
+  network: ws
+  ws-opts:
+    path: /speedtest/Amsterdam.kotick.site
+  xudp: true
+  key: value
+- name: 🏁RELAY-104.19.203.42-17329
+  server: 104.21.8.121
+  port: 443
+  type: vmess
+  uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: withered-disk-1b63.bangolan062443.workers.dev
+  network: ws
+  ws-opts:
+    path: /speedtest/Amsterdam.kotick.site
+  xudp: true
+  key: value
+- name: 🏁RELAY-104.18.49.204-17328
+  server: 104.21.8.121
+  port: 443
+  type: vmess
+  uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: wandering-forest-ef65.bangolan017071.workers.dev
+  network: ws
+  ws-opts:
+    path: /speedtest/Amsterdam.kotick.site
+  xudp: true
+  key: value
+- name: 🏁RELAY-104.16.67.38-17270
+  server: 104.21.8.121
+  port: 80
+  type: vmess
+  uuid: 10ea07e1-417a-4bb2-88e2-72a8a0f9fcd6
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  servername: dedi2.1808.cf
+  network: ws
+  ws-opts:
+    path: 10ea07e1
+    headers:
+      Host: speed.cloudflare.com
+  xudp: true
+  key: value
+- name: 🏁RELAY-104.20.164.38-17326
+  server: 104.21.8.121
+  port: 443
+  type: vmess
+  uuid: 02DD674F-898E-4835-9958-97670C4CCA71
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: noisy-wave-9582.sourgalma3363.workers.dev
+  network: ws
+  ws-opts:
+    path: /speedtest/Amsterdam.kotick.site
+  xudp: true
+  key: value
+- name: 🏁RELAY-104.16.109.61-17325
+  server: 104.21.8.121
+  port: 443
+  type: vmess
+  uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: icy-mountain-b47b.xigulizi4023.workers.dev
+  network: ws
+  ws-opts:
+    path: /Amsterdam.kotick.site/speedtest
+  xudp: true
+  key: value
+- name: 🏁RELAY-104.17.141.186-17324
+  server: 104.21.8.121
+  port: 443
+  type: vmess
+  uuid: F0259D88-2331-4109-A540-B240DFA251F2
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: weathered-pine-f798.amsterdam8212.workers.dev
+  network: ws
+  ws-opts:
+    path: /speedtest/Amsterdam.kotick.site
+  xudp: true
+  key: value
+- name: 🏁RELAY-104.16.153.72-17323
+  server: 104.21.8.121
+  port: 443
+  type: vmess
+  uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: bold-mud-c089.owotaa.workers.dev
+  network: ws
+  ws-opts:
+    path: /Lille.kotick.site:443/speedtest
+  xudp: true
+  key: value
+- name: 🏁RELAY-104.24.73.219-17316
+  server: 104.21.8.121
+  port: 443
+  type: vmess
+  uuid: DCE76061-EE65-49DB-997C-A6A880DADE3A
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: gentle-scene-8348.bangolan8975.workers.dev
+  network: ws
+  ws-opts:
+    path: /speedtest/Dusseldorf.kotick.site
+  xudp: true
+  key: value
 - name: 🏁RELAY-172.67.149.230-17313
   server: 104.21.8.121
   port: 443
@@ -356,6 +744,53 @@ proxies:
     path: /speedtest/Amsterdam.kotick.site
     headers:
       Host: r-acc3ss.cloud
+  xudp: true
+  key: value
+- name: 🏁RELAY-104.21.83.240-17301
+  server: 104.21.8.121
+  port: 443
+  type: vmess
+  uuid: 02DD674F-898E-4835-9958-97670C4CCA71
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: steep-leaf-0f06.sourgalmb1379.workers.dev
+  network: ws
+  ws-opts:
+    path: /speedtest/Dusseldorf.kotick.site
+  xudp: true
+  key: value
+- name: 🏁RELAY-172.67.112.225-10827
+  server: 104.21.8.121
+  port: 8080
+  type: vmess
+  uuid: b0b12ae2-346c-488b-8d1e-9f3afb8fead5
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cf1.992688.xyz
+  xudp: true
+  key: value
+- name: 🏁RELAY-162.159.241.158-10826
+  server: 104.21.8.121
+  port: 8080
+  type: vmess
+  uuid: b0b12ae2-346c-488b-8d1e-9f3afb8fead5
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cf2.992688.xyz
   xudp: true
   key: value
 - name: 🏁RELAY-104.21.8.38-1075
@@ -390,22 +825,6 @@ proxies:
       Host: hk.kkpp.online
   xudp: true
   key: value
-- name: 🏁RELAY-194.36.55.106-5459
-  server: 104.21.8.121
-  port: 443
-  type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vus4.0bad.com/chat
-    headers:
-      Host: delicate-butterfly-93f8.zuhyp4107.workers.dev
-  xudp: true
-  key: value
 - name: 🏁RELAY-104.17.175.31-17210
   server: 104.21.8.121
   port: 443
@@ -421,6 +840,22 @@ proxies:
     path: /speedtest/Dusseldorf.kotick.site
     headers:
       Host: mtnx.ircf.space
+  xudp: true
+  key: value
+- name: 🏁RELAY-194.36.55.106-5459
+  server: 104.21.8.121
+  port: 443
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vus4.0bad.com/chat
+    headers:
+      Host: delicate-butterfly-93f8.zuhyp4107.workers.dev
   xudp: true
   key: value
 - name: 🏁RELAY-104.21.64.85-11016

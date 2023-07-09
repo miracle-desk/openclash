@@ -16,7 +16,7 @@ def get_update_filter_proxies(url):
 
     for line in lines:
         line = line.strip()
-        if line.startswith("- ") and ("RELAY" in line or "🇸🇬SG" in line) and "headers" in line and "Host" in line:
+        if line.startswith("- ") and "RELAY" in line or "🇸🇬SG" in line and "headers" in line and "Host" in line:
             entry = yaml.safe_load(line[2:])
             if entry and "xmbb.net" in line:
                 filtered_accounts.insert(0, line)
@@ -62,9 +62,9 @@ def get_update_filter_proxies(url):
                 filtered_accounts.insert(18, line)
             elif ".workers.dev" in line:
                 filtered_accounts.insert(19, line)
-            elif line.startswith("- ") and "RELAY" in line and "headers" in line and "Host" in line:
+            elif "RELAY" in line and "headers" in line and "Host" in line:
                 relay_accounts.append(line)
-            elif line.startswith("- ") and "🇸🇬SG" in line and "headers" in line and "Host" in line:
+            elif "🇸🇬SG" in line and "headers" in line and "Host" in line:
                 sg_accounts.append(line)
 
     # Sort the account entries
