@@ -44,26 +44,28 @@ def get_update_filter_proxies(url):
                 filtered_accounts.insert(9, line)
             elif "vceu.vpn66.eu.org" in line:
                 filtered_accounts.insert(10, line)
-            elif "gorgorchicken.one" in line:
+            elif "mp.microsoft.com" in line:
                 filtered_accounts.insert(11, line)
-            elif "ssrsub.com" in line:
+            elif "gorgorchicken.one" in line:
                 filtered_accounts.insert(12, line)
-            elif "114514782.xyz" in line:
+            elif "ssrsub.com" in line:
                 filtered_accounts.insert(13, line)
-            elif ".zuhyp4107.workers.dev" in line:
+            elif "114514782.xyz" in line:
                 filtered_accounts.insert(14, line)
-            elif ".992688.xyz" in line:
+            elif ".zuhyp4107.workers.dev" in line:
                 filtered_accounts.insert(15, line)
-            elif "starsea.vip" in line:
+            elif ".992688.xyz" in line:
                 filtered_accounts.insert(16, line)
-            elif "dedi2.1808.cf" in line:
+            elif "starsea.vip" in line:
                 filtered_accounts.insert(17, line)
-            elif "amstd.digires.shop" in line:
+            elif "dedi2.1808.cf" in line:
                 filtered_accounts.insert(18, line)
-            elif "jpnat1.doinb.tk" in line:
+            elif "amstd.digires.shop" in line:
                 filtered_accounts.insert(19, line)
-            elif ".workers.dev" in line:
+            elif "jpnat1.doinb.tk" in line:
                 filtered_accounts.insert(20, line)
+            elif ".workers.dev" in line:
+                filtered_accounts.insert(21, line)
             elif "RELAY" in line and "headers" in line and "Host" in line:
                 relay_accounts.append(line)
             elif "🇸🇬SG" in line and "headers" in line and "Host" in line:
