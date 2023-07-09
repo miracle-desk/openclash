@@ -1,10 +1,11 @@
+import os
 import requests
 import yaml
 import subprocess
 
 def get_ping(account):
     server = account.get("server")
-    ping_result = subprocess.run(["ping", "-n", "4", server], capture_output=True, text=True)
+    ping_result = subprocess.run(["ping", "-c", "4", server], capture_output=True, text=True)
     lines = ping_result.stdout.strip().split("\n")
     last_line = lines[-1]
     if "time=" in last_line:
@@ -26,8 +27,12 @@ def get_proxies_with_lowest_ping(url, num_proxies):
 
 def main():
     url = "https://raw.githubusercontent.com/miracle-desk/Openclash/main/Backup/proxy_provider/filter-proxies.yaml"
-    file_path = "filterURLtest.yaml"
+    folder_path = "Backup/proxy_provider"
+    file_path = f"{folder_path}/filterURLtest.yaml"
     num_proxies = 40
+
+    # Create folder if it doesn't exist
+    os.makedirs(folder_path, exist_ok=True)
 
     # Get the proxies with the lowest ping
     selected_accounts = get_proxies_with_lowest_ping(url, num_proxies)
