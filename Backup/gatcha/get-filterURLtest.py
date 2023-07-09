@@ -26,7 +26,7 @@ def get_proxies_with_lowest_ping(url, num_proxies):
 
 def main():
     url = "https://raw.githubusercontent.com/miracle-desk/Openclash/main/Backup/proxy_provider/filter-proxies.yaml"
-    file_path = "filterPing.yaml"
+    file_path = "filterURLtest.yaml"
     num_proxies = 40
 
     # Get the proxies with the lowest ping
@@ -36,7 +36,7 @@ def main():
     with open(file_path, "w", encoding="utf-8") as file:
         yaml.dump({"proxies": selected_accounts}, file, sort_keys=False)
 
-    print("Akun berhasil ditulis ke file filterPing.yaml")
+    print("Akun berhasil ditulis ke file filterURLtest.yaml")
     print(f"Total akun yang terbaca: {len(selected_accounts)}")
 
 if __name__ == "__main__":
