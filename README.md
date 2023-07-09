@@ -88,12 +88,22 @@ proxy-providers:
       interval: 30
   Proxy-fool:
     type: http
-    url: "https://fool.azurewebsites.net/get?format=clash&mode=cdn&cdn=104.17.3.81&network=ws&arg=xudp,key:value&vpn=trojan,vmess,vless&region=Asia&cc=SG,ID,JP&exclude=amazon&limit=3&pass=your_pass"
+    url: "https://raw.githubusercontent.com/miracle-desk/Openclash/main/Backup/proxy_provider/your-provider.yaml"
     path: "./proxy_provider/fool-vpn.yaml"
+    interval: 21600
     health-check:
       enable: true
-      interval: 600
       url: https://cp.cloudflare.com/generate_204
+      interval: 600
+  Proxy-filter:
+    type: http
+    url: "https://raw.githubusercontent.com/miracle-desk/Openclash/main/Backup/proxy_provider/your-provider.yaml"
+    path: "./proxy_provider/filter-proxies.yaml"
+    interval: 21600
+    health-check:
+      enable: true
+      url: https://cp.cloudflare.com/generate_204
+      interval: 600
 #
 #
 #================= PROXY GROUPS =================
@@ -116,6 +126,12 @@ proxy-groups:
   type: fallback
   use:
   - Proxy-fool
+  url: http://cp.cloudflare.com/generate_204
+  interval: '30'
+- name: filter
+  type: fallback
+  use:
+  - Proxy-filter
   url: http://cp.cloudflare.com/generate_204
   interval: '30'
 #
