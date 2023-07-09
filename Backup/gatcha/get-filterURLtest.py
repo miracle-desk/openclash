@@ -26,7 +26,7 @@ def get_proxies_with_lowest_ping(url, num_proxies):
 
 def main():
     url = "https://raw.githubusercontent.com/miracle-desk/Openclash/main/Backup/proxy_provider/filter-proxies.yaml"
-    file_path = "filterURLtest.yaml"
+    file_path = "Backup/proxy_provider/filterURLtest.yaml"
     num_proxies = 40
 
     # Get the proxies with the lowest ping
