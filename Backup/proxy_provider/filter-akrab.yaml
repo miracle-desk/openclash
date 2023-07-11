@@ -95,6 +95,71 @@ proxies:
       Host: linkedin.disnet.gq
   xudp: true
   key: value
+- name: 🏁RELAY-104.18.3.198-2290
+  server: 104.17.3.81
+  port: 443
+  type: vmess
+  uuid: a869c557-5c7d-426f-9039-0279c16352bc
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: linkedin.disnet.gq
+  xudp: true
+  key: value
+- name: 🏁RELAY-162.159.138.6-4413
+  server: 104.17.3.81
+  port: 443
+  type: vmess
+  uuid: 952d7273-726a-4f3d-9676-f9c711b1ec52
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: v2ray1.udpgw.com
+  xudp: true
+  key: value
+- name: 🏁RELAY-104.21.45.165-6409
+  server: 104.17.3.81
+  port: 443
+  type: vmess
+  uuid: 4282ff8f-6b6f-41e3-b721-1963a95e342c
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: link2.kuaidog001.top
+  network: ws
+  ws-opts:
+    path: /news
+    headers:
+      Host: link2.kuaidog001.top
+  xudp: true
+  key: value
+- name: 🏁RELAY-173.245.59.165-0989
+  server: 104.17.3.81
+  port: 2095
+  type: vmess
+  uuid: f25a0058-37be-4849-90b7-806d7cc8bf38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /@hkaa0
+    headers:
+      Host: sg.wyhkaa0.tk
+  xudp: true
+  key: value
 - name: SG-Mux6
   server: 104.17.3.81
   port: 443
@@ -151,84 +216,6 @@ proxies:
       Host: sg1-trojan.bonds.id
   xudp: true
   key: value
-- name: 🇸🇬SG-139.162.32.103-2513
-  server: 104.17.3.81
-  port: 443
-  type: vmess
-  uuid: 132633a9-b53e-4352-82a6-93eae114482e
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /worryfree
-    headers:
-      Host: dynamic-sg1b.obfs.xyz
-  xudp: true
-  key: value
-- name: SG-Amp2
-  server: 104.17.3.81
-  port: 443
-  type: trojan
-  password: 5a3ada00-1f73-11ee-ab0f-1239d0255272
-  sni: sg-2.test3.net
-  skip-cert-verify': true
-  network: ws
-  ws-opts:
-    path: /howdy
-    headers:
-      Host: sg-2.test3.net
-  xudp: true
-  key: value
-- name: 🇸🇬SG-139.162.32.103-2511
-  server: 104.17.3.81
-  port: 443
-  type: vmess
-  uuid: 132633a9-b53e-4352-82a6-93eae114482e
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: dynamic-sg1b.obfs.xyz
-  xudp: true
-  key: value
-- name: 🏁RELAY-104.18.3.198-2290
-  server: 104.17.3.81
-  port: 443
-  type: vmess
-  uuid: a869c557-5c7d-426f-9039-0279c16352bc
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: linkedin.disnet.gq
-  xudp: true
-  key: value
-- name: 🏁RELAY-173.245.59.165-0989
-  server: 104.17.3.81
-  port: 2095
-  type: vmess
-  uuid: f25a0058-37be-4849-90b7-806d7cc8bf38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@hkaa0
-    headers:
-      Host: sg.wyhkaa0.tk
-  xudp: true
-  key: value
 - name: 🏁RELAY-104.21.66.133-1385
   server: 104.17.3.81
   port: 443
@@ -243,6 +230,20 @@ proxies:
     path: /vmessws
     headers:
       Host: linkedin.disnet.gq
+  xudp: true
+  key: value
+- name: SG-Amp2
+  server: 104.17.3.81
+  port: 443
+  type: trojan
+  password: 5a3ada00-1f73-11ee-ab0f-1239d0255272
+  sni: sg-2.test3.net
+  skip-cert-verify': true
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg-2.test3.net
   xudp: true
   key: value
 - name: 🏁RELAY-104.16.181.15-0080
@@ -261,11 +262,27 @@ proxies:
       Host: vceu.vpn66.eu.org
   xudp: true
   key: value
-- name: 🏁RELAY-104.21.47.30-2301
+- name: 🇸🇬SG-139.162.32.103-2513
   server: 104.17.3.81
   port: 443
   type: vmess
-  uuid: 78422c74-9a71-4193-8953-a9446dacd782
+  uuid: 132633a9-b53e-4352-82a6-93eae114482e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: dynamic-sg1b.obfs.xyz
+  xudp: true
+  key: value
+- name: 🇸🇬SG-139.162.32.103-2511
+  server: 104.17.3.81
+  port: 443
+  type: vmess
+  uuid: 132633a9-b53e-4352-82a6-93eae114482e
   alterId: 0
   cipher: auto
   tls: true
@@ -274,7 +291,23 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: hk.kkpp.online
+      Host: dynamic-sg1b.obfs.xyz
+  xudp: true
+  key: value
+- name: 🏁RELAY-104.18.1.196-0998
+  server: 104.17.3.81
+  port: 80
+  type: vmess
+  uuid: b3b3b680-19f5-11ee-bf9a-1577c1651679
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /files
+    headers:
+      Host: 2.lowh.net
   xudp: true
   key: value
 - name: 🏁RELAY-104.21.66.133-0729
@@ -291,6 +324,38 @@ proxies:
     path: /
     headers:
       Host: linkedin.disnet.gq
+  xudp: true
+  key: value
+- name: 🏁RELAY-172.67.168.96-0084
+  server: 104.17.3.81
+  port: 443
+  type: vmess
+  uuid: 65864938-ab50-4efa-bc6a-084f42a8de63
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /freedom
+    headers:
+      Host: rochinet.fullaccesstointernet.cn.eu.org
+  xudp: true
+  key: value
+- name: 🏁RELAY-162.159.138.6-0997
+  server: 104.17.3.81
+  port: 443
+  type: vmess
+  uuid: 0b3b165f-ba8f-4cb5-8d3c-ad6e2f9216f6
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: idmws.mainssh.xyz
   xudp: true
   key: value
 - name: 🏁RELAY-104.21.36.26-16991
@@ -391,20 +456,20 @@ proxies:
       Host: cf2.992688.xyz
   xudp: true
   key: value
-- name: 🏁RELAY-172.67.168.96-0084
+- name: 🏁RELAY-104.21.47.30-2301
   server: 104.17.3.81
   port: 443
   type: vmess
-  uuid: 65864938-ab50-4efa-bc6a-084f42a8de63
+  uuid: 78422c74-9a71-4193-8953-a9446dacd782
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /freedom
+    path: /
     headers:
-      Host: rochinet.fullaccesstointernet.cn.eu.org
+      Host: hk.kkpp.online
   xudp: true
   key: value
 - name: 🏁RELAY-172.67.4.50-0094
@@ -487,36 +552,37 @@ proxies:
       Host: us1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com
   xudp: true
   key: value
-- name: 🏁RELAY-172.67.144.42-1406
+- name: 🏁RELAY-172.67.177.180-0118
   server: 104.17.3.81
-  port: 443
+  port: 8080
   type: vmess
-  uuid: 78422c74-9a71-4193-8953-a9446dacd782
+  uuid: 6b056a2c-b821-44b2-cf66-59a1126f6c95
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /dksfjeyrbfSGERgrsfgsdfrq/
+    path: /
     headers:
-      Host: hk.kkpp.online
+      Host: o1.992688.xyz
   xudp: true
   key: value
-- name: 🏁RELAY-104.21.62.156-1413
+- name: 🏁RELAY-172.67.216.167-0751
   server: 104.17.3.81
   port: 443
   type: vmess
-  uuid: 65864938-ab50-4efa-bc6a-084f42a8de63
+  uuid: 4282ff8f-6b6f-41e3-b721-1963a95e342c
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: false
+  servername: link2.kuaidog001.top
   network: ws
   ws-opts:
-    path: /freedom
+    path: /
     headers:
-      Host: rochinet.fullaccesstointernet.cn.eu.org
+      Host: link2.kuaidog001.top
   xudp: true
   key: value
 - name: 🇺🇸US-47.88.89.251-16996
@@ -552,20 +618,20 @@ proxies:
       Host: 220.id.workers.dev
   xudp: true
   key: value
-- name: 🏁RELAY-172.67.185.133-3576
+- name: 🏁RELAY-172.67.144.42-1406
   server: 104.17.3.81
-  port: 2052
+  port: 443
   type: vmess
-  uuid: 5936dbd5-670f-372c-87be-fa5a55dd2d0c
+  uuid: 78422c74-9a71-4193-8953-a9446dacd782
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /vvfdgtrh
+    path: /dksfjeyrbfSGERgrsfgsdfrq/
     headers:
-      Host: jpnewacs.114514782.xyz
+      Host: hk.kkpp.online
   xudp: true
   key: value
 - name: 🏁RELAY-172.67.99.237-6461
@@ -728,6 +794,22 @@ proxies:
       Host: us53.encrypted.my.id
   xudp: true
   key: value
+- name: 🏁RELAY-104.21.62.156-1413
+  server: 104.17.3.81
+  port: 443
+  type: vmess
+  uuid: 65864938-ab50-4efa-bc6a-084f42a8de63
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /freedom
+    headers:
+      Host: rochinet.fullaccesstointernet.cn.eu.org
+  xudp: true
+  key: value
 - name: 🏁RELAY-194.36.55.106-5262
   server: 104.17.3.81
   port: 443
@@ -744,7 +826,23 @@ proxies:
       Host: delicate-butterfly-93f8.zuhyp4107.workers.dev
   xudp: true
   key: value
-- name: 🏁RELAY-172.67.177.180-0118
+- name: 🏁RELAY-172.67.185.133-3576
+  server: 104.17.3.81
+  port: 2052
+  type: vmess
+  uuid: 5936dbd5-670f-372c-87be-fa5a55dd2d0c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vvfdgtrh
+    headers:
+      Host: jpnewacs.114514782.xyz
+  xudp: true
+  key: value
+- name: 🏁RELAY-172.67.183.77-0133
   server: 104.17.3.81
   port: 8080
   type: vmess
@@ -792,22 +890,6 @@ proxies:
       Host: cf3.992688.xyz
   xudp: true
   key: value
-- name: 🏁RELAY-172.67.46.153-3638
-  server: 104.17.3.81
-  port: 8080
-  type: vmess
-  uuid: 6b056a2c-b821-44b2-cf66-59a1126f6c94
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cf5.992688.xyz
-  xudp: true
-  key: value
 - name: 🏁RELAY-199.212.90.0-5534
   server: 104.17.3.81
   port: 443
@@ -840,6 +922,22 @@ proxies:
       Host: 220exclusive.designnovation-me.workers.dev
   xudp: true
   key: value
+- name: 🏁RELAY-172.67.46.153-3638
+  server: 104.17.3.81
+  port: 8080
+  type: vmess
+  uuid: 6b056a2c-b821-44b2-cf66-59a1126f6c94
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cf5.992688.xyz
+  xudp: true
+  key: value
 - name: 🏁RELAY-172.67.185.133-2306
   server: 104.17.3.81
   port: 80
@@ -856,20 +954,20 @@ proxies:
       Host: ssrsub.v01.ssrsub.com
   xudp: true
   key: value
-- name: 🏁RELAY-172.67.183.77-0133
+- name: 🏁RELAY-194.36.55.106-0146
   server: 104.17.3.81
-  port: 8080
+  port: 443
   type: vmess
-  uuid: 6b056a2c-b821-44b2-cf66-59a1126f6c95
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: o1.992688.xyz
+      Host: delicate-butterfly-93f8.zuhyp4107.workers.dev
   xudp: true
   key: value
 - name: 🏁RELAY-104.18.28.109-3690
@@ -969,20 +1067,20 @@ proxies:
       Host: ming2.kiwireich.com
   xudp: true
   key: value
-- name: 🏁RELAY-194.36.55.106-0146
+- name: 🏁RELAY-172.67.99.237-0158
   server: 104.17.3.81
-  port: 443
+  port: 8080
   type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  uuid: b0b12ae2-346c-488b-8d1e-9f3afb8fead5
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: delicate-butterfly-93f8.zuhyp4107.workers.dev
+      Host: hax.992688.xyz
   xudp: true
   key: value
 - name: 🏁RELAY-172.67.132.15-1254
@@ -1065,20 +1163,20 @@ proxies:
       Host: asbiasncs.114514782.xyz
   xudp: true
   key: value
-- name: 🏁RELAY-172.67.99.237-0158
+- name: 🏁RELAY-23.227.38.99-0327
   server: 104.17.3.81
-  port: 8080
+  port: 443
   type: vmess
-  uuid: b0b12ae2-346c-488b-8d1e-9f3afb8fead5
+  uuid: 86d37526-5758-4cec-862f-df404b313086
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
+    path: /3G6WPDL7
     headers:
-      Host: hax.992688.xyz
+      Host: 1.freek1.xyz
   xudp: true
   key: value
 - name: 🏁RELAY-199.212.90.0-2297
@@ -1097,20 +1195,20 @@ proxies:
       Host: raspy-leaf-a6f0.lille7737.workers.dev
   xudp: true
   key: value
-- name: 🏁RELAY-23.227.38.99-0327
+- name: 🏁RELAY-172.67.185.133-0361
   server: 104.17.3.81
-  port: 443
+  port: 80
   type: vmess
-  uuid: 86d37526-5758-4cec-862f-df404b313086
+  uuid: a5756853-4a80-468a-af62-10565918f58f
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /3G6WPDL7
+    path: /api/v3/download.getFile
     headers:
-      Host: 1.freek1.xyz
+      Host: ssrsub.v01.ssrsub.com
   xudp: true
   key: value
 - name: 🏁RELAY-104.18.28.109-2288
@@ -1129,7 +1227,7 @@ proxies:
       Host: amstd.digires.shop
   xudp: true
   key: value
-- name: 🏁RELAY-172.67.185.133-0361
+- name: 🏁RELAY-172.67.190.72-0362
   server: 104.17.3.81
   port: 80
   type: vmess
@@ -1193,22 +1291,6 @@ proxies:
       Host: apkwvctghw.114514782.xyz
   xudp: true
   key: value
-- name: 🏁RELAY-172.67.190.72-0362
-  server: 104.17.3.81
-  port: 80
-  type: vmess
-  uuid: a5756853-4a80-468a-af62-10565918f58f
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /api/v3/download.getFile
-    headers:
-      Host: ssrsub.v01.ssrsub.com
-  xudp: true
-  key: value
 - name: 🏁RELAY-141.101.122.174-0363
   server: 104.17.3.81
   port: 80
@@ -1239,6 +1321,22 @@ proxies:
     path: /api/v3/download.getFile
     headers:
       Host: ssrsub.v02.ssrsub.com
+  xudp: true
+  key: value
+- name: 🏁RELAY-141.101.121.120-0365
+  server: 104.17.3.81
+  port: 80
+  type: vmess
+  uuid: a5756853-4a80-468a-af62-10565918f58f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /api/v3/download.getFile
+    headers:
+      Host: ssrsub.v03.ssrsub.com
   xudp: true
   key: value
 - name: 🏁RELAY-172.67.177.180-1372
@@ -1273,54 +1371,6 @@ proxies:
       Host: dallas.starsea.vip
   xudp: true
   key: value
-- name: 🏁RELAY-172.67.184.53-0644
-  server: 104.17.3.81
-  port: 8443
-  type: vmess
-  uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cloudconebbb.gorgorchicken.one
-  xudp: true
-  key: value
-- name: 🏁RELAY-141.101.121.120-0365
-  server: 104.17.3.81
-  port: 80
-  type: vmess
-  uuid: a5756853-4a80-468a-af62-10565918f58f
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /api/v3/download.getFile
-    headers:
-      Host: ssrsub.v03.ssrsub.com
-  xudp: true
-  key: value
-- name: 🏁RELAY-172.67.46.153-1003
-  server: 104.17.3.81
-  port: 8080
-  type: vmess
-  uuid: b0b12ae2-346c-488b-8d1e-9f3afb8fead5
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hax.992688.xyz
-  xudp: true
-  key: value
 - name: 🏁RELAY-172.67.190.72-0366
   server: 104.17.3.81
   port: 80
@@ -1352,6 +1402,38 @@ proxies:
     path: /
     headers:
       Host: armus.114514782.xyz
+  xudp: true
+  key: value
+- name: 🏁RELAY-172.67.46.153-1003
+  server: 104.17.3.81
+  port: 8080
+  type: vmess
+  uuid: b0b12ae2-346c-488b-8d1e-9f3afb8fead5
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hax.992688.xyz
+  xudp: true
+  key: value
+- name: 🏁RELAY-172.67.184.53-0644
+  server: 104.17.3.81
+  port: 8443
+  type: vmess
+  uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cloudconebbb.gorgorchicken.one
   xudp: true
   key: value
 - name: 🏁RELAY-103.21.244.169-14783
@@ -1866,22 +1948,6 @@ proxies:
     path: /c3lZ7dp02p?ed=2048
     headers:
       Host: d2.pgypgykmoljklj.xyz
-  xudp: true
-  key: value
-- name: 🏁RELAY-104.18.1.196-0998
-  server: 104.17.3.81
-  port: 80
-  type: vmess
-  uuid: b3b3b680-19f5-11ee-bf9a-1577c1651679
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /files
-    headers:
-      Host: 2.lowh.net
   xudp: true
   key: value
 - name: 🏁RELAY-104.18.13.15-4324
@@ -2994,23 +3060,6 @@ proxies:
     path: /news
     headers:
       Host: link3.kuaidog001.top
-  xudp: true
-  key: value
-- name: 🏁RELAY-104.21.45.165-6409
-  server: 104.17.3.81
-  port: 443
-  type: vmess
-  uuid: 4282ff8f-6b6f-41e3-b721-1963a95e342c
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: link2.kuaidog001.top
-  network: ws
-  ws-opts:
-    path: /news
-    headers:
-      Host: link2.kuaidog001.top
   xudp: true
   key: value
 - name: 🏁RELAY-104.21.48.161-4327
@@ -5771,38 +5820,6 @@ proxies:
       Host: gcoresg.sylu.cyou
   xudp: true
   key: value
-- name: 🏁RELAY-162.159.138.6-0997
-  server: 104.17.3.81
-  port: 443
-  type: vmess
-  uuid: 0b3b165f-ba8f-4cb5-8d3c-ad6e2f9216f6
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: idmws.mainssh.xyz
-  xudp: true
-  key: value
-- name: 🏁RELAY-162.159.138.6-4413
-  server: 104.17.3.81
-  port: 443
-  type: vmess
-  uuid: 952d7273-726a-4f3d-9676-f9c711b1ec52
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /worryfree
-    headers:
-      Host: v2ray1.udpgw.com
-  xudp: true
-  key: value
 - name: 🏁RELAY-162.159.141.203-6517
   server: 104.17.3.81
   port: 80
@@ -8292,23 +8309,6 @@ proxies:
     path: /look
     headers:
       Host: aaaa.wxx.gay
-  xudp: true
-  key: value
-- name: 🏁RELAY-172.67.216.167-0751
-  server: 104.17.3.81
-  port: 443
-  type: vmess
-  uuid: 4282ff8f-6b6f-41e3-b721-1963a95e342c
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: link2.kuaidog001.top
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: link2.kuaidog001.top
   xudp: true
   key: value
 - name: 🏁RELAY-172.67.218.162-0977
