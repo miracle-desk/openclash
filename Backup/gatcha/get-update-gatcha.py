@@ -89,8 +89,7 @@ def get_update_filter_proxies(urls):
     filtered_accounts.extend(sorted(us_accounts))
 
     # Prepare the account entries with the desired structure
-    formatted_accounts_1 = []
-    formatted_accounts_2 = []
+    formatted_accounts_1= []
 
     for account in filtered_accounts:
         entry = yaml.safe_load(account[2:])
@@ -102,6 +101,18 @@ def get_update_filter_proxies(urls):
             entry["key"] = "value"
 
         formatted_accounts_1.append(entry)
+   
+    formatted_accounts_2= []
+
+    for account in filtered_accounts:
+        entry = yaml.safe_load(account[2:])
+        if "server" in entry:
+            entry["server"] = "104.17.3.81"
+        if "xudp" not in entry:
+            entry["xudp"] = True
+        if "key" not in entry:
+            entry["key"] = "value"
+
         formatted_accounts_2.append(entry)
 
     # Prepare the YAML data
@@ -140,7 +151,7 @@ def get_update_filter_proxies(urls):
 
 urls = [
     'https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml',
-#    'https://mi-desk.neocities.org/clash/proxy_provider/SG_server_yml.txt'
+    'https://mi-desk.neocities.org/clash/proxy_provider/SG_server_yml.txt'
 ]
 
 get_update_filter_proxies(urls)
