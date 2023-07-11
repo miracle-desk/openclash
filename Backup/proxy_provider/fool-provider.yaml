@@ -1,5 +1,5 @@
 proxies:
-- name: "1 \U0001F1F8\U0001F1EC AS31898 ORACLE CORPORATION WS CDN TLS"
+- name: "25 \U0001F1F8\U0001F1EC AS31898 ORACLE CORPORATION WS CDN TLS"
   server: 104.17.3.81
   port: 443
   type: vmess
@@ -8,7 +8,7 @@ proxies:
   tls: true
   udp: true
   skip-cert-verify: true
-  servername: linkedin.disnet.gq
+  servername: meetzoom.disnet.gq
   network: ws
   alterId: 0
   xudp: true
@@ -16,58 +16,40 @@ proxies:
   ws-opts:
     path: /vmessws
     headers:
-      Host: linkedin.disnet.gq
-- name: "629 \U0001F1F8\U0001F1EC AS14061 DIGITALOCEAN, LLC WS CDN TLS"
+      Host: meetzoom.disnet.gq
+- name: "415 \U0001F1F8\U0001F1EC AS31898 ORACLE CORPORATION WS CDN NTLS"
   server: 104.17.3.81
-  port: 8443
+  port: 2052
   type: vmess
-  uuid: 78f98c9e-cd35-4395-ace9-3045ff3d3423
+  uuid: 03502010-efcc-3efe-a1bc-b3db8a923a7d
+  cipher: auto
+  tls: false
+  udp: true
+  skip-cert-verify: true
+  servername: null
+  network: ws
+  alterId: 0
+  xudp: true
+  key: value
+  ws-opts:
+    path: /miao
+    headers:
+      Host: sgtippos.76898102.xyz
+- name: "132 \U0001F1F8\U0001F1EC AS63949 AKAMAI CONNECTED CLOUD WS CDN TLS"
+  server: 104.17.3.81
+  port: 443
+  type: vmess
+  uuid: 952d7273-726a-4f3d-9676-f9c711b1ec52
   cipher: auto
   tls: true
   udp: true
   skip-cert-verify: true
-  servername: sgp1.looooooongnet.lol
+  servername: v2ray1.udpgw.com
   network: ws
   alterId: 0
   xudp: true
   key: value
   ws-opts:
-    path: /
+    path: /worryfree
     headers:
-      Host: sgp1.looooooongnet.lol
-- name: "657 \U0001F1F8\U0001F1EC AS212238 DATACAMP LIMITED WS CDN NTLS"
-  server: 104.17.3.81
-  port: 8080
-  type: vmess
-  uuid: d0ccd82b-732d-454c-88e6-eba3dddf67d2
-  cipher: auto
-  tls: false
-  udp: true
-  skip-cert-verify: true
-  servername: null
-  network: ws
-  alterId: 0
-  xudp: true
-  key: value
-  ws-opts:
-    path: /sgfree
-    headers:
-      Host: sg-free.adw1681ddaw.tk
-- name: "382 \U0001F1F8\U0001F1EC AS8849 MELBIKOMAS UAB WS CDN NTLS"
-  server: 104.17.3.81
-  port: 80
-  type: vmess
-  uuid: 9878857d-50d4-45b0-a97b-e5c5f03d1540
-  cipher: auto
-  tls: false
-  udp: true
-  skip-cert-verify: true
-  servername: null
-  network: ws
-  alterId: 0
-  xudp: true
-  key: value
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: sg6.securev2ray.com
+      Host: v2ray1.udpgw.com
