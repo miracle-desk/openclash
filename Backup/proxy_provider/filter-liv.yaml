@@ -15,7 +15,7 @@ proxies:
       Host: sg.xmbb.net
   xudp: true
   key: value
-- name: 'SG M6 #SG HE MUX Howdy'
+- name: SG-Mux6
   server: 104.21.8.121
   port: 443
   type: trojan
@@ -29,7 +29,7 @@ proxies:
       Host: sg6-trojan.bonds.id
   xudp: true
   key: value
-- name: 'SG H3 #SG HE 3 Howdy'
+- name: SG-He3
   server: 104.21.8.121
   port: 443
   type: trojan
@@ -43,7 +43,7 @@ proxies:
       Host: sg3-trojan.bonds.id
   xudp: true
   key: value
-- name: 'SG H2 #SG HE 2 Howdy'
+- name: SG-He2
   server: 104.21.8.121
   port: 443
   type: trojan
@@ -57,7 +57,7 @@ proxies:
       Host: sg2-trojan.bonds.id
   xudp: true
   key: value
-- name: 'SG H1 #SG HE 1 Howdy'
+- name: SG-He1
   server: 104.21.8.121
   port: 443
   type: trojan
@@ -87,7 +87,7 @@ proxies:
       Host: sg.xmbb.net
   xudp: true
   key: value
-- name: 'SG A2 #SG AMP Howdy'
+- name: SG-Amp2
   server: 104.21.8.121
   port: 443
   type: trojan
@@ -11181,22 +11181,6 @@ proxies:
     path: /A2DJOPFT
     headers:
       Host: lg10.cfcdn1.xyz
-  xudp: true
-  key: value
-- name: 🇦🇶NOWHERE-0.0.0.0-6342
-  server: 104.21.8.121
-  port: 443
-  type: vmess
-  uuid: e5543efd-5400-3760-9bb6-02767728e888
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /video
-    headers:
-      Host: USG.fljsm.com
   xudp: true
   key: value
 - name: 🇸🇬SG-103.253.26.134-0278

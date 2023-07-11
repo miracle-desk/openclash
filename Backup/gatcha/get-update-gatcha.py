@@ -18,7 +18,7 @@ def get_update_filter_proxies(urls):
 
         for line in lines:
             line = line.strip()
-            if line.startswith("- ") and ("RELAY" in line or "SG" in line or "🇺🇸US" in line) and "headers" in line and "Host" in line:
+            if line.startswith("- ") and ("RELAY-" in line or "SG-" in line or "🇺🇸US-" in line) and "headers" in line and "Host" in line:
                 entry = yaml.safe_load(line[2:])
                 if entry and "xmbb.net" in line:
                     filtered_accounts.insert(0, line)
@@ -76,11 +76,11 @@ def get_update_filter_proxies(urls):
                     filtered_accounts.insert(24, line)
                 elif ".encrypted.my.id" in line:
                     filtered_accounts.insert(25, line)
-                elif "RELAY" in line and "headers" in line and "Host" in line:
+                elif "RELAY-" in line and "headers" in line and "Host" in line:
                     relay_accounts.append(line)
-                elif "SG" in line and "headers" in line and "Host" in line:
+                elif "SG-" in line and "headers" in line and "Host" in line:
                     sg_accounts.append(line)
-                elif "🇺🇸US" in line and "headers" in line and "Host" in line:
+                elif "🇺🇸US-" in line and "headers" in line and "Host" in line:
                     us_accounts.append(line)
 
     # Sort the account entries
