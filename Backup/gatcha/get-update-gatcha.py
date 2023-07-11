@@ -96,8 +96,8 @@ def get_update_filter_proxies(urls):
         entry = yaml.safe_load(account[2:])
         if "server" in entry:
             entry["server"] = "104.21.8.121"
-        if "udp" not in entry:
-            entry["udp"] = True
+        if "xudp" not in entry:
+            entry["xudp"] = True
         if "key" not in entry:
             entry["key"] = "value"
 
