@@ -23,22 +23,22 @@ def get_update_filter_proxies(urls):
                 if entry and "xmbb.net" in line:
                     filtered_accounts.insert(0, line)
                     premium_accounts.append(line)
-                elif "trojan.bonds.id" in line:
-                    filtered_accounts.insert(1, line)
-                elif ".test3.net" in line:
-                    filtered_accounts.insert(2, line)
                 elif "meetzoom.disnet.gq" in line:
-                    filtered_accounts.insert(3, line)
+                    filtered_accounts.insert(1, line)
                     premium_accounts.append(line)
                 elif "sg.wyhkaa0.tk" in line:
-                    filtered_accounts.insert(4, line)
+                    filtered_accounts.insert(2, line)
                     premium_accounts.append(line)
                 elif "linkedin.disnet.gq" in line:
-                    filtered_accounts.insert(5, line)
+                    filtered_accounts.insert(3, line)
                     premium_accounts.append(line)
                 elif "sg1b.obfs.xyz" in line:
-                    filtered_accounts.insert(6, line)
+                    filtered_accounts.insert(4, line)
                 elif "sg2-mlb.securev2ray.com" in line:
+                    filtered_accounts.insert(5, line)
+                elif "trojan.bonds.id" in line:
+                    filtered_accounts.insert(6, line)
+                elif ".test3.net" in line:
                     filtered_accounts.insert(7, line)
                 elif "hk.kkpp.online" in line:
                     filtered_accounts.insert(8, line)
