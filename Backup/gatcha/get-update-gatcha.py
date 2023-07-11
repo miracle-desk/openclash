@@ -58,32 +58,34 @@ def get_update_filter_proxies(urls):
                     filtered_accounts.insert(15, line)
                 elif "vceu.vpn66.eu.org" in line:
                     filtered_accounts.insert(16, line)
-                elif "mp.microsoft.com" in line:
+                elif "rusabdfs.76898102.xyz" in line:
                     filtered_accounts.insert(17, line)
-                elif "gorgorchicken.one" in line:
+                elif "mp.microsoft.com" in line:
                     filtered_accounts.insert(18, line)
-                elif "ssrsub.com" in line:
+                elif "gorgorchicken.one" in line:
                     filtered_accounts.insert(19, line)
-                elif "114514782.xyz" in line:
+                elif "ssrsub.com" in line:
                     filtered_accounts.insert(20, line)
-                elif ".zuhyp4107.workers.dev" in line:
+                elif "114514782.xyz" in line:
                     filtered_accounts.insert(21, line)
-                elif ".992688.xyz" in line:
+                elif ".zuhyp4107.workers.dev" in line:
                     filtered_accounts.insert(22, line)
-                elif "starsea.vip" in line:
+                elif ".992688.xyz" in line:
                     filtered_accounts.insert(23, line)
-                elif "dedi2.1808.cf" in line:
+                elif "starsea.vip" in line:
                     filtered_accounts.insert(24, line)
-                elif "amstd.digires.shop" in line:
+                elif "dedi2.1808.cf" in line:
                     filtered_accounts.insert(25, line)
-                elif "jpnat1.doinb.tk" in line:
+                elif "amstd.digires.shop" in line:
                     filtered_accounts.insert(26, line)
-                elif ".workers.dev" in line:
+                elif "jpnat1.doinb.tk" in line:
                     filtered_accounts.insert(27, line)
-                elif ".polycdn.com" in line:
+                elif ".workers.dev" in line:
                     filtered_accounts.insert(28, line)
-                elif ".encrypted.my.id" in line:
+                elif ".polycdn.com" in line:
                     filtered_accounts.insert(29, line)
+                elif ".encrypted.my.id" in line:
+                    filtered_accounts.insert(30, line)
                 elif "RELAY-" in line and "headers" in line and "Host" in line:
                     relay_accounts.append(line)
                 elif "SG-" in line and "headers" in line and "Host" in line:
