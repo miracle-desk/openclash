@@ -12,9 +12,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
       - name: Show python version
-        run: python3 --version
+        run: python --version
       - name: Run script update provider
-        run: python3 Backup/gatcha/get-update-gatcha.py
+        run: python Backup/gatcha/get-update-gatcha.py
       - name: Commit changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
