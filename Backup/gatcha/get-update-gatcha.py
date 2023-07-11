@@ -96,8 +96,8 @@ def get_update_filter_proxies(urls):
         entry = yaml.safe_load(account[2:])
         if "server" in entry:
             entry["server"] = "104.21.8.121"
-        if "xudp" not in entry:
-            entry["xudp"] = True
+        if "udp" not in entry:
+            entry["udp"] = True
         if "key" not in entry:
             entry["key"] = "value"
 
@@ -140,7 +140,7 @@ def get_update_filter_proxies(urls):
 
 urls = [
     'https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml',
-    'https://mi-desk.neocities.org/clash/proxy_provider/SG_server_yml.txt'
+#    'https://mi-desk.neocities.org/clash/proxy_provider/SG_server_yml.txt'
 ]
 
 get_update_filter_proxies(urls)
