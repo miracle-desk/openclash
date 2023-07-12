@@ -88,7 +88,7 @@ proxy-providers:
       interval: 30
   Proxy-fool:
     type: http
-    url: "https://raw.githubusercontent.com/miracle-desk/Openclash/main/Backup/proxy_provider/your-provider.yaml"
+    url: "https://raw.githubusercontent.com/your-provider.yaml"
     path: "./proxy_provider/fool-vpn.yaml"
     interval: 21600
     health-check:
@@ -97,7 +97,7 @@ proxy-providers:
       interval: 600
   Proxy-filter:
     type: http
-    url: "https://raw.githubusercontent.com/miracle-desk/Openclash/main/Backup/proxy_provider/your-provider.yaml"
+    url: "https://raw.githubusercontent.com/your-provider.yaml"
     path: "./proxy_provider/filter-proxies.yaml"
     interval: 21600
     health-check:
