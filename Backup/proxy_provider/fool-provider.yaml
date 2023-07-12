@@ -1,22 +1,4 @@
 proxies:
-- name: "258 \U0001F1F8\U0001F1EC AS31898 ORACLE CORPORATION WS CDN TLS"
-  server: 104.17.3.81
-  port: 443
-  type: vmess
-  uuid: a869c557-5c7d-426f-9039-0279c16352bc
-  cipher: auto
-  tls: true
-  udp: true
-  skip-cert-verify: true
-  servername: meetzoom.disnet.gq
-  network: ws
-  alterId: 0
-  xudp: true
-  key: value
-  ws-opts:
-    path: /vmessws
-    headers:
-      Host: meetzoom.disnet.gq
 - name: "493 \U0001F1F8\U0001F1EC AS31898 ORACLE CORPORATION WS CDN NTLS"
   server: 104.17.3.81
   port: 2052
@@ -35,6 +17,24 @@ proxies:
     path: /miao
     headers:
       Host: sgtippos.76898102.xyz
+- name: "258 \U0001F1F8\U0001F1EC AS31898 ORACLE CORPORATION WS CDN TLS"
+  server: 104.17.3.81
+  port: 443
+  type: vmess
+  uuid: a869c557-5c7d-426f-9039-0279c16352bc
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  servername: meetzoom.disnet.gq
+  network: ws
+  alterId: 0
+  xudp: true
+  key: value
+  ws-opts:
+    path: /vmessws
+    headers:
+      Host: meetzoom.disnet.gq
 - name: "575 \U0001F1F8\U0001F1EC AS141995 CONTABO ASIA PRIVATE LIMITED WS CDN NTLS"
   server: 104.17.3.81
   port: 80
