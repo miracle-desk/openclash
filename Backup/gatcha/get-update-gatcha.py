@@ -130,8 +130,8 @@ def get_update_filter_proxies(urls):
     yaml_data_2 = yaml.dump({"proxies": formatted_accounts_2}, sort_keys=False, allow_unicode=True)
 
     # Write the filtered accounts to the YAML files with UTF-8 encoding
-    output_dir_1 = "Backup/proxy_provider"
-    output_dir_2 = "Backup/proxy_provider"
+    output_dir_1 = "backup/proxy_provider"
+    output_dir_2 = "backup/proxy_provider"
     output_path_1 = os.path.join(output_dir_1, "filter-liv.yaml")
     output_path_2 = os.path.join(output_dir_2, "filter-akrab.yaml")
 
@@ -227,7 +227,7 @@ def get_update_fool_proxies(url):
     accounts.sort(key=fool_custom_sort_key)
 
     # Menentukan path file YAML
-    output_dir = "Backup/proxy_provider"
+    output_dir = "backup/proxy_provider"
     output_path = os.path.join(output_dir, "fool-provider.yaml")
 
     # Membuat folder jika belum ada
