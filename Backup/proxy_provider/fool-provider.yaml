@@ -89,3 +89,21 @@ proxies:
     path: /worryfree
     headers:
       Host: v2ray1.udpgw.com
+- name: "586 \U0001F1EE\U0001F1E9 AS23679 MEDIA ANTAR NUSA PT. WS CDN TLS"
+  server: 104.17.3.81
+  port: 443
+  type: vmess
+  uuid: 0b3b165f-ba8f-4cb5-8d3c-ad6e2f9216f6
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  servername: idmws.mainssh.xyz
+  network: ws
+  alterId: 0
+  xudp: true
+  key: value
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: idmws.mainssh.xyz
