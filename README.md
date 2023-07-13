@@ -11,7 +11,7 @@ rule-providers:
     type: http
     behavior: classical
     path: "./rule_provider/xl-akrab.yaml"
-    url: https://raw.githubusercontent.com/miracle-desk/Openclash/main/Backup/rule_provider/xl-akrab.yaml
+    url: https://raw.githubusercontent.com/miracle-desk/openclash/main/backup/rule_provider/xl-akrab.yaml
     interval: 86400
 #
 #
@@ -66,7 +66,7 @@ rule-providers:
     type: http
     behavior: classical
     path: "./rule_provider/rule_custom.yaml"
-    url: https://raw.githubusercontent.com/miracle-desk/Openclash/main/Backup/rule_provider/rule_custom.yaml
+    url: https://raw.githubusercontent.com/miracle-desk/openclash/main/backup/rule_provider/rule_custom.yaml
     interval: 43200
 #
 #
@@ -86,24 +86,24 @@ proxy-providers:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 30
-  Proxy-fool:
-    type: http
-    url: "https://raw.githubusercontent.com/your-provider.yaml"
-    path: "./proxy_provider/fool-vpn.yaml"
-    interval: 21600
-    health-check:
-      enable: true
-      url: https://cp.cloudflare.com/generate_204
-      interval: 600
+#  Proxy-fool:
+#    type: http
+#    url: "https://raw.githubusercontent.com/your_provider.yaml"
+#    path: "./proxy_provider/fool-vpn.yaml"
+#    interval: 10800
+#    health-check:
+#      enable: true
+#      url: https://cp.cloudflare.com/generate_204
+#      interval: 30
   Proxy-filter:
     type: http
-    url: "https://raw.githubusercontent.com/your-provider.yaml"
+    url: "https://raw.githubusercontent.com/your_provider.yaml"
     path: "./proxy_provider/filter-proxies.yaml"
-    interval: 21600
+    interval: 10800
     health-check:
       enable: true
       url: https://cp.cloudflare.com/generate_204
-      interval: 600
+      interval: 300
 #
 #
 #================= PROXY GROUPS =================
@@ -122,18 +122,19 @@ proxy-groups:
   - Proxy-ID
   url: http://www.gstatic.com/generate_204
   interval: '30'
-- name: fool
-  type: fallback
-  use:
-  - Proxy-fool
-  url: http://cp.cloudflare.com/generate_204
-  interval: '30'
+#- name: fool
+#  type: fallback
+#  use:
+#  - Proxy-fool
+#  url: http://cp.cloudflare.com/generate_204
+#  interval: '30'
 - name: filter
-  type: fallback
+  type: url-test
   use:
   - Proxy-filter
   url: http://cp.cloudflare.com/generate_204
   interval: '30'
+# type: fallback, url-test, loadbalance
 #
 #
 #================ DNS + FALLBACK-FILTER =================
