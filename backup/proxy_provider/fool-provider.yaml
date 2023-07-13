@@ -1,22 +1,4 @@
 proxies:
-- name: "493 \U0001F1F8\U0001F1EC AS31898 ORACLE CORPORATION WS CDN NTLS"
-  server: 104.17.3.81
-  port: 2052
-  type: vmess
-  uuid: 03502010-efcc-3efe-a1bc-b3db8a923a7d
-  cipher: auto
-  tls: false
-  udp: true
-  skip-cert-verify: true
-  servername: null
-  network: ws
-  alterId: 0
-  xudp: true
-  key: value
-  ws-opts:
-    path: /miao
-    headers:
-      Host: sgtippos.76898102.xyz
 - name: "258 \U0001F1F8\U0001F1EC AS31898 ORACLE CORPORATION WS CDN TLS"
   server: 104.17.3.81
   port: 443
@@ -35,6 +17,24 @@ proxies:
     path: /vmessws
     headers:
       Host: meetzoom.disnet.gq
+- name: "493 \U0001F1F8\U0001F1EC AS31898 ORACLE CORPORATION WS CDN NTLS"
+  server: 104.17.3.81
+  port: 2052
+  type: vmess
+  uuid: 03502010-efcc-3efe-a1bc-b3db8a923a7d
+  cipher: auto
+  tls: false
+  udp: true
+  skip-cert-verify: true
+  servername: null
+  network: ws
+  alterId: 0
+  xudp: true
+  key: value
+  ws-opts:
+    path: /miao
+    headers:
+      Host: sgtippos.76898102.xyz
 - name: "575 \U0001F1F8\U0001F1EC AS141995 CONTABO ASIA PRIVATE LIMITED WS CDN NTLS"
   server: 104.17.3.81
   port: 80
@@ -71,6 +71,24 @@ proxies:
     path: /
     headers:
       Host: sgp1.looooooongnet.lol
+- name: "789 \U0001F1F8\U0001F1EC AS14061 DIGITALOCEAN, LLC WS CDN NTLS"
+  server: 104.17.3.81
+  port: 2095
+  type: vmess
+  uuid: 7ed7e770-140d-37d0-8bbd-11cafb8186e2
+  cipher: auto
+  tls: false
+  udp: true
+  skip-cert-verify: true
+  servername: null
+  network: ws
+  alterId: 0
+  xudp: true
+  key: value
+  ws-opts:
+    path: /adwrfeyiyuisfesf
+    headers:
+      Host: sgb.76898102.xyz
 - name: "335 \U0001F1F8\U0001F1EC AS63949 AKAMAI CONNECTED CLOUD WS CDN TLS"
   server: 104.17.3.81
   port: 443
