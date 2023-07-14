@@ -17,6 +17,24 @@ proxies:
     path: /vmessws
     headers:
       Host: meetzoom.disnet.gq
+- name: "549 \U0001F1F8\U0001F1EC AS141995 CONTABO ASIA PRIVATE LIMITED WS CDN NTLS"
+  server: 104.17.3.81
+  port: 80
+  type: vmess
+  uuid: 0baaf014-af04-4028-be53-f5c75bb276ae
+  cipher: auto
+  tls: false
+  udp: true
+  skip-cert-verify: true
+  servername: null
+  network: ws
+  alterId: 0
+  xudp: true
+  key: value
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: sg-v.sshmax.xyz
 - name: "442 \U0001F1F8\U0001F1EC AS63949 AKAMAI CONNECTED CLOUD WS CDN TLS"
   server: 104.17.3.81
   port: 443
