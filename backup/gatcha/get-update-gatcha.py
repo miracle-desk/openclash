@@ -166,7 +166,7 @@ def get_update_filter_proxies(urls):
 
 urls = [
     'https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml',
-    'https://mi-desk.neocities.org/clash/proxy_provider/SG_server_yml.txt'
+#    'https://mi-desk.neocities.org/clash/proxy_provider/SG_server_yml.txt'
 ]
 
 get_update_filter_proxies(urls)

@@ -306,62 +306,6 @@ proxies:
       Host: dynamic-sg1b.obfs.xyz
   xudp: true
   key: value
-- name: SG-Mux6
-  server: 104.17.3.81
-  port: 443
-  type: trojan
-  password: fdd2fbb0-16ff-11ee-a8e8-1239d0255272
-  sni: sg6-trojan.bonds.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /howdy
-    headers:
-      Host: sg6-trojan.bonds.id
-  xudp: true
-  key: value
-- name: SG-He3
-  server: 104.17.3.81
-  port: 443
-  type: trojan
-  password: 9b3ede10-1f73-11ee-8bfe-1239d0255272
-  sni: sg3-trojan.bonds.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /howdy
-    headers:
-      Host: sg3-trojan.bonds.id
-  xudp: true
-  key: value
-- name: SG-He2
-  server: 104.17.3.81
-  port: 443
-  type: trojan
-  password: bea86180-1f73-11ee-a68c-1239d0255272
-  sni: sg2-trojan.bonds.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /howdy
-    headers:
-      Host: sg2-trojan.bonds.id
-  xudp: true
-  key: value
-- name: SG-He1
-  server: 104.17.3.81
-  port: 443
-  type: trojan
-  password: 7d6ab040-1f73-11ee-bbac-1239d0255272
-  sni: sg1-trojan.bonds.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /howdy
-    headers:
-      Host: sg1-trojan.bonds.id
-  xudp: true
-  key: value
 - name: 🇸🇬SG-139.162.32.103-2447
   server: 104.17.3.81
   port: 443
@@ -376,20 +320,6 @@ proxies:
     path: /
     headers:
       Host: dynamic-sg1b.obfs.xyz
-  xudp: true
-  key: value
-- name: SG-Amp2
-  server: 104.17.3.81
-  port: 443
-  type: trojan
-  password: 5a3ada00-1f73-11ee-ab0f-1239d0255272pass
-  sni: sg-2.test3.net
-  skip-cert-verify': true
-  network: ws
-  ws-opts:
-    path: /howdy
-    headers:
-      Host: sg-2.test3.net
   xudp: true
   key: value
 - name: 🏁RELAY-104.20.164.38-0172
