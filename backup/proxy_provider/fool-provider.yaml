@@ -1,5 +1,5 @@
 proxies:
-- name: "163 \U0001F1F8\U0001F1EC AS31898 ORACLE CORPORATION WS CDN TLS"
+- name: "216 \U0001F1F8\U0001F1EC AS31898 ORACLE CORPORATION WS CDN TLS"
   server: 104.17.3.81
   port: 443
   type: vmess
@@ -17,7 +17,7 @@ proxies:
     path: /vmessws
     headers:
       Host: linkedin.disnet.gq
-- name: "217 \U0001F1F8\U0001F1EC AS141995 CONTABO ASIA PRIVATE LIMITED WS CDN NTLS"
+- name: "555 \U0001F1F8\U0001F1EC AS141995 CONTABO ASIA PRIVATE LIMITED WS CDN NTLS"
   server: 104.17.3.81
   port: 80
   type: vmess
@@ -35,3 +35,21 @@ proxies:
     path: /vmess
     headers:
       Host: sg-v.sshmax.xyz
+- name: "534 \U0001F1F8\U0001F1EC AS63949 AKAMAI CONNECTED CLOUD WS CDN NTLS"
+  server: 104.17.3.81
+  port: 80
+  type: vmess
+  uuid: c7442852-5a48-4456-8783-b7b8eebbca6c
+  cipher: auto
+  tls: false
+  udp: true
+  skip-cert-verify: true
+  servername: null
+  network: ws
+  alterId: 0
+  xudp: true
+  key: value
+  ws-opts:
+    path: /
+    headers:
+      Host: sg1.mlxg.org
