@@ -35,6 +35,42 @@ proxies:
     path: /vmess
     headers:
       Host: sg-v.sshmax.xyz
+- name: "702 \U0001F1F8\U0001F1EC AS14061 DIGITALOCEAN, LLC WS CDN NTLS"
+  server: 104.17.3.81
+  port: 80
+  type: vmess
+  uuid: 75ff8b3f-0172-4599-b984-2a1221b77d26
+  cipher: auto
+  tls: false
+  udp: true
+  skip-cert-verify: true
+  servername: null
+  network: ws
+  alterId: 0
+  xudp: true
+  key: value
+  ws-opts:
+    path: /whatever/vmess
+    headers:
+      Host: ppk.arnold-store.com
+- name: "729 \U0001F1F8\U0001F1EC AS14061 DIGITALOCEAN, LLC WS CDN NTLS"
+  server: 104.17.3.81
+  port: 2082
+  type: vmess
+  uuid: eb0dde23-6477-4066-aee9-a2a5b11c9507
+  cipher: auto
+  tls: false
+  udp: true
+  skip-cert-verify: true
+  servername: null
+  network: ws
+  alterId: 0
+  xudp: true
+  key: value
+  ws-opts:
+    path: /
+    headers:
+      Host: ccaws.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top
 - name: "534 \U0001F1F8\U0001F1EC AS63949 AKAMAI CONNECTED CLOUD WS CDN NTLS"
   server: 104.17.3.81
   port: 80
