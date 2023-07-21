@@ -17,11 +17,11 @@ proxies:
     path: /vmessws
     headers:
       Host: linkedin.disnet.gq
-- name: "729 \U0001F1F8\U0001F1EC AS14061 DIGITALOCEAN, LLC WS CDN NTLS"
+- name: "555 \U0001F1F8\U0001F1EC AS141995 CONTABO ASIA PRIVATE LIMITED WS CDN NTLS"
   server: 104.17.3.81
-  port: 2082
+  port: 80
   type: vmess
-  uuid: eb0dde23-6477-4066-aee9-a2a5b11c9507
+  uuid: 0baaf014-af04-4028-be53-f5c75bb276ae
   cipher: auto
   tls: false
   udp: true
@@ -32,9 +32,9 @@ proxies:
   xudp: true
   key: value
   ws-opts:
-    path: /
+    path: /vmess
     headers:
-      Host: ccaws.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top
+      Host: sg-v.sshmax.xyz
 - name: "702 \U0001F1F8\U0001F1EC AS14061 DIGITALOCEAN, LLC WS CDN NTLS"
   server: 104.17.3.81
   port: 80
@@ -53,6 +53,24 @@ proxies:
     path: /whatever/vmess
     headers:
       Host: ppk.arnold-store.com
+- name: "729 \U0001F1F8\U0001F1EC AS14061 DIGITALOCEAN, LLC WS CDN NTLS"
+  server: 104.17.3.81
+  port: 2082
+  type: vmess
+  uuid: eb0dde23-6477-4066-aee9-a2a5b11c9507
+  cipher: auto
+  tls: false
+  udp: true
+  skip-cert-verify: true
+  servername: null
+  network: ws
+  alterId: 0
+  xudp: true
+  key: value
+  ws-opts:
+    path: /
+    headers:
+      Host: ccaws.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top
 - name: "534 \U0001F1F8\U0001F1EC AS63949 AKAMAI CONNECTED CLOUD WS CDN NTLS"
   server: 104.17.3.81
   port: 80
