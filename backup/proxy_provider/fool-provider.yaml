@@ -1,5 +1,5 @@
 proxies:
-- name: "216 \U0001F1F8\U0001F1EC AS31898 ORACLE CORPORATION WS CDN TLS"
+- name: "140 \U0001F1F8\U0001F1EC AS31898 ORACLE CORPORATION WS CDN TLS"
   server: 104.17.3.81
   port: 443
   type: vmess
@@ -17,61 +17,7 @@ proxies:
     path: /vmessws
     headers:
       Host: linkedin.disnet.gq
-- name: "555 \U0001F1F8\U0001F1EC AS141995 CONTABO ASIA PRIVATE LIMITED WS CDN NTLS"
-  server: 104.17.3.81
-  port: 80
-  type: vmess
-  uuid: 0baaf014-af04-4028-be53-f5c75bb276ae
-  cipher: auto
-  tls: false
-  udp: true
-  skip-cert-verify: true
-  servername: null
-  network: ws
-  alterId: 0
-  xudp: true
-  key: value
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: sg-v.sshmax.xyz
-- name: "702 \U0001F1F8\U0001F1EC AS14061 DIGITALOCEAN, LLC WS CDN NTLS"
-  server: 104.17.3.81
-  port: 80
-  type: vmess
-  uuid: 75ff8b3f-0172-4599-b984-2a1221b77d26
-  cipher: auto
-  tls: false
-  udp: true
-  skip-cert-verify: true
-  servername: null
-  network: ws
-  alterId: 0
-  xudp: true
-  key: value
-  ws-opts:
-    path: /whatever/vmess
-    headers:
-      Host: ppk.arnold-store.com
-- name: "729 \U0001F1F8\U0001F1EC AS14061 DIGITALOCEAN, LLC WS CDN NTLS"
-  server: 104.17.3.81
-  port: 2082
-  type: vmess
-  uuid: eb0dde23-6477-4066-aee9-a2a5b11c9507
-  cipher: auto
-  tls: false
-  udp: true
-  skip-cert-verify: true
-  servername: null
-  network: ws
-  alterId: 0
-  xudp: true
-  key: value
-  ws-opts:
-    path: /
-    headers:
-      Host: ccaws.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top
-- name: "534 \U0001F1F8\U0001F1EC AS63949 AKAMAI CONNECTED CLOUD WS CDN NTLS"
+- name: "370 \U0001F1F8\U0001F1EC AS63949 AKAMAI CONNECTED CLOUD WS CDN NTLS"
   server: 104.17.3.81
   port: 80
   type: vmess
@@ -89,7 +35,25 @@ proxies:
     path: /
     headers:
       Host: sg1.mlxg.org
-- name: "782 \U0001F1F8\U0001F1EC AS16276 OVH SAS WS CDN TLS"
+- name: "404 \U0001F1EE\U0001F1E9 AS38760 PT MEDIA SARANA AKSES WS CDN TLS"
+  server: 104.17.3.81
+  port: 443
+  type: vmess
+  uuid: 61a1b50a-9085-4385-840d-10b23b6da3b0
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  servername: msa1.ak-celluler.com
+  network: ws
+  alterId: 0
+  xudp: true
+  key: value
+  ws-opts:
+    path: /v2ray
+    headers:
+      Host: msa1.ak-celluler.com
+- name: "358 \U0001F1F8\U0001F1EC AS16276 OVH SAS WS CDN TLS"
   server: 104.17.3.81
   port: 443
   type: vmess
