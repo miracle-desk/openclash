@@ -110,26 +110,28 @@ proxy-providers:
 proxy-groups:
 - name: SG
   type: fallback
-#  disable-udp: false
+  disable-udp: false
   use:
   - Proxy-SG
   url: http://cp.cloudflare.com/generate_204
   interval: '30'
 - name: ID
   type: fallback
-#  disable-udp: true
+  disable-udp: false
   use:
   - Proxy-ID
   url: http://www.gstatic.com/generate_204
   interval: '30'
 #- name: fool
 #  type: fallback
+#  disable-udp: false
 #  use:
 #  - Proxy-fool
 #  url: http://cp.cloudflare.com/generate_204
 #  interval: '30'
 - name: filter
   type: url-test
+  disable-udp: false
   use:
   - Proxy-filter
   url: http://cp.cloudflare.com/generate_204
