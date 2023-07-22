@@ -186,7 +186,7 @@ profile:
   store-fake-ip: true
 rules:
 - RULE-SET,Direct,DIRECT
-- RULE-SET,xl-akrab,DIRECT
+#- RULE-SET,xl-akrab,DIRECT
 - RULE-SET,Reject,REJECT
 - RULE-SET,rule_AdAway,REJECT                   #general
 - RULE-SET,rule_Malicious-URLhaus,REJECT        #security
