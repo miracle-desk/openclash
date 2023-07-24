@@ -17,24 +17,6 @@ proxies:
     path: /vmessws
     headers:
       Host: linkedin.disnet.gq
-- name: "597 \U0001F1F8\U0001F1EC AS63949 AKAMAI CONNECTED CLOUD WS CDN TLS"
-  server: 104.17.3.81
-  port: 443
-  type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  cipher: auto
-  tls: true
-  udp: true
-  skip-cert-verify: true
-  servername: panel2.hodorauth.com
-  network: ws
-  alterId: 0
-  xudp: true
-  key: value
-  ws-opts:
-    path: /vsg1.0bad.com/chat
-    headers:
-      Host: panel2.hodorauth.com
 - name: "370 \U0001F1F8\U0001F1EC AS63949 AKAMAI CONNECTED CLOUD WS CDN NTLS"
   server: 104.17.3.81
   port: 80
@@ -53,6 +35,24 @@ proxies:
     path: /
     headers:
       Host: sg1.mlxg.org
+- name: "597 \U0001F1F8\U0001F1EC AS63949 AKAMAI CONNECTED CLOUD WS CDN TLS"
+  server: 104.17.3.81
+  port: 443
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  cipher: auto
+  tls: true
+  udp: true
+  skip-cert-verify: true
+  servername: panel2.hodorauth.com
+  network: ws
+  alterId: 0
+  xudp: true
+  key: value
+  ws-opts:
+    path: /vsg1.0bad.com/chat
+    headers:
+      Host: panel2.hodorauth.com
 - name: "439 \U0001F1F8\U0001F1EC AS8849 MELBIKOMAS UAB WS CDN NTLS"
   server: 104.17.3.81
   port: 80
