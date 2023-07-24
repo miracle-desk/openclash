@@ -1,27 +1,9 @@
 proxies:
-- name: "140 \U0001F1F8\U0001F1EC AS31898 ORACLE CORPORATION WS CDN TLS"
-  server: 104.17.3.81
-  port: 443
-  type: vmess
-  uuid: a869c557-5c7d-426f-9039-0279c16352bc
-  cipher: auto
-  tls: true
-  udp: true
-  skip-cert-verify: true
-  servername: linkedin.disnet.gq
-  network: ws
-  alterId: 0
-  xudp: true
-  key: value
-  ws-opts:
-    path: /vmessws
-    headers:
-      Host: linkedin.disnet.gq
-- name: "370 \U0001F1F8\U0001F1EC AS63949 AKAMAI CONNECTED CLOUD WS CDN NTLS"
+- name: "249 \U0001F1F8\U0001F1EC AS63949 AKAMAI CONNECTED CLOUD WS CDN NTLS"
   server: 104.17.3.81
   port: 80
   type: vmess
-  uuid: c7442852-5a48-4456-8783-b7b8eebbca6c
+  uuid: 2075f10a-e78c-4873-dac3-b24886df2682
   cipher: auto
   tls: false
   udp: true
@@ -32,28 +14,10 @@ proxies:
   xudp: true
   key: value
   ws-opts:
-    path: /
+    path: /@hkaa0
     headers:
-      Host: sg1.mlxg.org
-- name: "597 \U0001F1F8\U0001F1EC AS63949 AKAMAI CONNECTED CLOUD WS CDN TLS"
-  server: 104.17.3.81
-  port: 443
-  type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  cipher: auto
-  tls: true
-  udp: true
-  skip-cert-verify: true
-  servername: panel2.hodorauth.com
-  network: ws
-  alterId: 0
-  xudp: true
-  key: value
-  ws-opts:
-    path: /vsg1.0bad.com/chat
-    headers:
-      Host: panel2.hodorauth.com
-- name: "439 \U0001F1F8\U0001F1EC AS8849 MELBIKOMAS UAB WS CDN NTLS"
+      Host: sg.wyhkaa0.cf
+- name: "285 \U0001F1F8\U0001F1EC AS8849 MELBIKOMAS UAB WS CDN NTLS"
   server: 104.17.3.81
   port: 80
   type: vmess
@@ -71,39 +35,3 @@ proxies:
     path: /vmess
     headers:
       Host: sg2-mlb.securev2ray.com
-- name: "404 \U0001F1EE\U0001F1E9 AS38760 PT MEDIA SARANA AKSES WS CDN TLS"
-  server: 104.17.3.81
-  port: 443
-  type: vmess
-  uuid: 61a1b50a-9085-4385-840d-10b23b6da3b0
-  cipher: auto
-  tls: true
-  udp: true
-  skip-cert-verify: true
-  servername: msa1.ak-celluler.com
-  network: ws
-  alterId: 0
-  xudp: true
-  key: value
-  ws-opts:
-    path: /v2ray
-    headers:
-      Host: msa1.ak-celluler.com
-- name: "358 \U0001F1F8\U0001F1EC AS16276 OVH SAS WS CDN TLS"
-  server: 104.17.3.81
-  port: 443
-  type: vmess
-  uuid: b655be0e-4b1a-4e3e-b63f-22a928a6e808
-  cipher: auto
-  tls: true
-  udp: true
-  skip-cert-verify: true
-  servername: sg1-v.sshmax.xyz
-  network: ws
-  alterId: 0
-  xudp: true
-  key: value
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: sg1-v.sshmax.xyz
