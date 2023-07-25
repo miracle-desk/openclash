@@ -1,5 +1,5 @@
 proxies:
-- name: "249 \U0001F1F8\U0001F1EC AS63949 AKAMAI CONNECTED CLOUD WS CDN NTLS"
+- name: "215 \U0001F1F8\U0001F1EC AS63949 AKAMAI CONNECTED CLOUD WS CDN NTLS"
   server: 104.17.3.81
   port: 80
   type: vmess
@@ -17,21 +17,3 @@ proxies:
     path: /@hkaa0
     headers:
       Host: sg.wyhkaa0.cf
-- name: "285 \U0001F1F8\U0001F1EC AS8849 MELBIKOMAS UAB WS CDN NTLS"
-  server: 104.17.3.81
-  port: 80
-  type: vmess
-  uuid: 0dfa89a7-fe08-454e-817b-374097be358f
-  cipher: auto
-  tls: false
-  udp: true
-  skip-cert-verify: true
-  servername: null
-  network: ws
-  alterId: 0
-  xudp: true
-  key: value
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: sg2-mlb.securev2ray.com
