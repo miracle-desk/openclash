@@ -245,4 +245,4 @@ def get_update_fool_proxies(url):
 
     print("File fool-provider.yaml berhasil dibuat di folder", output_dir)
 
-get_update_fool_proxies("https://fool.azurewebsites.net/get?format=clash&mode=cdn&cdn=104.17.3.81&network=ws&arg=xudp,key:value&vpn=trojan,vmess,vless&region=Asia&cc=SG,ID,JP&exclude=amazon&limit=3&pass=1oqrsj6c")
+get_update_fool_proxies("https://fool.azurewebsites.net/get?format=clash&mode=cdn&cdn=104.17.3.81&network=ws&arg=xudp,key:value&vpn=trojan,vmess,vless&region=Asia&cc=SG,ID,JP&exclude=amazon&limit=3&pass=xat2xma5")
