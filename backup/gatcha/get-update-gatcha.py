@@ -109,7 +109,7 @@ def get_update_filter_proxies(urls):
     for account in filtered_accounts:
         entry = yaml.safe_load(account[2:])
         if "server" in entry:
-            entry["server"] = "circles.asia"
+            entry["server"] = "beacon.liveon.id"
         if "xudp" not in entry:
             entry["xudp"] = True
         if "key" not in entry:
