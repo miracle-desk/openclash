@@ -9,8 +9,8 @@ def get_update_fool_proxies(url):
     received_accounts = []  # List untuk menyimpan akun yang diterima sebelum parsing
     parsed_accounts = []  # List untuk menyimpan akun yang telah diparsing
 
-    # Perulangan untuk membuka URL sebanyak 5 kali
-    for _ in range(5):
+    # Perulangan untuk membuka URL sebanyak 10 kali
+    for _ in range(10):
         response = requests.get(url)
         data = response.text
 
@@ -77,4 +77,4 @@ def get_update_fool_proxies(url):
 
     print("File fool-provider.yaml berhasil dibuat di folder", output_dir)
 
-get_update_fool_proxies("https://fool.azurewebsites.net/get?format=clash&mode=cdn&cdn=104.17.3.81&network=ws&arg=xudp,key:value&vpn=trojan,vmess,vless&region=Asia&cc=SG,ID,JP&exclude=amazon&limit=3&pass=xat2xma5")
+get_update_fool_proxies("https://fool.azurewebsites.net/get?format=clash&mode=cdn&cdn=104.17.3.81&network=ws&arg=xudp,key:value&vpn=trojan,vmess,vless&region=Asia&cc=SG,ID,JP&exclude=amazon&limit=3&pass=38e31710")
