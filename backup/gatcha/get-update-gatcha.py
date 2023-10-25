@@ -110,10 +110,10 @@ def get_update_filter_proxies(urls):
         entry = yaml.safe_load(account[2:])
         if "server" in entry:
             entry["server"] = "beacon.liveon.id"
-        if "xudp" not in entry:
-            entry["xudp"] = True
-        if "key" not in entry:
-            entry["key"] = "value"
+#        if "xudp" not in entry:
+#            entry["xudp"] = True
+#        if "key" not in entry:
+#            entry["key"] = "value"
 
         formatted_accounts_1.append(entry)
    
@@ -123,10 +123,10 @@ def get_update_filter_proxies(urls):
         entry = yaml.safe_load(account[2:])
         if "server" in entry:
             entry["server"] = "104.17.3.81"
-        if "xudp" not in entry:
-            entry["xudp"] = True
-        if "key" not in entry:
-            entry["key"] = "value"
+#        if "xudp" not in entry:
+#            entry["xudp"] = True
+#        if "key" not in entry:
+#            entry["key"] = "value"
 
         formatted_accounts_2.append(entry)
 
