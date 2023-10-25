@@ -5,7 +5,7 @@ import os
 
 def get_update_filter_proxies(urls):
     filtered_accounts = []
-    sg_accounts = []
+#    sg_accounts = []
 #    us_accounts = []
     relay_accounts = []
     premium_accounts = []
@@ -93,14 +93,14 @@ def get_update_filter_proxies(urls):
                     filtered_accounts.insert(32, line)
                 elif "RELAY-" in line and "headers" in line and "Host" in line:
                     relay_accounts.append(line)
-                elif "SG-" in line and "headers" in line and "Host" in line:
-                    sg_accounts.append(line)
+#                elif "SG-" in line and "headers" in line and "Host" in line:
+#                    sg_accounts.append(line)
 #                elif "🇺🇸US-" in line and "headers" in line and "Host" in line:
 #                    us_accounts.append(line)
 
     # Sort the account entries
     filtered_accounts.extend(sorted(relay_accounts)) 
-    filtered_accounts.extend(sorted(sg_accounts))
+#    filtered_accounts.extend(sorted(sg_accounts))
 #    filtered_accounts.extend(sorted(us_accounts))
 
     # Prepare the account entries with the desired structure
@@ -109,7 +109,7 @@ def get_update_filter_proxies(urls):
     for account in filtered_accounts:
         entry = yaml.safe_load(account[2:])
         if "server" in entry:
-            entry["server"] = "beacon.liveon.id"
+            entry["server"] = "172.67.75.37"
 #        if "xudp" not in entry:
 #            entry["xudp"] = True
 #        if "key" not in entry:
@@ -151,12 +151,12 @@ def get_update_filter_proxies(urls):
         file.write(yaml_data_2)
 
     total_accounts = len(filtered_accounts)
-    sg_count = len(sg_accounts)
+#    sg_count = len(sg_accounts)
 #    us_count = len(us_accounts)
     relay_count = len(relay_accounts)
     premium_count = len(premium_accounts)
 
-    print(f"Total 'SG' accounts written: {sg_count}")
+#    print(f"Total 'SG' accounts written: {sg_count}")
 #    print(f"Total 'US' accounts written: {us_count}")
     print(f"Total 'RELAY' accounts written: {relay_count}")
     print(f"Total premium accounts: {premium_count}")
