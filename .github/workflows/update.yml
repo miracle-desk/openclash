@@ -15,7 +15,7 @@ jobs:
         run: python --version
       - name: Run script update provider
         run: python backup/gatcha/get-update-gatcha.py
-             python backup/proxy_provider/fool-provider.py
+#             python backup/proxy_provider/fool-provider.py
       - name: Commit changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
