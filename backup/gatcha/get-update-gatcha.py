@@ -109,7 +109,7 @@ def get_update_filter_proxies(urls):
     for account in filtered_accounts:
         entry = yaml.safe_load(account[2:])
         if "server" in entry:
-            entry["server"] = "172.67.75.37"
+            entry["server"] = "circles.asia"
 #        if "xudp" not in entry:
 #            entry["xudp"] = True
 #        if "key" not in entry:
@@ -122,7 +122,7 @@ def get_update_filter_proxies(urls):
     for account in filtered_accounts:
         entry = yaml.safe_load(account[2:])
         if "server" in entry:
-            entry["server"] = "104.17.3.81"
+            entry["server"] = "circles.asia"
 #        if "xudp" not in entry:
 #            entry["xudp"] = True
 #        if "key" not in entry:
