@@ -1,5 +1,5 @@
 proxies:
-- name: 🏁RELAY-172.67.132.15-0044
+- name: 🏁RELAY-104.21.12.103-0044
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -14,7 +14,7 @@ proxies:
     headers:
       Host: ming2.kiwireich.com
   udp: true
-- name: 🏁RELAY-185.162.228.99-0153
+- name: 🏁RELAY-185.162.228.99-0162
   server: akrab1.v-pn.my.id
   port: 8080
   type: vmess
@@ -29,22 +29,7 @@ proxies:
     headers:
       Host: uare-rice-0f92.nojojoy404.workers.dev
   udp: true
-- name: 🏁RELAY-104.18.202.250-0154
-  server: akrab1.v-pn.my.id
-  port: 2082
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /nina.bond/linkvws
-    headers:
-      Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
-  udp: true
-- name: 🏁RELAY-172.67.132.209-0159
+- name: 🏁RELAY-172.67.132.209-0189
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -59,7 +44,22 @@ proxies:
     headers:
       Host: pl1-vmess.sshmax.xyz
   udp: true
-- name: 🏁RELAY-162.159.137.232-2634
+- name: 🏁RELAY-172.67.132.209-0211
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: 33653184-91f3-4f3f-b707-2fc21e9adeb8
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: pl1-vmess.sshmax.xyz
+  udp: true
+- name: 🏁RELAY-162.159.137.232-2738
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -74,7 +74,7 @@ proxies:
     headers:
       Host: nl2-vmess.sshmax.xyz
   udp: true
-- name: 🏁RELAY-172.67.132.209-1444
+- name: 🏁RELAY-104.21.13.125-1430
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -89,7 +89,7 @@ proxies:
     headers:
       Host: pl1-vmess.sshmax.xyz
   udp: true
-- name: 🏁RELAY-104.21.13.125-1443
+- name: 🏁RELAY-104.21.13.125-1405
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -104,7 +104,7 @@ proxies:
     headers:
       Host: pl1-vmess.sshmax.xyz
   udp: true
-- name: 🏁RELAY-172.67.132.15-9047
+- name: 🏁RELAY-104.21.12.103-9127
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -119,37 +119,7 @@ proxies:
     headers:
       Host: ming2.kiwireich.com
   udp: true
-- name: 🏁RELAY-104.21.13.125-1418
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: vmess
-  uuid: 33653184-91f3-4f3f-b707-2fc21e9adeb8
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: pl1-vmess.sshmax.xyz
-  udp: true
-- name: 🏁RELAY-172.67.132.15-1781
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: vmess
-  uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: ming2.kiwireich.com
-  udp: true
-- name: 🏁RELAY-172.67.166.192-1405
+- name: 🏁RELAY-172.67.166.192-1392
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -164,7 +134,37 @@ proxies:
     headers:
       Host: ua1-vmess.sshmax.xyz
   udp: true
-- name: 🏁RELAY-104.21.13.125-0177
+- name: 🏁RELAY-172.67.132.15-1785
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: ming2.kiwireich.com
+  udp: true
+- name: 🏁RELAY-172.67.132.209-0233
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: 33653184-91f3-4f3f-b707-2fc21e9adeb8
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: pl1-vmess.sshmax.xyz
+  udp: true
+- name: 🏁RELAY-104.21.13.125-0220
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -179,11 +179,26 @@ proxies:
     headers:
       Host: pl1-vmess.sshmax.xyz
   udp: true
-- name: 🏁RELAY-172.67.132.209-0165
+- name: 🏁RELAY-104.26.13.140-0389
+  server: akrab1.v-pn.my.id
+  port: 80
+  type: vmess
+  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /api/v3/download.getFile
+    headers:
+      Host: ssrsub.v006.ssrsub.com
+  udp: true
+- name: 🏁RELAY-172.67.132.15-0981
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
-  uuid: 33653184-91f3-4f3f-b707-2fc21e9adeb8
+  uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
   alterId: 0
   cipher: auto
   tls: true
@@ -192,39 +207,24 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: pl1-vmess.sshmax.xyz
+      Host: ming2.kiwireich.com
   udp: true
-- name: 🏁RELAY-104.21.73.14-0202
+- name: 🏁RELAY-104.21.12.103-0853
   server: akrab1.v-pn.my.id
-  port: 8880
+  port: 443
   type: vmess
-  uuid: 45f63e92-f782-4cac-84b8-e61cb5a5bfd0
+  uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /adenc35.fixedlfoat.top/linkws
+    path: /
     headers:
-      Host: yaghoob55freenodes.repaco69437403.workers.dev
+      Host: ming2.kiwireich.com
   udp: true
-- name: 🏁RELAY-172.67.75.194-0385
-  server: akrab1.v-pn.my.id
-  port: 80
-  type: vmess
-  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /api/v3/download.getFile
-    headers:
-      Host: ssrsub.v006.ssrsub.com
-  udp: true
-- name: 🏁RELAY-104.24.200.51-0386
+- name: 🏁RELAY-104.24.200.62-0390
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -239,7 +239,7 @@ proxies:
     headers:
       Host: ssrsub.v006.ssrsub.com
   udp: true
-- name: 🏁RELAY-172.67.50.28-0387
+- name: 🏁RELAY-141.101.123.142-0391
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -254,7 +254,7 @@ proxies:
     headers:
       Host: ssrsub.v006.ssrsub.com
   udp: true
-- name: 🏁RELAY-104.26.12.140-0388
+- name: 🏁RELAY-104.26.13.140-0392
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -269,7 +269,7 @@ proxies:
     headers:
       Host: ssrsub.v03.ssrsub.com
   udp: true
-- name: 🏁RELAY-104.24.200.66-0389
+- name: 🏁RELAY-104.24.200.56-0393
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -284,7 +284,7 @@ proxies:
     headers:
       Host: ssrsub.v03.ssrsub.com
   udp: true
-- name: 🏁RELAY-162.159.249.187-0390
+- name: 🏁RELAY-172.67.190.87-0394
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -299,7 +299,7 @@ proxies:
     headers:
       Host: ssrsub.v03.ssrsub.com
   udp: true
-- name: 🏁RELAY-104.26.12.140-0391
+- name: 🏁RELAY-172.67.75.194-0395
   server: akrab1.v-pn.my.id
   port: 8880
   type: vmess
@@ -314,7 +314,7 @@ proxies:
     headers:
       Host: ssrsub.v001.ssrsub.com
   udp: true
-- name: 🏁RELAY-104.24.200.52-0392
+- name: 🏁RELAY-104.24.200.54-0396
   server: akrab1.v-pn.my.id
   port: 8880
   type: vmess
@@ -329,7 +329,7 @@ proxies:
     headers:
       Host: ssrsub.v001.ssrsub.com
   udp: true
-- name: 🏁RELAY-172.67.184.53-2685
+- name: 🏁RELAY-172.67.184.53-2789
   server: akrab1.v-pn.my.id
   port: 8443
   type: vmess
@@ -345,7 +345,7 @@ proxies:
     headers:
       Host: cloudconebbb.gorgorchicken.one
   udp: true
-- name: 🏁RELAY-104.27.97.42-2683
+- name: 🏁RELAY-104.27.97.42-2787
   server: akrab1.v-pn.my.id
   port: 8443
   type: vmess
@@ -361,7 +361,7 @@ proxies:
     headers:
       Host: cloudconebbb.gorgorchicken.one
   udp: true
-- name: 🏁RELAY-104.21.36.26-2677
+- name: 🏁RELAY-104.21.36.26-2781
   server: akrab1.v-pn.my.id
   port: 8443
   type: vmess
@@ -377,7 +377,7 @@ proxies:
     headers:
       Host: cloudconeaaa.gorgorchicken.one
   udp: true
-- name: 🏁RELAY-172.67.192.150-0393
+- name: 🏁RELAY-141.101.123.142-0397
   server: akrab1.v-pn.my.id
   port: 8880
   type: vmess
@@ -392,7 +392,7 @@ proxies:
     headers:
       Host: ssrsub.v001.ssrsub.com
   udp: true
-- name: 🏁RELAY-172.67.75.194-0394
+- name: 🏁RELAY-104.26.13.140-0398
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -407,7 +407,7 @@ proxies:
     headers:
       Host: ssrsub.v004.ssrsub.com
   udp: true
-- name: 🏁RELAY-104.24.200.55-0395
+- name: 🏁RELAY-104.24.200.79-0399
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -422,7 +422,7 @@ proxies:
     headers:
       Host: ssrsub.v004.ssrsub.com
   udp: true
-- name: 🏁RELAY-172.67.50.28-0396
+- name: 🏁RELAY-141.101.123.142-0400
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -437,7 +437,7 @@ proxies:
     headers:
       Host: ssrsub.v004.ssrsub.com
   udp: true
-- name: 🏁RELAY-104.26.13.140-0397
+- name: 🏁RELAY-104.26.12.140-0401
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -452,7 +452,7 @@ proxies:
     headers:
       Host: ssrsub.v005.ssrsub.com
   udp: true
-- name: 🏁RELAY-104.21.24.96-9106
+- name: 🏁RELAY-104.21.24.96-9186
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -467,7 +467,7 @@ proxies:
     headers:
       Host: dbr3fqf4y53gd4uydq82nu4x.fq83h3g4g4221vh5dn9.workers.dev
   udp: true
-- name: 🏁RELAY-104.21.64.85-9099
+- name: 🏁RELAY-172.67.179.114-9179
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -482,7 +482,7 @@ proxies:
     headers:
       Host: fake.id.workers.dev
   udp: true
-- name: 🏁RELAY-104.24.200.61-0398
+- name: 🏁RELAY-104.24.200.64-0402
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -497,7 +497,7 @@ proxies:
     headers:
       Host: ssrsub.v005.ssrsub.com
   udp: true
-- name: 🏁RELAY-162.159.249.187-0399
+- name: 🏁RELAY-141.101.123.142-0403
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -512,37 +512,37 @@ proxies:
     headers:
       Host: ssrsub.v005.ssrsub.com
   udp: true
-- name: 🏁RELAY-185.162.228.99-1437
+- name: 🏁RELAY-104.21.73.14-0799
   server: akrab1.v-pn.my.id
-  port: 8080
+  port: 8880
   type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  uuid: 45f63e92-f782-4cac-84b8-e61cb5a5bfd0
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /www.blueberrywindow.online/
-    headers:
-      Host: uare-rice-0f92.nojojoy404.workers.dev
-  udp: true
-- name: 🏁RELAY-104.19.36.160-2294
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: vmess
-  uuid: ad806487-2d26-4636-98b6-ab85cc8521f7
-  alterId: 64
-  cipher: auto
-  tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: restless-haze-599b.zjjcool.workers.dev
+      Host: yaghoob55freenodes.repaco69437403.workers.dev
   udp: true
-- name: 🏁RELAY-45.85.119.29-2673
+- name: 🏁RELAY-104.18.202.250-0803
+  server: akrab1.v-pn.my.id
+  port: 2082
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
+  udp: true
+- name: 🏁RELAY-45.85.119.29-2777
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -558,22 +558,67 @@ proxies:
     headers:
       Host: fragrant-pond-b786.salehielham2366007.workers.dev
   udp: true
-- name: 🏁RELAY-10.10.34.36-0814
+- name: 🏁RELAY-104.21.73.14-1204
   server: akrab1.v-pn.my.id
   port: 8880
   type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  uuid: 45f63e92-f782-4cac-84b8-e61cb5a5bfd0
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
+    path: /adenc35.fixedlfoat.top/linkws
+    headers:
+      Host: yaghoob55freenodes.repaco69437403.workers.dev
+  udp: true
+- name: 🏁RELAY-104.19.36.160-2305
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: ad806487-2d26-4636-98b6-ab85cc8521f7
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
     path: /
     headers:
-      Host: food.zhaal.ir
+      Host: restless-haze-599b.zjjcool.workers.dev
   udp: true
-- name: 🏁RELAY-10.10.34.36-1250
+- name: 🏁RELAY-104.18.202.250-1207
+  server: akrab1.v-pn.my.id
+  port: 2082
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /nina.bond/linkvws
+    headers:
+      Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
+  udp: true
+- name: 🏁RELAY-185.162.228.99-1424
+  server: akrab1.v-pn.my.id
+  port: 8080
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /www.blueberrywindow.online/
+    headers:
+      Host: uare-rice-0f92.nojojoy404.workers.dev
+  udp: true
+- name: 🏁RELAY-10.10.34.36-1237
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -588,7 +633,7 @@ proxies:
     headers:
       Host: nestle.ir
   udp: true
-- name: 🏁RELAY-103.21.244.169-6545
+- name: 🏁RELAY-103.21.244.169-6625
   server: akrab1.v-pn.my.id
   port: 8443
   type: vmess
@@ -603,7 +648,7 @@ proxies:
     headers:
       Host: SG-244-255.shoptunnel.live
   udp: true
-- name: 🏁RELAY-104.16.119.47-2699
+- name: 🏁RELAY-104.16.119.47-2803
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -619,7 +664,7 @@ proxies:
     headers:
       Host: sand.blanku.me
   udp: true
-- name: 🏁RELAY-104.16.120.85-2619
+- name: 🏁RELAY-104.16.120.85-2723
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -634,7 +679,7 @@ proxies:
     headers:
       Host: is2.xv2ray.net
   udp: true
-- name: 🏁RELAY-104.16.183.101-10101
+- name: 🏁RELAY-104.16.183.101-10181
   server: akrab1.v-pn.my.id
   port: 443
   type: trojan
@@ -647,22 +692,7 @@ proxies:
     headers:
       Host: tws23.kallepache.store
   udp: true
-- name: 🏁RELAY-104.16.2.35-1267
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: vmess
-  uuid: 372ef3f8-ab20-429b-b6f5-b2d92464dc15
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vmess?ed=2048
-    headers:
-      Host: adyyfgfback4appgood.nihaoaaaa.tk
-  udp: true
-- name: 🏁RELAY-104.16.219.230-2644
+- name: 🏁RELAY-104.16.219.230-2748
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -678,7 +708,7 @@ proxies:
     headers:
       Host: sand.blanku.me
   udp: true
-- name: 🏁RELAY-104.16.219.230-2655
+- name: 🏁RELAY-104.16.219.230-2759
   server: akrab1.v-pn.my.id
   port: 8880
   type: vmess
@@ -693,7 +723,7 @@ proxies:
     headers:
       Host: fr7.tehme100.fun
   udp: true
-- name: 🏁RELAY-104.16.232.76-1263
+- name: 🏁RELAY-104.16.232.76-1250
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -708,7 +738,22 @@ proxies:
     headers:
       Host: codespherede.freeargo.eu.org
   udp: true
-- name: 🏁RELAY-104.16.4.103-1434
+- name: 🏁RELAY-104.16.24.34-1254
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: 372ef3f8-ab20-429b-b6f5-b2d92464dc15
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess?ed=2048
+    headers:
+      Host: adyyfgfback4appgood.nihaoaaaa.tk
+  udp: true
+- name: 🏁RELAY-104.16.4.103-1421
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -723,7 +768,7 @@ proxies:
     headers:
       Host: cdn.free-best-ray.space
   udp: true
-- name: 🏁RELAY-104.16.6.65-1323
+- name: 🏁RELAY-104.16.6.65-1310
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -738,7 +783,7 @@ proxies:
     headers:
       Host: sn1.publcenem.shop
   udp: true
-- name: 🏁RELAY-104.16.67.38-2479
+- name: 🏁RELAY-104.16.68.38-2473
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -753,7 +798,7 @@ proxies:
     headers:
       Host: speed.cloudflare.com
   udp: true
-- name: 🏁RELAY-104.16.67.38-5819
+- name: 🏁RELAY-104.16.68.38-5899
   server: akrab1.v-pn.my.id
   port: 8443
   type: vmess
@@ -768,7 +813,7 @@ proxies:
     headers:
       Host: speed.cloudflare.com
   udp: true
-- name: 🏁RELAY-104.16.67.38-6853
+- name: 🏁RELAY-104.16.68.38-6933
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -783,7 +828,7 @@ proxies:
     headers:
       Host: v2.chigua.tk
   udp: true
-- name: 🏁RELAY-104.16.8.3-2653
+- name: 🏁RELAY-104.16.8.3-2757
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -799,7 +844,7 @@ proxies:
     headers:
       Host: sand.blanku.me
   udp: true
-- name: 🏁RELAY-104.16.89.44-2506
+- name: 🏁RELAY-104.16.89.44-2500
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -814,7 +859,7 @@ proxies:
     headers:
       Host: 104.16.89.44
   udp: true
-- name: 🏁RELAY-104.16.89.44-6822
+- name: 🏁RELAY-104.16.89.44-6902
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -829,7 +874,7 @@ proxies:
     headers:
       Host: zhuyong.hucloud-dns.xyz
   udp: true
-- name: 🏁RELAY-104.17.101.35-2678
+- name: 🏁RELAY-104.17.101.35-2782
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -845,7 +890,7 @@ proxies:
     headers:
       Host: sand.blanku.me
   udp: true
-- name: 🏁RELAY-104.17.123.55-1451
+- name: 🏁RELAY-104.17.123.55-1459
   server: akrab1.v-pn.my.id
   port: 8080
   type: vmess
@@ -860,7 +905,7 @@ proxies:
     headers:
       Host: pq.kmoljklj.top
   udp: true
-- name: 🏁RELAY-104.17.175.159-0265
+- name: 🏁RELAY-104.17.175.159-0269
   server: akrab1.v-pn.my.id
   port: 443
   type: trojan
@@ -873,7 +918,7 @@ proxies:
     headers:
       Host: jnl1.jsjc.sbs
   udp: true
-- name: 🏁RELAY-104.17.175.159-1319
+- name: 🏁RELAY-104.17.175.159-1306
   server: akrab1.v-pn.my.id
   port: 443
   type: trojan
@@ -886,7 +931,7 @@ proxies:
     headers:
       Host: jnl1.jsjc.sbs
   udp: true
-- name: 🏁RELAY-104.17.177.224-2651
+- name: 🏁RELAY-104.17.177.224-2755
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -902,7 +947,7 @@ proxies:
     headers:
       Host: sand.blanku.me
   udp: true
-- name: 🏁RELAY-104.17.21.243-2352
+- name: 🏁RELAY-104.17.21.243-2363
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -917,7 +962,7 @@ proxies:
     headers:
       Host: free.frli.xyz
   udp: true
-- name: 🏁RELAY-104.17.21.243-2461
+- name: 🏁RELAY-104.17.21.243-2455
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -932,7 +977,7 @@ proxies:
     headers:
       Host: 104.17.21.243
   udp: true
-- name: 🏁RELAY-104.17.229.103-2700
+- name: 🏁RELAY-104.17.229.103-2804
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -948,7 +993,7 @@ proxies:
     headers:
       Host: sand.blanku.me
   udp: true
-- name: 🏁RELAY-104.17.232.114-2708
+- name: 🏁RELAY-104.17.232.114-2812
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -964,7 +1009,7 @@ proxies:
     headers:
       Host: sand.blanku.me
   udp: true
-- name: 🏁RELAY-104.17.25.1-1407
+- name: 🏁RELAY-104.17.25.1-0166
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -979,7 +1024,7 @@ proxies:
     headers:
       Host: kr1.ljyyds.top
   udp: true
-- name: 🏁RELAY-104.17.25.1-3975
+- name: 🏁RELAY-104.17.25.1-4055
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -994,7 +1039,7 @@ proxies:
     headers:
       Host: kr.catnipballs.gay
   udp: true
-- name: 🏁RELAY-104.17.57.160-1412
+- name: 🏁RELAY-104.17.57.160-1391
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -1009,7 +1054,22 @@ proxies:
     headers:
       Host: caonimashabiwanyi22.daxiongda.top
   udp: true
-- name: 🏁RELAY-104.17.62.27-1262
+- name: 🏁RELAY-104.17.57.160-1399
+  server: akrab1.v-pn.my.id
+  port: 80
+  type: vmess
+  uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: caonimashabiwanyi22.daxiongda.top
+  udp: true
+- name: 🏁RELAY-104.17.62.27-1249
   server: akrab1.v-pn.my.id
   port: 2095
   type: vmess
@@ -1024,7 +1084,7 @@ proxies:
     headers:
       Host: cf-de.fanqiecloud.top
   udp: true
-- name: 🏁RELAY-104.17.98.141-9124
+- name: 🏁RELAY-104.17.98.141-9204
   server: akrab1.v-pn.my.id
   port: 8880
   type: vmess
@@ -1039,7 +1099,7 @@ proxies:
     headers:
       Host: cdn.narutos.top
   udp: true
-- name: 🏁RELAY-104.17.98.141-9126
+- name: 🏁RELAY-104.17.98.141-9206
   server: akrab1.v-pn.my.id
   port: 8880
   type: vmess
@@ -1054,52 +1114,22 @@ proxies:
     headers:
       Host: cdn.narutos.top
   udp: true
-- name: 🏁RELAY-104.18.12.15-2292
+- name: 🏁RELAY-104.18.118.51-9039
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
-  uuid: 7a70e0f7-170d-4ab0-82a0-c40554bfb320
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /111111.online
+    path: /vuk2.0bad.com/chat
     headers:
-      Host: buyvm.proxypool.ga
+      Host: wi.saintink.eu.org
   udp: true
-- name: 🏁RELAY-104.18.126.211-1273
-  server: akrab1.v-pn.my.id
-  port: 2052
-  type: vmess
-  uuid: ce1b46f7-fd89-4646-a968-206d65245aba
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /video/QXjZG5u4F2
-    headers:
-      Host: us3AJ8biuQx.fzbqfrse.xyz
-  udp: true
-- name: 🏁RELAY-104.18.13.11-1271
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: vmess
-  uuid: 4b53b3f4-3fb0-42ec-aa73-b4efdf075dbc
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vmess?ed=2048
-    headers:
-      Host: main.pooljim.tk
-  udp: true
-- name: 🏁RELAY-104.18.13.15-2438
+- name: 🏁RELAY-104.18.12.15-2432
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -1114,7 +1144,52 @@ proxies:
     headers:
       Host: workers.dev
   udp: true
-- name: 🏁RELAY-104.18.15.207-1279
+- name: 🏁RELAY-104.18.126.211-1260
+  server: akrab1.v-pn.my.id
+  port: 2052
+  type: vmess
+  uuid: ce1b46f7-fd89-4646-a968-206d65245aba
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /video/QXjZG5u4F2
+    headers:
+      Host: us3AJ8biuQx.fzbqfrse.xyz
+  udp: true
+- name: 🏁RELAY-104.18.13.11-1258
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: 4b53b3f4-3fb0-42ec-aa73-b4efdf075dbc
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess?ed=2048
+    headers:
+      Host: main.pooljim.tk
+  udp: true
+- name: 🏁RELAY-104.18.13.15-2303
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: 7a70e0f7-170d-4ab0-82a0-c40554bfb320
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /111111.online
+    headers:
+      Host: buyvm.proxypool.ga
+  udp: true
+- name: 🏁RELAY-104.18.15.207-1266
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -1129,22 +1204,7 @@ proxies:
     headers:
       Host: 116.supermanapp.top
   udp: true
-- name: 🏁RELAY-104.18.154.42-2293
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: vmess
-  uuid: 3a3e263d-223f-49cc-bbdb-f7e07a55e6fe
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /111111.online
-    headers:
-      Host: by.6111.online
-  udp: true
-- name: 🏁RELAY-104.18.155.42-2541
+- name: 🏁RELAY-104.18.154.42-2535
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -1159,7 +1219,22 @@ proxies:
     headers:
       Host: www.digitalocean.com
   udp: true
-- name: 🏁RELAY-104.18.200.220-2640
+- name: 🏁RELAY-104.18.155.42-2304
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: 3a3e263d-223f-49cc-bbdb-f7e07a55e6fe
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /111111.online
+    headers:
+      Host: by.6111.online
+  udp: true
+- name: 🏁RELAY-104.18.200.220-2744
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -1175,7 +1250,7 @@ proxies:
     headers:
       Host: octavi.cfd
   udp: true
-- name: 🏁RELAY-104.18.202.232-1331
+- name: 🏁RELAY-104.18.202.232-1318
   server: akrab1.v-pn.my.id
   port: 2083
   type: vmess
@@ -1190,7 +1265,7 @@ proxies:
     headers:
       Host: joooin.golestan-vpn.link
   udp: true
-- name: 🏁RELAY-104.18.202.232-2624
+- name: 🏁RELAY-104.18.202.232-2728
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -1205,7 +1280,7 @@ proxies:
     headers:
       Host: it1.xv2ray.net
   udp: true
-- name: 🏁RELAY-104.18.202.232-2626
+- name: 🏁RELAY-104.18.202.232-2730
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -1221,7 +1296,7 @@ proxies:
     headers:
       Host: ophelia.mom
   udp: true
-- name: 🏁RELAY-104.18.203.232-2647
+- name: 🏁RELAY-104.18.203.232-2751
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -1237,7 +1312,7 @@ proxies:
     headers:
       Host: edeen.makeup
   udp: true
-- name: 🏁RELAY-104.18.239.202-2710
+- name: 🏁RELAY-104.18.239.202-2814
   server: akrab1.v-pn.my.id
   port: 2052
   type: vmess
@@ -1252,7 +1327,7 @@ proxies:
     headers:
       Host: de6.biqibao.site
   udp: true
-- name: 🏁RELAY-104.18.27.8-2622
+- name: 🏁RELAY-104.18.27.8-2726
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -1268,7 +1343,54 @@ proxies:
     headers:
       Host: sand.blanku.me
   udp: true
-- name: 🏁RELAY-104.18.43.93-1285
+- name: 🏁RELAY-104.18.33.149-2801
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: c8abf66a-1903-4638-a448-9c86733e4254
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: sandp.blanku.me
+  network: ws
+  ws-opts:
+    path: /wss13480
+    headers:
+      Host: sand.blanku.me
+  udp: true
+- name: 🏁RELAY-104.18.41.208-9211
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: be74ca03-6a7c-4c88-edc2-c6434ead0cfa
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /16575
+    headers:
+      Host: bluehost.com
+  udp: true
+- name: 🏁RELAY-104.18.43.56-2800
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: c8abf66a-1903-4638-a448-9c86733e4254
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: sandp.blanku.me
+  network: ws
+  ws-opts:
+    path: /wss13480
+    headers:
+      Host: sand.blanku.me
+  udp: true
+- name: 🏁RELAY-104.18.43.93-1272
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -1283,7 +1405,7 @@ proxies:
     headers:
       Host: 116.supermanapp.top
   udp: true
-- name: 🏁RELAY-104.18.6.138-2313
+- name: 🏁RELAY-104.18.6.138-2324
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -1298,7 +1420,7 @@ proxies:
     headers:
       Host: cdnde.irteyz.today
   udp: true
-- name: 🏁RELAY-104.18.6.138-2523
+- name: 🏁RELAY-104.18.6.138-2517
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -1313,7 +1435,23 @@ proxies:
     headers:
       Host: 104.18.6.138
   udp: true
-- name: 🏁RELAY-104.18.7.138-2311
+- name: 🏁RELAY-104.18.6.55-2802
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: c8abf66a-1903-4638-a448-9c86733e4254
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: sandp.blanku.me
+  network: ws
+  ws-opts:
+    path: /wss13480
+    headers:
+      Host: sand.blanku.me
+  udp: true
+- name: 🏁RELAY-104.18.7.138-2322
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -1328,7 +1466,7 @@ proxies:
     headers:
       Host: cdnde.irteyz.today
   udp: true
-- name: 🏁RELAY-104.18.7.138-2559
+- name: 🏁RELAY-104.18.7.138-2553
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -1343,23 +1481,7 @@ proxies:
     headers:
       Host: 104.18.7.138
   udp: true
-- name: 🏁RELAY-104.18.7.55-2698
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: vmess
-  uuid: c8abf66a-1903-4638-a448-9c86733e4254
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: sandp.blanku.me
-  network: ws
-  ws-opts:
-    path: /wss13480
-    headers:
-      Host: sand.blanku.me
-  udp: true
-- name: 🏁RELAY-104.19.103.121-1287
+- name: 🏁RELAY-104.19.103.121-1274
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -1374,7 +1496,7 @@ proxies:
     headers:
       Host: 116.supermanapp.top
   udp: true
-- name: 🏁RELAY-104.19.110.34-2334
+- name: 🏁RELAY-104.19.110.34-2345
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -1389,7 +1511,7 @@ proxies:
     headers:
       Host: free.frli.xyz
   udp: true
-- name: 🏁RELAY-104.19.110.34-2482
+- name: 🏁RELAY-104.19.110.34-2476
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -1404,7 +1526,7 @@ proxies:
     headers:
       Host: 104.19.110.34
   udp: true
-- name: 🏁RELAY-104.19.155.92-2695
+- name: 🏁RELAY-104.19.155.92-2799
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -1420,7 +1542,7 @@ proxies:
     headers:
       Host: sand.blanku.me
   udp: true
-- name: 🏁RELAY-104.19.208.207-9122
+- name: 🏁RELAY-104.19.208.207-9202
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -1435,7 +1557,7 @@ proxies:
     headers:
       Host: cf.dalazhi.eu.org
   udp: true
-- name: 🏁RELAY-104.19.23.194-1274
+- name: 🏁RELAY-104.19.23.194-1261
   server: akrab1.v-pn.my.id
   port: 2052
   type: vmess
@@ -1450,7 +1572,7 @@ proxies:
     headers:
       Host: us3AJ8biuQx.fzbqfrse.xyz
   udp: true
-- name: 🏁RELAY-104.19.253.102-3956
+- name: 🏁RELAY-104.19.244.142-1505
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -1465,7 +1587,67 @@ proxies:
     headers:
       Host: GWYp69Yujp2.yofnhkfc.xyz
   udp: true
-- name: 🏁RELAY-104.19.253.102-3973
+- name: 🏁RELAY-104.19.249.22-0179
+  server: akrab1.v-pn.my.id
+  port: 80
+  type: vmess
+  uuid: 851278d6-8c0b-4147-8939-89cface46627
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: GWYp69Yujp2.yofnhkfc.xyz
+  udp: true
+- name: 🏁RELAY-104.19.249.22-1440
+  server: akrab1.v-pn.my.id
+  port: 80
+  type: vmess
+  uuid: 851278d6-8c0b-4147-8939-89cface46627
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /video/VDXcaM7r
+    headers:
+      Host: GWYp69Yujp2.yofnhkfc.xyz
+  udp: true
+- name: 🏁RELAY-104.19.253.102-0925
+  server: akrab1.v-pn.my.id
+  port: 80
+  type: vmess
+  uuid: 851278d6-8c0b-4147-8939-89cface46627
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: GWYp69Yujp2.yofnhkfc.xyz
+  udp: true
+- name: 🏁RELAY-104.19.253.102-1504
+  server: akrab1.v-pn.my.id
+  port: 80
+  type: vmess
+  uuid: 851278d6-8c0b-4147-8939-89cface46627
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /video/VDXcaM7r
+    headers:
+      Host: GWYp69Yujp2.yofnhkfc.xyz
+  udp: true
+- name: 🏁RELAY-104.19.253.102-4053
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -1480,7 +1662,7 @@ proxies:
     headers:
       Host: agzbjszujp4.yofnhkfc.xyz
   udp: true
-- name: 🏁RELAY-104.19.36.160-2481
+- name: 🏁RELAY-104.19.36.160-2475
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -1495,7 +1677,7 @@ proxies:
     headers:
       Host: 104.19.36.160
   udp: true
-- name: 🏁RELAY-104.19.45.117-2304
+- name: 🏁RELAY-104.19.45.117-2315
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -1510,7 +1692,7 @@ proxies:
     headers:
       Host: cdnde.irteyz.today
   udp: true
-- name: 🏁RELAY-104.19.45.117-2423
+- name: 🏁RELAY-104.19.45.117-2417
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -1525,7 +1707,7 @@ proxies:
     headers:
       Host: 104.19.45.117
   udp: true
-- name: 🏁RELAY-104.19.7.84-2316
+- name: 🏁RELAY-104.19.7.84-2327
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -1540,7 +1722,7 @@ proxies:
     headers:
       Host: free.frli.xyz
   udp: true
-- name: 🏁RELAY-104.19.7.84-2474
+- name: 🏁RELAY-104.19.7.84-2468
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -1555,7 +1737,7 @@ proxies:
     headers:
       Host: 104.19.7.84
   udp: true
-- name: 🏁RELAY-104.20.190.42-2694
+- name: 🏁RELAY-104.20.191.42-2798
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -1571,7 +1753,22 @@ proxies:
     headers:
       Host: sand.blanku.me
   udp: true
-- name: 🏁RELAY-104.20.231.30-0161
+- name: 🏁RELAY-104.20.231.30-0175
+  server: akrab1.v-pn.my.id
+  port: 80
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: my1.tooters.ir
+  udp: true
+- name: 🏁RELAY-104.20.231.30-0262
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -1586,7 +1783,7 @@ proxies:
     headers:
       Host: my1.tooters.ir
   udp: true
-- name: 🏁RELAY-104.20.231.30-0166
+- name: 🏁RELAY-104.20.231.30-0270
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -1601,22 +1798,7 @@ proxies:
     headers:
       Host: my1.tooters.ir
   udp: true
-- name: 🏁RELAY-104.20.231.30-1126
-  server: akrab1.v-pn.my.id
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: for-irancell.outline-vpn.cloud
-  udp: true
-- name: 🏁RELAY-104.21.0.217-1283
+- name: 🏁RELAY-104.21.0.217-1270
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -1631,7 +1813,7 @@ proxies:
     headers:
       Host: 116.supermanapp.top
   udp: true
-- name: 🏁RELAY-104.21.12.86-0909
+- name: 🏁RELAY-104.21.12.86-0927
   server: akrab1.v-pn.my.id
   port: 8880
   type: vmess
@@ -1646,7 +1828,7 @@ proxies:
     headers:
       Host: 8db7766f-d893-430e-96fb-ccd20e681145.tg.hkaa0.66688888.xyz
   udp: true
-- name: 🏁RELAY-104.21.12.86-1526
+- name: 🏁RELAY-104.21.12.86-1530
   server: akrab1.v-pn.my.id
   port: 8880
   type: vmess
@@ -1661,7 +1843,7 @@ proxies:
     headers:
       Host: 8db7766f-d893-430e-96fb-ccd20e681145.tg.hkaa0.66688888.xyz
   udp: true
-- name: 🏁RELAY-104.21.12.87-10060
+- name: 🏁RELAY-104.21.12.87-10140
   server: akrab1.v-pn.my.id
   port: 443
   type: trojan
@@ -1674,7 +1856,7 @@ proxies:
     headers:
       Host: series-v1.samanehha.co
   udp: true
-- name: 🏁RELAY-104.21.12.87-9015
+- name: 🏁RELAY-104.21.12.87-9095
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -1682,21 +1864,6 @@ proxies:
   alterId: 0
   cipher: chacha20-poly1305
   tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /dT9s3HqgZeD3eApzDAfhOHq
-    headers:
-      Host: series-v1.samanehha.co
-  udp: true
-- name: 🏁RELAY-104.21.12.87-9018
-  server: akrab1.v-pn.my.id
-  port: 80
-  type: vmess
-  uuid: 0b65bb06-6b28-487a-8e3c-820dda51e977
-  alterId: 0
-  cipher: auto
-  tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
@@ -1719,22 +1886,37 @@ proxies:
     headers:
       Host: v2ray.ibgfw.top
   udp: true
-- name: 🏁RELAY-104.21.13.222-2177
+- name: 🏁RELAY-104.21.13.222-0154
   server: akrab1.v-pn.my.id
-  port: 2083
+  port: 2053
   type: vmess
-  uuid: 4efdd8a5-ba9a-4faf-b4ef-127c68924aa2
+  uuid: 0f1b29b8-0f0f-431a-b6d1-035803a95c32
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /5rtP40gj/
+    path: /
     headers:
       Host: v2ray.ibgfw.top
   udp: true
-- name: 🏁RELAY-104.21.18.30-0788
+- name: 🏁RELAY-104.21.15.212-0795
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: glweidf.sbs
+  udp: true
+- name: 🏁RELAY-104.21.18.30-1523
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -1745,11 +1927,26 @@ proxies:
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
+    path: /kwhmvws
     headers:
       Host: urnxewzvh.site
   udp: true
-- name: 🏁RELAY-104.21.20.155-0151
+- name: 🏁RELAY-104.21.2.141-0527
+  server: akrab1.v-pn.my.id
+  port: 8080
+  type: vmess
+  uuid: 97bba5ca-185c-4e6a-ac64-96e920d4eeda
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: moon.chanell.mci.v-x4ssd.space
+  udp: true
+- name: 🏁RELAY-104.21.20.155-0212
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -1764,7 +1961,7 @@ proxies:
     headers:
       Host: hdfy6c3.foriran.trade
   udp: true
-- name: 🏁RELAY-104.21.20.155-1329
+- name: 🏁RELAY-104.21.20.155-1316
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -1779,7 +1976,7 @@ proxies:
     headers:
       Host: hdfy6c3.foriran.trade
   udp: true
-- name: 🏁RELAY-104.21.20.155-3902
+- name: 🏁RELAY-104.21.20.155-4018
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -1794,7 +1991,7 @@ proxies:
     headers:
       Host: hdfy6c3.foriran.trade
   udp: true
-- name: 🏁RELAY-104.21.21.147-2490
+- name: 🏁RELAY-104.21.21.147-2484
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -1809,22 +2006,22 @@ proxies:
     headers:
       Host: hohm.microsoft.com
   udp: true
-- name: 🏁RELAY-104.21.21.147-6846
+- name: 🏁RELAY-104.21.21.147-4429
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
-  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /9JZFDTKE
+    path: /5QNROSRV
     headers:
-      Host: fr1.trump2023.org
+      Host: hohm.microsoft.com
   udp: true
-- name: 🏁RELAY-104.21.23.176-0247
+- name: 🏁RELAY-104.21.23.176-0143
   server: akrab1.v-pn.my.id
   port: 8080
   type: vmess
@@ -1839,7 +2036,22 @@ proxies:
     headers:
       Host: www.crispyrainbow.biz
   udp: true
-- name: 🏁RELAY-104.21.235.55-3793
+- name: 🏁RELAY-104.21.23.176-0164
+  server: akrab1.v-pn.my.id
+  port: 8080
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: www.crispyrainbow.biz
+  udp: true
+- name: 🏁RELAY-104.21.235.55-3897
   server: akrab1.v-pn.my.id
   port: 2053
   type: vmess
@@ -1854,7 +2066,7 @@ proxies:
     headers:
       Host: namer-us-sea-01-edgecast.qdns.live
   udp: true
-- name: 🏁RELAY-104.21.235.61-3272
+- name: 🏁RELAY-104.21.235.61-3376
   server: akrab1.v-pn.my.id
   port: 2053
   type: vmess
@@ -1870,7 +2082,7 @@ proxies:
     headers:
       Host: foxpol2.fovi.tk
   udp: true
-- name: 🏁RELAY-104.21.27.139-2680
+- name: 🏁RELAY-104.21.27.139-2784
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -1886,7 +2098,7 @@ proxies:
     headers:
       Host: edeen.makeup
   udp: true
-- name: 🏁RELAY-104.21.27.184-0250
+- name: 🏁RELAY-104.21.27.184-0181
   server: akrab1.v-pn.my.id
   port: 8080
   type: vmess
@@ -1901,22 +2113,7 @@ proxies:
     headers:
       Host: us-01.cloudlion.me
   udp: true
-- name: 🏁RELAY-104.21.28.65-7005
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: vmess
-  uuid: 33653796-feef-43fd-e7cc-1adccd79b7c7
-  alterId: 4
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /123
-    headers:
-      Host: usamd.ptuu.gq
-  udp: true
-- name: 🏁RELAY-104.21.29.228-0194
+- name: 🏁RELAY-104.21.29.228-0217
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -1931,7 +2128,7 @@ proxies:
     headers:
       Host: hbzgrftrq1.site
   udp: true
-- name: 🏁RELAY-104.21.29.228-1430
+- name: 🏁RELAY-104.21.29.228-1417
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -1946,7 +2143,7 @@ proxies:
     headers:
       Host: hbzgrftrq1.site
   udp: true
-- name: 🏁RELAY-104.21.31.183-2652
+- name: 🏁RELAY-104.21.31.183-2756
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -1962,7 +2159,7 @@ proxies:
     headers:
       Host: octavi.cfd
   udp: true
-- name: 🏁RELAY-104.21.31.244-1431
+- name: 🏁RELAY-104.21.31.244-0237
   server: akrab1.v-pn.my.id
   port: 8080
   type: vmess
@@ -1977,7 +2174,22 @@ proxies:
     headers:
       Host: www.nahck.site
   udp: true
-- name: 🏁RELAY-104.21.34.169-1294
+- name: 🏁RELAY-104.21.31.244-0248
+  server: akrab1.v-pn.my.id
+  port: 8080
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: www.nahck.site
+  udp: true
+- name: 🏁RELAY-104.21.34.169-1281
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -1992,7 +2204,22 @@ proxies:
     headers:
       Host: 116.supermanapp.top
   udp: true
-- name: 🏁RELAY-104.21.4.132-1284
+- name: 🏁RELAY-104.21.34.3-1336
+  server: akrab1.v-pn.my.id
+  port: 2096
+  type: vmess
+  uuid: 12009e57-6fd8-46d6-94af-539514a7e7c7
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: s1.shargh.shop
+  udp: true
+- name: 🏁RELAY-104.21.4.132-1271
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -2007,7 +2234,7 @@ proxies:
     headers:
       Host: 116.supermanapp.top
   udp: true
-- name: 🏁RELAY-104.21.4.29-2693
+- name: 🏁RELAY-104.21.4.29-2797
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -2023,23 +2250,22 @@ proxies:
     headers:
       Host: oliv.beauty
   udp: true
-- name: 🏁RELAY-104.21.4.6-0793
+- name: 🏁RELAY-104.21.43.51-6845
   server: akrab1.v-pn.my.id
-  port: 443
+  port: 80
   type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+  uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: false
-  servername: glweidf.cfd
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: glweidf.cfd
+      Host: exa.nextvpn.cc
   udp: true
-- name: 🏁RELAY-104.21.44.205-0174
+- name: 🏁RELAY-104.21.44.205-0955
   server: akrab1.v-pn.my.id
   port: 8880
   type: vmess
@@ -2054,7 +2280,7 @@ proxies:
     headers:
       Host: nla.yj2022.gq
   udp: true
-- name: 🏁RELAY-104.21.44.205-1436
+- name: 🏁RELAY-104.21.44.205-1423
   server: akrab1.v-pn.my.id
   port: 8880
   type: vmess
@@ -2069,7 +2295,7 @@ proxies:
     headers:
       Host: nla.yj2022.gq
   udp: true
-- name: 🏁RELAY-104.21.44.64-1522
+- name: 🏁RELAY-104.21.44.64-1526
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -2084,7 +2310,22 @@ proxies:
     headers:
       Host: kellie.makeup
   udp: true
-- name: 🏁RELAY-104.21.48.161-2295
+- name: 🏁RELAY-104.21.47.75-1656
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: 6fb9a750-55b8-4e6e-857b-242b795399dc
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /imkcpyyds
+    headers:
+      Host: buyvm.imkcp.eu.org
+  udp: true
+- name: 🏁RELAY-104.21.48.161-2306
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -2099,7 +2340,7 @@ proxies:
     headers:
       Host: cdnde.irteyz.today
   udp: true
-- name: 🏁RELAY-104.21.48.161-2526
+- name: 🏁RELAY-104.21.48.161-2520
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -2114,22 +2355,7 @@ proxies:
     headers:
       Host: 104.21.48.161
   udp: true
-- name: 🏁RELAY-104.21.49.121-4672
-  server: akrab1.v-pn.my.id
-  port: 8443
-  type: vmess
-  uuid: 430b6895-2e0f-4716-9410-e1339d0f9af6
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /v2us01
-    headers:
-      Host: cf-us01-90.clashzone.xyz
-  udp: true
-- name: 🏁RELAY-104.21.49.121-4799
+- name: 🏁RELAY-104.21.49.121-4879
   server: akrab1.v-pn.my.id
   port: 8443
   type: vmess
@@ -2144,7 +2370,7 @@ proxies:
     headers:
       Host: cf-az01-81.clashzone.xyz
   udp: true
-- name: 🏁RELAY-104.21.49.65-6585
+- name: 🏁RELAY-104.21.49.65-6665
   server: akrab1.v-pn.my.id
   port: 2083
   type: vmess
@@ -2159,7 +2385,7 @@ proxies:
     headers:
       Host: xui.mycf.ml
   udp: true
-- name: 🏁RELAY-104.21.51.208-0162
+- name: 🏁RELAY-104.21.51.208-0197
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -2174,7 +2400,7 @@ proxies:
     headers:
       Host: nina.bond
   udp: true
-- name: 🏁RELAY-104.21.51.208-1408
+- name: 🏁RELAY-104.21.51.208-1395
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -2189,7 +2415,7 @@ proxies:
     headers:
       Host: nina.bond
   udp: true
-- name: 🏁RELAY-104.21.53.12-2667
+- name: 🏁RELAY-104.21.53.12-2771
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -2205,7 +2431,7 @@ proxies:
     headers:
       Host: ophelia.mom
   udp: true
-- name: 🏁RELAY-104.21.55.234-1449
+- name: 🏁RELAY-104.21.55.234-1436
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -2220,7 +2446,7 @@ proxies:
     headers:
       Host: gwdef.sbs
   udp: true
-- name: 🏁RELAY-104.21.56.64-1292
+- name: 🏁RELAY-104.21.56.64-1279
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -2235,7 +2461,20 @@ proxies:
     headers:
       Host: 116.supermanapp.top
   udp: true
-- name: 🏁RELAY-104.21.61.214-0147
+- name: 🏁RELAY-104.21.60.120-9193
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: trojan
+  password: 0ad5e311-7189-4124-ac8f-f828b681f10e
+  sni: c5mc.cdncisco.org
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /5CSwsJSwLmxCxOCSBhOZubb
+    headers:
+      Host: c5mc.cdncisco.org
+  udp: true
+- name: 🏁RELAY-104.21.61.214-0243
   server: akrab1.v-pn.my.id
   port: 8080
   type: vmess
@@ -2250,22 +2489,7 @@ proxies:
     headers:
       Host: www.darkroom.lol
   udp: true
-- name: 🏁RELAY-104.21.61.214-0246
-  server: akrab1.v-pn.my.id
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.darkroom.lol
-  udp: true
-- name: 🏁RELAY-104.21.63.65-6997
+- name: 🏁RELAY-104.21.63.65-7077
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -2280,20 +2504,37 @@ proxies:
     headers:
       Host: test.taskerprofile.cf
   udp: true
-- name: 🏁RELAY-104.21.69.44-2229
+- name: 🏁RELAY-104.21.67.88-2214
   server: akrab1.v-pn.my.id
   port: 443
-  type: trojan
-  password: 17f4087c-d014-491e-b89c-c54391fda9cd
-  sni: psg4.pqjc.buzz
+  type: vmess
+  uuid: 3853a2ab-6bec-4503-89b9-d3cbcc6b69c9
+  alterId: 64
+  cipher: auto
+  tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: '%2Fpq%2Fsg2'
+    path: /h6jr23x9h3lqiitg
     headers:
-      Host: psg4.pqjc.buzz
+      Host: hkd1.quickerlink.xyz
   udp: true
-- name: 🏁RELAY-104.21.75.246-2692
+- name: 🏁RELAY-104.21.7.50-9215
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: b3a21def-5fcc-47a8-a6a0-a34e29d5288a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /wss51068
+    headers:
+      Host: b2n.ir
+  udp: true
+- name: 🏁RELAY-104.21.75.246-2796
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -2309,7 +2550,7 @@ proxies:
     headers:
       Host: cf.tonyluk.link
   udp: true
-- name: 🏁RELAY-104.21.75.246-7044
+- name: 🏁RELAY-104.21.75.246-7124
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -2324,11 +2565,11 @@ proxies:
     headers:
       Host: wnd3.shabijichang.com
   udp: true
-- name: 🏁RELAY-104.21.75.246-7054
+- name: 🏁RELAY-104.21.75.246-7132
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
-  uuid: 56278a1a-c7cc-459f-b00c-3037e4f99590
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   alterId: 0
   cipher: auto
   tls: false
@@ -2337,9 +2578,9 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: jd2.shabijichang.com
+      Host: sbl2.shabijichang.com
   udp: true
-- name: 🏁RELAY-104.21.75.246-7057
+- name: 🏁RELAY-104.21.75.246-7137
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -2354,7 +2595,7 @@ proxies:
     headers:
       Host: mm2.shabijichang.com
   udp: true
-- name: 🏁RELAY-104.21.75.246-7060
+- name: 🏁RELAY-104.21.75.246-7139
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -2367,24 +2608,39 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: yhnsb3.shabijichang.com
+      Host: ld2.shabijichang.com
   udp: true
-- name: 🏁RELAY-104.21.78.137-2278
+- name: 🏁RELAY-104.21.75.246-7144
   server: akrab1.v-pn.my.id
-  port: 443
+  port: 80
   type: vmess
-  uuid: 6c7c5e3a-73ad-467a-1241-206987daa04f
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: /ws
+      Host: jd3.shabijichang.com
   udp: true
-- name: 🏁RELAY-104.21.79.141-1280
+- name: 🏁RELAY-104.21.75.246-7145
+  server: akrab1.v-pn.my.id
+  port: 80
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: mm3.shabijichang.com
+  udp: true
+- name: 🏁RELAY-104.21.79.141-1267
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -2399,7 +2655,7 @@ proxies:
     headers:
       Host: 116.supermanapp.top
   udp: true
-- name: 🏁RELAY-104.21.79.246-10039
+- name: 🏁RELAY-104.21.79.246-10119
   server: akrab1.v-pn.my.id
   port: 443
   type: trojan
@@ -2412,7 +2668,7 @@ proxies:
     headers:
       Host: notdirect.howhealthyistoomajreally.homes
   udp: true
-- name: 🏁RELAY-104.21.79.246-9030
+- name: 🏁RELAY-104.21.79.246-9110
   server: akrab1.v-pn.my.id
   port: 443
   type: trojan
@@ -2425,7 +2681,7 @@ proxies:
     headers:
       Host: notdirect.howhealthyistoomajreally.homes
   udp: true
-- name: 🏁RELAY-104.21.79.46-1289
+- name: 🏁RELAY-104.21.79.46-1276
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -2455,7 +2711,7 @@ proxies:
     headers:
       Host: server33.beheshtbaneh.com
   udp: true
-- name: 🏁RELAY-104.21.82.183-0152
+- name: 🏁RELAY-104.21.82.183-0151
   server: akrab1.v-pn.my.id
   port: 8880
   type: vmess
@@ -2470,7 +2726,22 @@ proxies:
     headers:
       Host: server20.beheshtbaneh.com
   udp: true
-- name: 🏁RELAY-104.21.82.183-0186
+- name: 🏁RELAY-104.21.82.183-0153
+  server: akrab1.v-pn.my.id
+  port: 8880
+  type: vmess
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: server26.beheshtbaneh.com
+  udp: true
+- name: 🏁RELAY-104.21.82.183-0161
   server: akrab1.v-pn.my.id
   port: 8880
   type: vmess
@@ -2485,7 +2756,22 @@ proxies:
     headers:
       Host: server31.beheshtbaneh.com
   udp: true
-- name: 🏁RELAY-104.21.82.183-0193
+- name: 🏁RELAY-104.21.82.183-0168
+  server: akrab1.v-pn.my.id
+  port: 8880
+  type: vmess
+  uuid: 7ee41eb4-0594-4e2d-92a7-5dd3ee513692
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: server20.beheshtbaneh.com
+  udp: true
+- name: 🏁RELAY-104.21.82.183-0195
   server: akrab1.v-pn.my.id
   port: 8880
   type: vmess
@@ -2500,37 +2786,7 @@ proxies:
     headers:
       Host: server26.beheshtbaneh.com
   udp: true
-- name: 🏁RELAY-104.21.82.183-0209
-  server: akrab1.v-pn.my.id
-  port: 8880
-  type: vmess
-  uuid: 8420ee38-4cf6-4d79-a9ec-2731207cf83a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: server2.beheshtbaneh.com
-  udp: true
-- name: 🏁RELAY-104.21.82.183-0216
-  server: akrab1.v-pn.my.id
-  port: 8880
-  type: vmess
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: server26.beheshtbaneh.com
-  udp: true
-- name: 🏁RELAY-104.21.82.183-0220
+- name: 🏁RELAY-104.21.82.183-0205
   server: akrab1.v-pn.my.id
   port: 8880
   type: vmess
@@ -2545,7 +2801,22 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
   udp: true
-- name: 🏁RELAY-104.21.82.183-1244
+- name: 🏁RELAY-104.21.82.183-1222
+  server: akrab1.v-pn.my.id
+  port: 8880
+  type: vmess
+  uuid: c5626b16-4c57-4d7e-8668-6b1ecda5c8b5
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: server6.beheshtbaneh.com
+  udp: true
+- name: 🏁RELAY-104.21.82.183-1231
   server: akrab1.v-pn.my.id
   port: 8880
   type: vmess
@@ -2560,7 +2831,7 @@ proxies:
     headers:
       Host: server11.beheshtbaneh.com
   udp: true
-- name: 🏁RELAY-104.21.82.183-1268
+- name: 🏁RELAY-104.21.82.183-1255
   server: akrab1.v-pn.my.id
   port: 8880
   type: vmess
@@ -2575,11 +2846,11 @@ proxies:
     headers:
       Host: server12.beheshtbaneh.com
   udp: true
-- name: 🏁RELAY-104.21.82.183-1270
+- name: 🏁RELAY-104.21.82.183-1315
   server: akrab1.v-pn.my.id
   port: 8880
   type: vmess
-  uuid: f46acc36-5edf-4c5f-8c8f-3520ff46cdd9
+  uuid: e305fc57-6153-4650-8c52-9a36865a199d
   alterId: 0
   cipher: auto
   tls: false
@@ -2588,9 +2859,24 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: server8.beheshtbaneh.com
+      Host: server3.beheshtbaneh.com
   udp: true
-- name: 🏁RELAY-104.21.84.60-2663
+- name: 🏁RELAY-104.21.83.10-2572
+  server: akrab1.v-pn.my.id
+  port: 8080
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: www.coldstone.club
+  udp: true
+- name: 🏁RELAY-104.21.84.60-2767
   server: akrab1.v-pn.my.id
   port: 8443
   type: vmess
@@ -2606,22 +2892,22 @@ proxies:
     headers:
       Host: brcf.duaaoped.xyz
   udp: true
-- name: 🏁RELAY-104.21.84.81-3425
+- name: 🏁RELAY-104.21.84.81-3382
   server: akrab1.v-pn.my.id
-  port: 443
+  port: 80
   type: vmess
-  uuid: 68fe8d27-cbc8-4e72-90b7-70d3bb69dfd3
+  uuid: 05ab5fed-281d-4882-c29c-3c6dc8434fb0
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /api
+    path: /ray
     headers:
-      Host: cdn.xia.me
+      Host: cf.515188.xyz
   udp: true
-- name: 🏁RELAY-104.21.89.252-0231
+- name: 🏁RELAY-104.21.89.252-0148
   server: akrab1.v-pn.my.id
   port: 8080
   type: vmess
@@ -2636,7 +2922,22 @@ proxies:
     headers:
       Host: www.crispyrainbow.online
   udp: true
-- name: 🏁RELAY-104.21.89.56-1603
+- name: 🏁RELAY-104.21.89.252-0204
+  server: akrab1.v-pn.my.id
+  port: 8080
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: www.crispyrainbow.online
+  udp: true
+- name: 🏁RELAY-104.21.89.56-1607
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -2651,22 +2952,22 @@ proxies:
     headers:
       Host: surongwei.eu.org
   udp: true
-- name: 🏁RELAY-104.21.90.210-1247
+- name: 🏁RELAY-104.21.90.218-0843
   server: akrab1.v-pn.my.id
-  port: 443
+  port: 8880
   type: vmess
-  uuid: 475e3bfc-cb14-47fd-b6b8-a6c2d27ea259
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /vmess?ed=2048
+    path: /
     headers:
-      Host: gdsgrenderwestgsg.nihaoaaaa.tk
+      Host: food.zhaal.ir
   udp: true
-- name: 🏁RELAY-104.21.91.254-2636
+- name: 🏁RELAY-104.21.91.254-2740
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -2682,7 +2983,37 @@ proxies:
     headers:
       Host: waynn.makeup
   udp: true
-- name: 🏁RELAY-104.21.91.73-1448
+- name: 🏁RELAY-104.21.91.52-1314
+  server: akrab1.v-pn.my.id
+  port: 80
+  type: vmess
+  uuid: 6101f6c5-86a2-46d1-a0b0-3dafdf2a8535
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: dk1.xv2ray.net
+  udp: true
+- name: 🏁RELAY-104.21.91.73-0797
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: 45f63e92-f782-4cac-84b8-e61cb5a5bfd0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: adenc35.fixedlfoat.top
+  udp: true
+- name: 🏁RELAY-104.21.91.73-1435
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -2712,7 +3043,7 @@ proxies:
     headers:
       Host: www.blueberrywindow.online
   udp: true
-- name: 🏁RELAY-104.21.94.99-0230
+- name: 🏁RELAY-104.21.94.99-0201
   server: akrab1.v-pn.my.id
   port: 8080
   type: vmess
@@ -2727,7 +3058,7 @@ proxies:
     headers:
       Host: www.blueberrywindow.online
   udp: true
-- name: 🏁RELAY-104.21.96.13-9062
+- name: 🏁RELAY-104.21.96.13-9142
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -2742,7 +3073,7 @@ proxies:
     headers:
       Host: ip.saintink.eu.org
   udp: true
-- name: 🏁RELAY-104.21.96.13-9063
+- name: 🏁RELAY-104.21.96.13-9143
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -2757,7 +3088,7 @@ proxies:
     headers:
       Host: ip.saintink.eu.org
   udp: true
-- name: 🏁RELAY-104.22.51.162-0181
+- name: 🏁RELAY-104.22.51.162-0259
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -2772,7 +3103,7 @@ proxies:
     headers:
       Host: my1.tooters.ir
   udp: true
-- name: 🏁RELAY-104.22.51.162-0203
+- name: 🏁RELAY-104.22.51.162-1507
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -2787,22 +3118,7 @@ proxies:
     headers:
       Host: my1.tooters.ir
   udp: true
-- name: 🏁RELAY-104.22.51.162-1135
-  server: akrab1.v-pn.my.id
-  port: 80
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.greendam.site
-  udp: true
-- name: 🏁RELAY-104.22.52.93-1315
+- name: 🏁RELAY-104.22.52.93-1302
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -2817,7 +3133,7 @@ proxies:
     headers:
       Host: zhuyong.hucloud-dns.xyz
   udp: true
-- name: 🏁RELAY-104.22.75.105-2643
+- name: 🏁RELAY-104.22.75.105-2747
   server: akrab1.v-pn.my.id
   port: 8880
   type: vmess
@@ -2832,7 +3148,7 @@ proxies:
     headers:
       Host: fr7.tehme100.fun
   udp: true
-- name: 🏁RELAY-104.24.145.43-2648
+- name: 🏁RELAY-104.24.145.43-2752
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -2848,23 +3164,7 @@ proxies:
     headers:
       Host: sand.blanku.me
   udp: true
-- name: 🏁RELAY-104.24.176.7-2704
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: vmess
-  uuid: c8abf66a-1903-4638-a448-9c86733e4254
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: sandp.blanku.me
-  network: ws
-  ws-opts:
-    path: /wss13480
-    headers:
-      Host: sand.blanku.me
-  udp: true
-- name: 🏁RELAY-104.24.177.7-0025
+- name: 🏁RELAY-104.24.176.7-0025
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -2880,7 +3180,7 @@ proxies:
     headers:
       Host: hstr1675520106270.aidapp.life
   udp: true
-- name: 🏁RELAY-104.24.177.7-2654
+- name: 🏁RELAY-104.24.176.7-2808
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -2896,7 +3196,7 @@ proxies:
     headers:
       Host: sand.blanku.me
   udp: true
-- name: 🏁RELAY-104.24.185.137-2633
+- name: 🏁RELAY-104.24.177.7-2758
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -2912,7 +3212,38 @@ proxies:
     headers:
       Host: sand.blanku.me
   udp: true
-- name: 🏁RELAY-104.24.200.53-9027
+- name: 🏁RELAY-104.24.185.137-2737
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: c8abf66a-1903-4638-a448-9c86733e4254
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: sandp.blanku.me
+  network: ws
+  ws-opts:
+    path: /wss13480
+    headers:
+      Host: sand.blanku.me
+  udp: true
+- name: 🏁RELAY-104.24.200.75-9108
+  server: akrab1.v-pn.my.id
+  port: 80
+  type: vmess
+  uuid: 8abe9496-5e24-4e49-b566-dcf86116017d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /i99LgvSaslbsPLLQQ7j6Z
+    headers:
+      Host: ns1.v2-vip.fun
+  udp: true
+- name: 🏁RELAY-104.24.200.77-9107
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -2927,22 +3258,7 @@ proxies:
     headers:
       Host: ns1.v2-vip.fun
   udp: true
-- name: 🏁RELAY-104.24.200.57-9028
-  server: akrab1.v-pn.my.id
-  port: 80
-  type: vmess
-  uuid: 8abe9496-5e24-4e49-b566-dcf86116017d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /i99LgvSaslbsPLLQQ7j6Z
-    headers:
-      Host: ns1.v2-vip.fun
-  udp: true
-- name: 🏁RELAY-104.24.208.37-0183
+- name: 🏁RELAY-104.24.208.37-0173
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -2957,7 +3273,7 @@ proxies:
     headers:
       Host: my1.tooters.ir
   udp: true
-- name: 🏁RELAY-104.24.37.161-1293
+- name: 🏁RELAY-104.24.37.161-1280
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -2972,7 +3288,7 @@ proxies:
     headers:
       Host: 116.supermanapp.top
   udp: true
-- name: 🏁RELAY-104.25.105.122-2671
+- name: 🏁RELAY-104.25.105.122-2775
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -2988,7 +3304,7 @@ proxies:
     headers:
       Host: sand.blanku.me
   udp: true
-- name: 🏁RELAY-104.25.254.162-1525
+- name: 🏁RELAY-104.25.254.162-1529
   server: akrab1.v-pn.my.id
   port: 2096
   type: vmess
@@ -3003,7 +3319,7 @@ proxies:
     headers:
       Host: s1.shargh.shop
   udp: true
-- name: 🏁RELAY-104.25.38.74-1520
+- name: 🏁RELAY-104.25.38.74-1524
   server: akrab1.v-pn.my.id
   port: 2096
   type: vmess
@@ -3018,7 +3334,7 @@ proxies:
     headers:
       Host: s1.shargh.shop
   udp: true
-- name: 🏁RELAY-104.25.52.187-2300
+- name: 🏁RELAY-104.25.52.187-2311
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3033,7 +3349,7 @@ proxies:
     headers:
       Host: free.frli.xyz
   udp: true
-- name: 🏁RELAY-104.25.52.187-2460
+- name: 🏁RELAY-104.25.52.187-2454
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3048,7 +3364,7 @@ proxies:
     headers:
       Host: 104.25.52.187
   udp: true
-- name: 🏁RELAY-104.25.99.169-2709
+- name: 🏁RELAY-104.25.99.169-2813
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3064,22 +3380,67 @@ proxies:
     headers:
       Host: sand.blanku.me
   udp: true
-- name: 🏁RELAY-104.26.4.10-1604
+- name: 🏁RELAY-104.26.0.26-0529
+  server: akrab1.v-pn.my.id
+  port: 8080
+  type: vmess
+  uuid: 010c265f-5455-4141-ca23-4d69357ded0d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: aktw.daozhang.love
+  udp: true
+- name: 🏁RELAY-104.26.1.26-2017
+  server: akrab1.v-pn.my.id
+  port: 8080
+  type: vmess
+  uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hytron.io
+  udp: true
+- name: 🏁RELAY-104.26.12.31-0159
+  server: akrab1.v-pn.my.id
+  port: 80
+  type: vmess
+  uuid: 113a74cc-f13b-48ec-bbb2-2bbab77a2f35
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: kr1.ljyyds.top
+  udp: true
+- name: 🏁RELAY-104.26.8.179-2339
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
-  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  uuid: 3a3e263d-223f-49cc-bbdb-f7e07a55e6fe
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /sshkit/401452697/635b464921141/
+    path: /111111.online
     headers:
-      Host: sg1-v2ray.sshkit.org
+      Host: by.6111.online
   udp: true
-- name: 🏁RELAY-104.26.8.179-2433
+- name: 🏁RELAY-104.26.8.179-2427
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3094,7 +3455,7 @@ proxies:
     headers:
       Host: ping.pe
   udp: true
-- name: 🏁RELAY-104.26.8.202-0192
+- name: 🏁RELAY-104.26.8.202-0222
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3109,22 +3470,7 @@ proxies:
     headers:
       Host: vip2323.cfd
   udp: true
-- name: 🏁RELAY-104.26.8.202-0195
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vip2323.cfd
-  udp: true
-- name: 🏁RELAY-104.26.8.202-1272
+- name: 🏁RELAY-104.26.8.202-1259
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3139,7 +3485,7 @@ proxies:
     headers:
       Host: vip2323.cfd
   udp: true
-- name: 🏁RELAY-104.26.8.202-1321
+- name: 🏁RELAY-104.26.8.202-1308
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3154,7 +3500,7 @@ proxies:
     headers:
       Host: vip2323.cfd
   udp: true
-- name: 🏁RELAY-104.26.9.112-3452
+- name: 🏁RELAY-104.26.9.112-0031
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -3167,9 +3513,9 @@ proxies:
   ws-opts:
     path: /shared
     headers:
-      Host: get.tech
+      Host: lv.awsbest.com
   udp: true
-- name: 🏁RELAY-104.26.9.202-0182
+- name: 🏁RELAY-104.26.9.202-0172
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3184,7 +3530,7 @@ proxies:
     headers:
       Host: vip2323.cfd
   udp: true
-- name: 🏁RELAY-104.26.9.202-1324
+- name: 🏁RELAY-104.26.9.202-1311
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3199,7 +3545,7 @@ proxies:
     headers:
       Host: vip2323.cfd
   udp: true
-- name: 🏁RELAY-104.27.203.169-2705
+- name: 🏁RELAY-104.27.203.169-2809
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3215,7 +3561,7 @@ proxies:
     headers:
       Host: sand.blanku.me
   udp: true
-- name: 🏁RELAY-104.27.38.85-2701
+- name: 🏁RELAY-104.27.38.85-2805
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3246,7 +3592,7 @@ proxies:
     headers:
       Host: nla.yj2022.gq
   udp: true
-- name: 🏁RELAY-104.27.48.18-1381
+- name: 🏁RELAY-104.27.48.18-1368
   server: akrab1.v-pn.my.id
   port: 8880
   type: vmess
@@ -3261,7 +3607,7 @@ proxies:
     headers:
       Host: nla.yj2022.gq
   udp: true
-- name: 🏁RELAY-104.27.97.174-2706
+- name: 🏁RELAY-104.27.97.174-2810
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3277,7 +3623,7 @@ proxies:
     headers:
       Host: sand.blanku.me
   udp: true
-- name: 🏁RELAY-104.27.97.42-2702
+- name: 🏁RELAY-104.27.97.42-2806
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3293,7 +3639,7 @@ proxies:
     headers:
       Host: sand.blanku.me
   udp: true
-- name: 🏁RELAY-104.29.64.2-1613
+- name: 🏁RELAY-104.29.64.2-1617
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3308,7 +3654,7 @@ proxies:
     headers:
       Host: fr2.cfcdn4.xyz
   udp: true
-- name: 🏁RELAY-104.29.64.25-6626
+- name: 🏁RELAY-104.29.64.25-6706
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3323,7 +3669,7 @@ proxies:
     headers:
       Host: lg30.cfcdn3.xyz
   udp: true
-- name: 🏁RELAY-104.29.64.30-6616
+- name: 🏁RELAY-104.29.64.30-6696
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3338,7 +3684,7 @@ proxies:
     headers:
       Host: de1.kuainiao.buzz
   udp: true
-- name: 🏁RELAY-104.29.64.36-6618
+- name: 🏁RELAY-104.29.64.36-6698
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3353,7 +3699,7 @@ proxies:
     headers:
       Host: de1.kuainiao.buzz
   udp: true
-- name: 🏁RELAY-104.29.64.5-6627
+- name: 🏁RELAY-104.29.64.5-6707
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3368,7 +3714,7 @@ proxies:
     headers:
       Host: us3.guolicheng.cyou
   udp: true
-- name: 🏁RELAY-104.31.16.23-0210
+- name: 🏁RELAY-104.31.16.23-0931
   server: akrab1.v-pn.my.id
   port: 2086
   type: vmess
@@ -3383,7 +3729,7 @@ proxies:
     headers:
       Host: 4.potionerx.click
   udp: true
-- name: 🏁RELAY-104.31.16.23-1446
+- name: 🏁RELAY-104.31.16.23-1433
   server: akrab1.v-pn.my.id
   port: 2086
   type: vmess
@@ -3398,7 +3744,7 @@ proxies:
     headers:
       Host: 4.potionerx.click
   udp: true
-- name: 🏁RELAY-104.31.16.28-2690
+- name: 🏁RELAY-104.31.16.28-2794
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -3413,7 +3759,7 @@ proxies:
     headers:
       Host: ca4.tehme2.fun
   udp: true
-- name: 🏁RELAY-104.31.16.46-2666
+- name: 🏁RELAY-104.31.16.46-2770
   server: akrab1.v-pn.my.id
   port: 2082
   type: vmess
@@ -3428,7 +3774,7 @@ proxies:
     headers:
       Host: ca5.tehme100.fun
   udp: true
-- name: 🏁RELAY-108.162.192.55-1314
+- name: 🏁RELAY-108.162.192.55-1301
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -3443,7 +3789,22 @@ proxies:
     headers:
       Host: us-lb.sshkit.org
   udp: true
-- name: 🏁RELAY-141.101.113.194-1413
+- name: 🏁RELAY-108.162.198.252-4044
+  server: akrab1.v-pn.my.id
+  port: 80
+  type: vmess
+  uuid: 851278d6-8c0b-4147-8939-89cface46627
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /video/VDXcaM7r
+    headers:
+      Host: GWYp69Yujp2.yofnhkfc.xyz
+  udp: true
+- name: 🏁RELAY-141.101.113.194-1400
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -3458,7 +3819,7 @@ proxies:
     headers:
       Host: caonimashabiwanyi22.daxiongda.top
   udp: true
-- name: 🏁RELAY-141.101.114.100-1582
+- name: 🏁RELAY-141.101.114.100-1586
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3473,7 +3834,7 @@ proxies:
     headers:
       Host: lg1.cfcdn2.xyz
   udp: true
-- name: 🏁RELAY-141.101.114.102-1592
+- name: 🏁RELAY-141.101.114.102-1596
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3488,7 +3849,7 @@ proxies:
     headers:
       Host: clash6.ssr-free.xyz
   udp: true
-- name: 🏁RELAY-141.101.114.111-1610
+- name: 🏁RELAY-141.101.114.111-1614
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3503,7 +3864,7 @@ proxies:
     headers:
       Host: fr2.cfcdn4.xyz
   udp: true
-- name: 🏁RELAY-141.101.114.120-1584
+- name: 🏁RELAY-141.101.114.120-1588
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3518,7 +3879,7 @@ proxies:
     headers:
       Host: clash6.ssr-free.xyz
   udp: true
-- name: 🏁RELAY-141.101.114.120-6646
+- name: 🏁RELAY-141.101.114.120-6726
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3533,7 +3894,7 @@ proxies:
     headers:
       Host: lg1.cfcdn3.xyz
   udp: true
-- name: 🏁RELAY-141.101.114.121-1654
+- name: 🏁RELAY-141.101.114.121-1658
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3548,7 +3909,7 @@ proxies:
     headers:
       Host: fr2.cfcdn4.xyz
   udp: true
-- name: 🏁RELAY-141.101.114.133-1631
+- name: 🏁RELAY-141.101.114.133-1635
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3563,7 +3924,7 @@ proxies:
     headers:
       Host: lg1.cfcdn1.xyz
   udp: true
-- name: 🏁RELAY-141.101.114.150-1586
+- name: 🏁RELAY-141.101.114.150-1590
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3578,7 +3939,7 @@ proxies:
     headers:
       Host: clash6.ssr-free.xyz
   udp: true
-- name: 🏁RELAY-141.101.114.17-1642
+- name: 🏁RELAY-141.101.114.17-1646
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3593,7 +3954,7 @@ proxies:
     headers:
       Host: clash6.ssr-free.xyz
   udp: true
-- name: 🏁RELAY-141.101.114.20-1621
+- name: 🏁RELAY-141.101.114.20-1625
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3608,7 +3969,7 @@ proxies:
     headers:
       Host: clash1.trump2023.net
   udp: true
-- name: 🏁RELAY-141.101.114.25-1602
+- name: 🏁RELAY-141.101.114.25-1606
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3623,7 +3984,7 @@ proxies:
     headers:
       Host: lg30.cfcdn3.xyz
   udp: true
-- name: 🏁RELAY-141.101.114.30-1656
+- name: 🏁RELAY-141.101.114.30-1660
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3638,7 +3999,7 @@ proxies:
     headers:
       Host: lg1.trump2023.us
   udp: true
-- name: 🏁RELAY-141.101.114.31-1667
+- name: 🏁RELAY-141.101.114.31-1671
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3653,7 +4014,7 @@ proxies:
     headers:
       Host: oplg1.zhujicn2.com
   udp: true
-- name: 🏁RELAY-141.101.114.32-2448
+- name: 🏁RELAY-141.101.114.32-2442
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3668,7 +4029,7 @@ proxies:
     headers:
       Host: 141.101.114.32
   udp: true
-- name: 🏁RELAY-141.101.114.32-6549
+- name: 🏁RELAY-141.101.114.32-6629
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3683,7 +4044,7 @@ proxies:
     headers:
       Host: lg10.cfcdn1.xyz
   udp: true
-- name: 🏁RELAY-141.101.115.111-1632
+- name: 🏁RELAY-141.101.115.111-1636
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3698,7 +4059,7 @@ proxies:
     headers:
       Host: fr2.cfcdn4.xyz
   udp: true
-- name: 🏁RELAY-141.101.115.120-1711
+- name: 🏁RELAY-141.101.115.120-1715
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3713,7 +4074,7 @@ proxies:
     headers:
       Host: clash6.ssr-free.xyz
   udp: true
-- name: 🏁RELAY-141.101.115.121-1599
+- name: 🏁RELAY-141.101.115.121-1603
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3728,7 +4089,7 @@ proxies:
     headers:
       Host: lg30.cfcdn3.xyz
   udp: true
-- name: 🏁RELAY-141.101.115.133-1628
+- name: 🏁RELAY-141.101.115.133-1632
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3743,7 +4104,7 @@ proxies:
     headers:
       Host: lg1.cfcdn1.xyz
   udp: true
-- name: 🏁RELAY-141.101.115.136-1633
+- name: 🏁RELAY-141.101.115.136-1637
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3758,7 +4119,7 @@ proxies:
     headers:
       Host: lg1.cfcdn1.xyz
   udp: true
-- name: 🏁RELAY-141.101.115.140-1625
+- name: 🏁RELAY-141.101.115.140-1629
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3773,7 +4134,7 @@ proxies:
     headers:
       Host: clash6.ssr-free.xyz
   udp: true
-- name: 🏁RELAY-141.101.115.160-1648
+- name: 🏁RELAY-141.101.115.160-1652
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3788,7 +4149,7 @@ proxies:
     headers:
       Host: clash6.ssr-free.xyz
   udp: true
-- name: 🏁RELAY-141.101.115.2-1189
+- name: 🏁RELAY-141.101.115.2-1176
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3803,7 +4164,7 @@ proxies:
     headers:
       Host: lg1.zhujicn2.com
   udp: true
-- name: 🏁RELAY-141.101.115.30-1684
+- name: 🏁RELAY-141.101.115.30-1688
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3818,7 +4179,7 @@ proxies:
     headers:
       Host: lg1.trump2023.us
   udp: true
-- name: 🏁RELAY-141.101.121.52-3989
+- name: 🏁RELAY-141.101.121.52-4069
   server: akrab1.v-pn.my.id
   port: 2052
   type: vmess
@@ -3833,7 +4194,252 @@ proxies:
     headers:
       Host: 7nAi74jJsg1.yofnhkfc.xyz
   udp: true
-- name: 🏁RELAY-141.193.213.20-1110
+- name: 🏁RELAY-141.101.123.142-0039
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: lu.sharecentre.online
+  udp: true
+- name: 🏁RELAY-141.101.123.142-0045
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: us-dp.sharecentre.online
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: us-dp.sharecentre.online
+  udp: true
+- name: 🏁RELAY-141.101.123.142-0049
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: sg-gcore.sharecentre.online
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: sg-gcore.sharecentre.online
+  udp: true
+- name: 🏁RELAY-141.101.123.142-0062
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: opc-jp.sharecentre.online
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: opc-jp.sharecentre.online
+  udp: true
+- name: 🏁RELAY-141.101.123.142-0095
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: de-1.sharecentre.online
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: de-1.sharecentre.online
+  udp: true
+- name: 🏁RELAY-141.101.123.142-1097
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: sg-gcore.sharecentre.online
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: cf-lt.sharecentre.online
+  udp: true
+- name: 🏁RELAY-141.101.123.142-1406
+  server: akrab1.v-pn.my.id
+  port: 80
+  type: vmess
+  uuid: ae056da6-d893-4f06-94f5-1876a6a76fcf
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed
+    headers:
+      Host: mianfei-uk-0001.bpjc.site
+  udp: true
+- name: 🏁RELAY-141.101.123.142-6336
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: lvryzenkvm1gb.sharecentre.online
+  udp: true
+- name: 🏁RELAY-141.101.123.142-6338
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: us-east.sharecentre.online
+  udp: true
+- name: 🏁RELAY-141.193.213.20-1667
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /5QNROSRV
+    headers:
+      Host: oplg1.zhujicn2.com
+  udp: true
+- name: 🏁RELAY-141.193.213.20-2502
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /IYKLD53M
+    headers:
+      Host: 141.193.213.20
+  udp: true
+- name: 🏁RELAY-141.193.213.20-3426
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ECTCJ0DF
+    headers:
+      Host: news.microsoft.com
+  udp: true
+- name: 🏁RELAY-141.193.213.20-6576
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /9JZFDTKE
+    headers:
+      Host: fr1.trump2023.org
+  udp: true
+- name: 🏁RELAY-141.193.213.20-6628
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /IYKLD53M
+    headers:
+      Host: opfr1.v2rayfree1.xyz
+  udp: true
+- name: 🏁RELAY-141.193.213.20-6930
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uk2.v2rayserv.com
+  udp: true
+- name: 🏁RELAY-141.193.213.20-6934
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: 615a1285-5848-42a1-9859-d4cb37b1fbd8
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /share
+    headers:
+      Host: us.awsbest.com
+  udp: true
+- name: 🏁RELAY-141.193.213.21-1114
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3849,7 +4455,7 @@ proxies:
     headers:
       Host: news.microsoft.com
   udp: true
-- name: 🏁RELAY-141.193.213.20-1663
+- name: 🏁RELAY-141.193.213.21-1675
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3864,52 +4470,7 @@ proxies:
     headers:
       Host: oplg1.zhujicn2.com
   udp: true
-- name: 🏁RELAY-141.193.213.20-2508
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: vmess
-  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /IYKLD53M
-    headers:
-      Host: 141.193.213.20
-  udp: true
-- name: 🏁RELAY-141.193.213.20-2563
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: vmess
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /5QNROSRV
-    headers:
-      Host: news.microsoft.com
-  udp: true
-- name: 🏁RELAY-141.193.213.20-3322
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: vmess
-  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ECTCJ0DF
-    headers:
-      Host: news.microsoft.com
-  udp: true
-- name: 🏁RELAY-141.193.213.20-6496
+- name: 🏁RELAY-141.193.213.21-1780
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -3924,97 +4485,7 @@ proxies:
     headers:
       Host: fr1.trump2023.org
   udp: true
-- name: 🏁RELAY-141.193.213.20-6528
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: vmess
-  uuid: 781be00e-1e09-4e27-a464-e14197418c8f
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: id5.v2rayserv.com
-  udp: true
-- name: 🏁RELAY-141.193.213.20-6548
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: vmess
-  uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /IYKLD53M
-    headers:
-      Host: opfr1.v2rayfree1.xyz
-  udp: true
-- name: 🏁RELAY-141.193.213.20-6850
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: vmess
-  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uk2.v2rayserv.com
-  udp: true
-- name: 🏁RELAY-141.193.213.20-6854
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: vmess
-  uuid: 615a1285-5848-42a1-9859-d4cb37b1fbd8
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /share
-    headers:
-      Host: us.awsbest.com
-  udp: true
-- name: 🏁RELAY-141.193.213.21-1671
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: vmess
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /5QNROSRV
-    headers:
-      Host: oplg1.zhujicn2.com
-  udp: true
-- name: 🏁RELAY-141.193.213.21-1776
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: vmess
-  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /9JZFDTKE
-    headers:
-      Host: fr1.trump2023.org
-  udp: true
-- name: 🏁RELAY-141.193.213.21-2445
+- name: 🏁RELAY-141.193.213.21-2439
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -4029,7 +4500,7 @@ proxies:
     headers:
       Host: news.microsoft.com
   udp: true
-- name: 🏁RELAY-141.193.213.21-2483
+- name: 🏁RELAY-141.193.213.21-2477
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -4044,35 +4515,35 @@ proxies:
     headers:
       Host: 141.193.213.21
   udp: true
-- name: 🏁RELAY-162.159.128.233-9104
+- name: 🏁RELAY-141.193.213.21-2557
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
-  uuid: 824c58b1-65ba-4680-a609-663a000dbb92
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /wss13889
+    path: /5QNROSRV
     headers:
-      Host: discord.com
+      Host: news.microsoft.com
   udp: true
-- name: 🏁RELAY-162.159.128.233-9105
+- name: 🏁RELAY-141.193.213.21-6608
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
-  uuid: b3a21def-5fcc-47a8-a6a0-a34e29d5288a
+  uuid: 781be00e-1e09-4e27-a464-e14197418c8f
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /wss51068
+    path: /
     headers:
-      Host: discord.com
+      Host: id5.v2rayserv.com
   udp: true
 - name: 🏁RELAY-162.159.128.7-0058
   server: akrab1.v-pn.my.id
@@ -4104,7 +4575,7 @@ proxies:
     headers:
       Host: lg10.cfcdn1.xyz
   udp: true
-- name: 🏁RELAY-162.159.128.7-6452
+- name: 🏁RELAY-162.159.128.7-6532
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -4119,7 +4590,7 @@ proxies:
     headers:
       Host: gcssjp.sylu.cyou
   udp: true
-- name: 🏁RELAY-162.159.128.7-6454
+- name: 🏁RELAY-162.159.128.7-6534
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -4134,7 +4605,7 @@ proxies:
     headers:
       Host: hk.sharecentre.online
   udp: true
-- name: 🏁RELAY-162.159.129.87-1529
+- name: 🏁RELAY-162.159.129.87-1533
   server: akrab1.v-pn.my.id
   port: 2096
   type: vmess
@@ -4149,7 +4620,7 @@ proxies:
     headers:
       Host: s1.shargh.shop
   udp: true
-- name: 🏁RELAY-162.159.13.8-2664
+- name: 🏁RELAY-162.159.13.8-2768
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -4180,7 +4651,7 @@ proxies:
     headers:
       Host: sg-gcore.sharecentre.online
   udp: true
-- name: 🏁RELAY-162.159.130.234-2691
+- name: 🏁RELAY-162.159.130.234-2795
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -4196,7 +4667,7 @@ proxies:
     headers:
       Host: octavi.cfd
   udp: true
-- name: 🏁RELAY-162.159.134.198-1635
+- name: 🏁RELAY-162.159.135.108-1639
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -4211,7 +4682,7 @@ proxies:
     headers:
       Host: hinet.guolicheng.cyou
   udp: true
-- name: 🏁RELAY-162.159.135.213-0521
+- name: 🏁RELAY-162.159.135.213-0525
   server: akrab1.v-pn.my.id
   port: 8080
   type: vmess
@@ -4256,7 +4727,7 @@ proxies:
     headers:
       Host: oplg1.zhujicn2.com
   udp: true
-- name: 🏁RELAY-162.159.135.42-6505
+- name: 🏁RELAY-162.159.135.42-6585
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -4271,7 +4742,7 @@ proxies:
     headers:
       Host: la.awsbest.com
   udp: true
-- name: 🏁RELAY-162.159.135.42-6509
+- name: 🏁RELAY-162.159.135.42-6589
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -4286,7 +4757,7 @@ proxies:
     headers:
       Host: gcsde.sylu.cyou
   udp: true
-- name: 🏁RELAY-162.159.135.42-6511
+- name: 🏁RELAY-162.159.135.42-6591
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -4301,7 +4772,7 @@ proxies:
     headers:
       Host: opfr1.v2rayfree1.xyz
   udp: true
-- name: 🏁RELAY-162.159.135.42-6513
+- name: 🏁RELAY-162.159.135.42-6593
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -4316,7 +4787,7 @@ proxies:
     headers:
       Host: gcoresg.sylu.cyou
   udp: true
-- name: 🏁RELAY-162.159.136.234-2657
+- name: 🏁RELAY-162.159.136.234-2761
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -4347,22 +4818,22 @@ proxies:
     headers:
       Host: oplg1.cfcdn2.xyz
   udp: true
-- name: 🏁RELAY-162.159.137.28-0978
+- name: 🏁RELAY-162.159.137.232-9185
   server: akrab1.v-pn.my.id
-  port: 8080
+  port: 443
   type: vmess
-  uuid: 5e203864-6170-4056-fa90-b1fdbda3a3ca
+  uuid: b3a21def-5fcc-47a8-a6a0-a34e29d5288a
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
+    path: /wss51068
     headers:
-      Host: eu4.openxai.link
+      Host: discord.com
   udp: true
-- name: 🏁RELAY-162.159.137.28-2219
+- name: 🏁RELAY-162.159.137.28-2220
   server: akrab1.v-pn.my.id
   port: 8080
   type: vmess
@@ -4377,7 +4848,35 @@ proxies:
     headers:
       Host: eu4.openxai.link
   udp: true
-- name: 🏁RELAY-162.159.152.2-6450
+- name: 🏁RELAY-162.159.138.232-2222
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: trojan
+  password: 17f4087c-d014-491e-b89c-c54391fda9cd
+  sni: 6us3.pqjc.buzz
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: '%2Fpq%2Fus3'
+    headers:
+      Host: 6us3.pqjc.buzz
+  udp: true
+- name: 🏁RELAY-162.159.138.232-9184
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: 824c58b1-65ba-4680-a609-663a000dbb92
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /wss13889
+    headers:
+      Host: discord.com
+  udp: true
+- name: 🏁RELAY-162.159.152.2-6530
   server: akrab1.v-pn.my.id
   port: 2086
   type: vmess
@@ -4392,7 +4891,7 @@ proxies:
     headers:
       Host: waw.cloudflare.quest
   udp: true
-- name: 🏁RELAY-162.159.152.2-6461
+- name: 🏁RELAY-162.159.152.2-6541
   server: akrab1.v-pn.my.id
   port: 2086
   type: vmess
@@ -4407,161 +4906,22 @@ proxies:
     headers:
       Host: indo.cloudflare.quest
   udp: true
-- name: 🏁RELAY-162.159.249.187-0039
+- name: 🏁RELAY-162.159.36.5-0833
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
   alterId: 0
   cipher: auto
   tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /shirker
-    headers:
-      Host: lu.sharecentre.online
-  udp: true
-- name: 🏁RELAY-162.159.249.187-0045
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: vmess
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: us-dp.sharecentre.online
-  network: ws
-  ws-opts:
-    path: /shirker
-    headers:
-      Host: us-dp.sharecentre.online
-  udp: true
-- name: 🏁RELAY-162.159.249.187-0049
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: vmess
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: sg-gcore.sharecentre.online
-  network: ws
-  ws-opts:
-    path: /shirker
-    headers:
-      Host: sg-gcore.sharecentre.online
-  udp: true
-- name: 🏁RELAY-162.159.249.187-0050
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: vmess
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /shirker
-    headers:
-      Host: uk-2.sharecentre.online
-  udp: true
-- name: 🏁RELAY-162.159.249.187-0069
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: vmess
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: de-2.sharecentre.online
-  network: ws
-  ws-opts:
-    path: /shirker
-    headers:
-      Host: de-2.sharecentre.online
-  udp: true
-- name: 🏁RELAY-162.159.249.187-0081
-  server: akrab1.v-pn.my.id
-  port: 8080
-  type: vmess
-  uuid: 35b50ae8-93ba-4f1e-96d8-fa682cc385d8
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /api/v3/download.getFile
-    headers:
-      Host: ssrsub.v10.asuka.buzz
-  udp: true
-- name: 🏁RELAY-162.159.249.187-1093
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: vmess
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: sg-gcore.sharecentre.online
-  network: ws
-  ws-opts:
-    path: /shirker
-    headers:
-      Host: cf-lt.sharecentre.online
-  udp: true
-- name: 🏁RELAY-162.159.249.187-1313
-  server: akrab1.v-pn.my.id
-  port: 2052
-  type: vmess
-  uuid: e7663aaf-bf76-3b8d-8cd5-29791ec136f6
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /uasfbbc
-    headers:
-      Host: baxcc.5489265.xyz
-  udp: true
-- name: 🏁RELAY-162.159.249.187-1764
-  server: akrab1.v-pn.my.id
-  port: 80
-  type: vmess
-  uuid: 6c46e17d-4f90-4fda-8484-98f192524bc7
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /api/v3/download.getFile
-    headers:
-      Host: ssrsub.v10.asuka.buzz
-  udp: true
-- name: 🏁RELAY-162.159.252.113-2380
-  server: akrab1.v-pn.my.id
-  port: 80
-  type: vmess
-  uuid: 8ddfa270-aab5-45f0-b964-a729b957c70e
-  alterId: 0
-  cipher: auto
-  tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: caonimashabiwanyi23.daxiongda.top
+      Host: mikasa.erenyeager.cloudns.biz
   udp: true
-- name: 🏁RELAY-162.159.36.20-1528
+- name: 🏁RELAY-162.159.36.5-1532
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -4576,22 +4936,7 @@ proxies:
     headers:
       Host: mikasa.erenyeager.cloudns.biz
   udp: true
-- name: 🏁RELAY-162.159.36.5-0815
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: vmess
-  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: mikasa.erenyeager.cloudns.biz
-  udp: true
-- name: 🏁RELAY-162.159.40.24-1261
+- name: 🏁RELAY-162.159.40.24-1248
   server: akrab1.v-pn.my.id
   port: 2053
   type: vmess
@@ -4606,7 +4951,7 @@ proxies:
     headers:
       Host: gfdghglitchnodejsgugu.status-turbojerry.gq
   udp: true
-- name: 🏁RELAY-162.159.61.3-1240
+- name: 🏁RELAY-162.159.61.3-0171
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -4617,11 +4962,11 @@ proxies:
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /argox-vm?ed=2048
+    path: /
     headers:
       Host: a4.bbbbbbbb.tk
   udp: true
-- name: 🏁RELAY-162.159.62.69-1322
+- name: 🏁RELAY-162.159.62.69-1309
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -4636,7 +4981,7 @@ proxies:
     headers:
       Host: sn1.publcenem.shop
   udp: true
-- name: 🏁RELAY-162.251.82.64-2632
+- name: 🏁RELAY-162.251.82.64-2736
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -4652,7 +4997,7 @@ proxies:
     headers:
       Host: sand.blanku.me
   udp: true
-- name: 🏁RELAY-167.68.5.183-1212
+- name: 🏁RELAY-167.68.5.183-1199
   server: akrab1.v-pn.my.id
   port: 443
   type: trojan
@@ -4665,22 +5010,7 @@ proxies:
     headers:
       Host: 6us3.pqjc.buzz
   udp: true
-- name: 🏁RELAY-172.64.130.31-1221
-  server: akrab1.v-pn.my.id
-  port: 8080
-  type: vmess
-  uuid: c18beb85-c67b-46ed-b8cc-4cbfeae5f194
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: eu1.openxai.link
-  udp: true
-- name: 🏁RELAY-172.64.144.100-1185
+- name: 🏁RELAY-172.64.144.100-1172
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -4695,38 +5025,7 @@ proxies:
     headers:
       Host: lg3.zhujicn2.com
   udp: true
-- name: 🏁RELAY-172.64.144.200-2696
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: vmess
-  uuid: c8abf66a-1903-4638-a448-9c86733e4254
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: sandp.blanku.me
-  network: ws
-  ws-opts:
-    path: /wss13480
-    headers:
-      Host: sand.blanku.me
-  udp: true
-- name: 🏁RELAY-172.64.146.48-9131
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: vmess
-  uuid: be74ca03-6a7c-4c88-edc2-c6434ead0cfa
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /16575
-    headers:
-      Host: bluehost.com
-  udp: true
-- name: 🏁RELAY-172.64.147.71-6398
+- name: 🏁RELAY-172.64.147.71-6478
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -4741,7 +5040,7 @@ proxies:
     headers:
       Host: testgroup2.091.se
   udp: true
-- name: 🏁RELAY-172.64.150.170-1653
+- name: 🏁RELAY-172.64.150.170-1657
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -4756,7 +5055,7 @@ proxies:
     headers:
       Host: 001frg.pages.dev
   udp: true
-- name: 🏁RELAY-172.64.150.174-1291
+- name: 🏁RELAY-172.64.150.174-1278
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -4771,7 +5070,7 @@ proxies:
     headers:
       Host: 116.supermanapp.top
   udp: true
-- name: 🏁RELAY-172.64.150.2-2658
+- name: 🏁RELAY-172.64.150.2-2762
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -4787,7 +5086,7 @@ proxies:
     headers:
       Host: sand.blanku.me
   udp: true
-- name: 🏁RELAY-172.64.152.150-1598
+- name: 🏁RELAY-172.64.152.150-1602
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -4802,7 +5101,7 @@ proxies:
     headers:
       Host: clash6.ssr-free.xyz
   udp: true
-- name: 🏁RELAY-172.64.153.150-1186
+- name: 🏁RELAY-172.64.153.150-1173
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -4817,7 +5116,7 @@ proxies:
     headers:
       Host: lg5.zhujicn2.com
   udp: true
-- name: 🏁RELAY-172.64.154.102-1611
+- name: 🏁RELAY-172.64.154.102-1615
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -4832,23 +5131,7 @@ proxies:
     headers:
       Host: clash6.ssr-free.xyz
   udp: true
-- name: 🏁RELAY-172.64.154.107-2697
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: vmess
-  uuid: c8abf66a-1903-4638-a448-9c86733e4254
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: sandp.blanku.me
-  network: ws
-  ws-opts:
-    path: /wss13480
-    headers:
-      Host: sand.blanku.me
-  udp: true
-- name: 🏁RELAY-172.64.154.150-1640
+- name: 🏁RELAY-172.64.154.150-1644
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -4863,7 +5146,7 @@ proxies:
     headers:
       Host: clash6.ssr-free.xyz
   udp: true
-- name: 🏁RELAY-172.64.154.155-1615
+- name: 🏁RELAY-172.64.154.155-1619
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -4878,7 +5161,7 @@ proxies:
     headers:
       Host: clash6.ssr-free.xyz
   udp: true
-- name: 🏁RELAY-172.64.154.222-1620
+- name: 🏁RELAY-172.64.154.222-1624
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -4893,7 +5176,7 @@ proxies:
     headers:
       Host: lg1.cfcdn1.xyz
   udp: true
-- name: 🏁RELAY-172.64.155.200-1193
+- name: 🏁RELAY-172.64.155.200-1180
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -4908,11 +5191,11 @@ proxies:
     headers:
       Host: lg4.zhujicn2.com
   udp: true
-- name: 🏁RELAY-172.64.162.172-3863
+- name: 🏁RELAY-172.64.164.214-1208
   server: akrab1.v-pn.my.id
   port: 8080
   type: vmess
-  uuid: 5e203864-6170-4056-fa90-b1fdbda3a3ca
+  uuid: c18beb85-c67b-46ed-b8cc-4cbfeae5f194
   alterId: 0
   cipher: auto
   tls: false
@@ -4921,39 +5204,9 @@ proxies:
   ws-opts:
     path: /?ed=2048
     headers:
-      Host: eu4.openxai.link
+      Host: eu1.openxai.link
   udp: true
-- name: 🏁RELAY-172.64.195.89-1410
-  server: akrab1.v-pn.my.id
-  port: 80
-  type: vmess
-  uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: caonimashabiwanyi22.daxiongda.top
-  udp: true
-- name: 🏁RELAY-172.64.196.116-1457
-  server: akrab1.v-pn.my.id
-  port: 8080
-  type: vmess
-  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: eu3.openxai.link
-  udp: true
-- name: 🏁RELAY-172.64.196.116-3861
+- name: 🏁RELAY-172.64.164.214-3966
   server: akrab1.v-pn.my.id
   port: 8080
   type: vmess
@@ -4968,7 +5221,22 @@ proxies:
     headers:
       Host: eu2.openxai.link
   udp: true
-- name: 🏁RELAY-172.64.229.5-3858
+- name: 🏁RELAY-172.64.195.89-1397
+  server: akrab1.v-pn.my.id
+  port: 80
+  type: vmess
+  uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: caonimashabiwanyi22.daxiongda.top
+  udp: true
+- name: 🏁RELAY-172.64.229.4-3964
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -4984,7 +5252,7 @@ proxies:
     headers:
       Host: ap-northeast-anycast.lnaspiring.com
   udp: true
-- name: 🏁RELAY-172.64.41.3-0939
+- name: 🏁RELAY-172.64.41.3-1227
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -4995,26 +5263,26 @@ proxies:
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
+    path: /argox-vm?ed=2048
     headers:
       Host: a4.bbbbbbbb.tk
   udp: true
-- name: 🏁RELAY-172.64.86.152-9123
+- name: 🏁RELAY-172.65.202.230-1444
   server: akrab1.v-pn.my.id
-  port: 80
+  port: 2052
   type: vmess
-  uuid: 4a47e680-d860-4e63-9fa6-813857fb0f42
+  uuid: d0a3e08a-d26f-45bd-ba3c-6387f9182633
   alterId: 0
-  cipher: auto
+  cipher: aes-128-gcm
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: 4a47e680
+    path: /video/c9efxRCi
     headers:
-      Host: cf-lt.sharecentre.online
+      Host: 7nAi74jJsg1.yofnhkfc.xyz
   udp: true
-- name: 🏁RELAY-172.66.40.10-1581
+- name: 🏁RELAY-172.66.40.10-1585
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -5029,7 +5297,7 @@ proxies:
     headers:
       Host: 38.72img.xyz
   udp: true
-- name: 🏁RELAY-172.66.40.114-2496
+- name: 🏁RELAY-172.66.40.114-2490
   server: akrab1.v-pn.my.id
   port: 2086
   type: vmess
@@ -5044,7 +5312,7 @@ proxies:
     headers:
       Host: RACKNERD.COM
   udp: true
-- name: 🏁RELAY-172.66.40.114-6855
+- name: 🏁RELAY-172.66.40.114-6935
   server: akrab1.v-pn.my.id
   port: 2086
   type: vmess
@@ -5059,7 +5327,7 @@ proxies:
     headers:
       Host: br.cloudflare.quest
   udp: true
-- name: 🏁RELAY-172.66.43.1-1588
+- name: 🏁RELAY-172.66.43.1-1592
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -5074,7 +5342,7 @@ proxies:
     headers:
       Host: 38.72img.xyz
   udp: true
-- name: 🏁RELAY-172.66.44.197-1763
+- name: 🏁RELAY-172.66.44.197-1767
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -5089,7 +5357,7 @@ proxies:
     headers:
       Host: d.pgypgykmoljklj.xyz
   udp: true
-- name: 🏁RELAY-172.67.125.28-1606
+- name: 🏁RELAY-172.67.125.28-1610
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -5104,22 +5372,7 @@ proxies:
     headers:
       Host: 38.72img.xyz
   udp: true
-- name: 🏁RELAY-172.67.129.74-0523
-  server: akrab1.v-pn.my.id
-  port: 8080
-  type: vmess
-  uuid: 97bba5ca-185c-4e6a-ac64-96e920d4eeda
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: moon.chanell.mci.v-x4ssd.space
-  udp: true
-- name: 🏁RELAY-172.67.131.150-2670
+- name: 🏁RELAY-172.67.131.150-2774
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -5135,7 +5388,7 @@ proxies:
     headers:
       Host: oliv.beauty
   udp: true
-- name: 🏁RELAY-172.67.131.245-9016
+- name: 🏁RELAY-172.67.131.245-9096
   server: akrab1.v-pn.my.id
   port: 443
   type: trojan
@@ -5148,13 +5401,28 @@ proxies:
     headers:
       Host: series-v1.samanehha.co
   udp: true
-- name: 🏁RELAY-172.67.131.245-9017
+- name: 🏁RELAY-172.67.131.245-9097
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
   uuid: 0b65bb06-6b28-487a-8e3c-820dda51e977
   alterId: 0
   cipher: chacha20-poly1305
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /dT9s3HqgZeD3eApzDAfhOHq
+    headers:
+      Host: series-v1.samanehha.co
+  udp: true
+- name: 🏁RELAY-172.67.131.245-9098
+  server: akrab1.v-pn.my.id
+  port: 80
+  type: vmess
+  uuid: 0b65bb06-6b28-487a-8e3c-820dda51e977
+  alterId: 0
+  cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
@@ -5178,38 +5446,7 @@ proxies:
     headers:
       Host: v2ray.ibgfw.top
   udp: true
-- name: 🏁RELAY-172.67.133.78-0198
-  server: akrab1.v-pn.my.id
-  port: 2053
-  type: vmess
-  uuid: 0f1b29b8-0f0f-431a-b6d1-035803a95c32
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: v2ray.ibgfw.top
-  udp: true
-- name: 🏁RELAY-172.67.133.78-0212
-  server: akrab1.v-pn.my.id
-  port: 2053
-  type: vmess
-  uuid: 5a5aadc2-8834-4e7b-895b-74ad155fbf24
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: v2ray.ibgfw.top
-  network: ws
-  ws-opts:
-    path: /vVNUJOgb/
-    headers:
-      Host: v2ray.ibgfw.top
-  udp: true
-- name: 🏁RELAY-172.67.133.78-0926
+- name: 🏁RELAY-172.67.133.78-0836
   server: akrab1.v-pn.my.id
   port: 2053
   type: vmess
@@ -5225,7 +5462,7 @@ proxies:
     headers:
       Host: v2ray.ibgfw.top
   udp: true
-- name: 🏁RELAY-172.67.133.78-1348
+- name: 🏁RELAY-172.67.133.78-1335
   server: akrab1.v-pn.my.id
   port: 2053
   type: vmess
@@ -5240,20 +5477,20 @@ proxies:
     headers:
       Host: v2ray.ibgfw.top
   udp: true
-- name: 🏁RELAY-172.67.135.195-9135
+- name: 🏁RELAY-172.67.133.78-2181
   server: akrab1.v-pn.my.id
-  port: 443
+  port: 2083
   type: vmess
-  uuid: b3a21def-5fcc-47a8-a6a0-a34e29d5288a
+  uuid: 4efdd8a5-ba9a-4faf-b4ef-127c68924aa2
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /wss51068
+    path: /5rtP40gj/
     headers:
-      Host: b2n.ir
+      Host: v2ray.ibgfw.top
   udp: true
 - name: 🏁RELAY-172.67.135.55-0065
   server: akrab1.v-pn.my.id
@@ -5270,7 +5507,7 @@ proxies:
     headers:
       Host: oplg1.cfcdn2.xyz
   udp: true
-- name: 🏁RELAY-172.67.142.191-2660
+- name: 🏁RELAY-172.67.142.191-2764
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -5286,7 +5523,7 @@ proxies:
     headers:
       Host: edeen.makeup
   udp: true
-- name: 🏁RELAY-172.67.143.74-1182
+- name: 🏁RELAY-172.67.143.74-1169
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -5301,7 +5538,22 @@ proxies:
     headers:
       Host: pure.daycat.space
   udp: true
-- name: 🏁RELAY-172.67.145.166-1739
+- name: 🏁RELAY-172.67.144.150-7085
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: 33653796-feef-43fd-e7cc-1adccd79b7c7
+  alterId: 4
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /123
+    headers:
+      Host: usamd.ptuu.gq
+  udp: true
+- name: 🏁RELAY-172.67.145.166-1743
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -5316,7 +5568,7 @@ proxies:
     headers:
       Host: oplg1.cfcdn2.xyz
   udp: true
-- name: 🏁RELAY-172.67.147.168-8958
+- name: 🏁RELAY-172.67.147.168-9038
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -5331,7 +5583,7 @@ proxies:
     headers:
       Host: www.sttlink.cc
   udp: true
-- name: 🏁RELAY-172.67.152.214-0207
+- name: 🏁RELAY-172.67.152.214-0185
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -5346,7 +5598,7 @@ proxies:
     headers:
       Host: meroiy.icu
   udp: true
-- name: 🏁RELAY-172.67.152.214-1424
+- name: 🏁RELAY-172.67.152.214-1411
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -5361,7 +5613,22 @@ proxies:
     headers:
       Host: meroiy.icu
   udp: true
-- name: 🏁RELAY-172.67.161.104-3510
+- name: 🏁RELAY-172.67.161.104-1234
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: 475e3bfc-cb14-47fd-b6b8-a6c2d27ea259
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess?ed=2048
+    headers:
+      Host: gdsgrenderwestgsg.nihaoaaaa.tk
+  udp: true
+- name: 🏁RELAY-172.67.161.104-3614
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -5376,7 +5643,7 @@ proxies:
     headers:
       Host: icook.hk
   udp: true
-- name: 🏁RELAY-172.67.161.114-0178
+- name: 🏁RELAY-172.67.161.114-0177
   server: akrab1.v-pn.my.id
   port: 8880
   type: vmess
@@ -5391,7 +5658,7 @@ proxies:
     headers:
       Host: server20.beheshtbaneh.com
   udp: true
-- name: 🏁RELAY-172.67.161.114-0849
+- name: 🏁RELAY-172.67.161.114-0792
   server: akrab1.v-pn.my.id
   port: 8880
   type: vmess
@@ -5406,11 +5673,11 @@ proxies:
     headers:
       Host: server31.beheshtbaneh.com
   udp: true
-- name: 🏁RELAY-172.67.161.114-1235
+- name: 🏁RELAY-172.67.161.114-0877
   server: akrab1.v-pn.my.id
   port: 8880
   type: vmess
-  uuid: c5626b16-4c57-4d7e-8668-6b1ecda5c8b5
+  uuid: 8420ee38-4cf6-4d79-a9ec-2731207cf83a
   alterId: 0
   cipher: auto
   tls: false
@@ -5419,13 +5686,13 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: server6.beheshtbaneh.com
+      Host: server2.beheshtbaneh.com
   udp: true
-- name: 🏁RELAY-172.67.161.114-1328
+- name: 🏁RELAY-172.67.161.114-1257
   server: akrab1.v-pn.my.id
   port: 8880
   type: vmess
-  uuid: e305fc57-6153-4650-8c52-9a36865a199d
+  uuid: f46acc36-5edf-4c5f-8c8f-3520ff46cdd9
   alterId: 0
   cipher: auto
   tls: false
@@ -5434,7 +5701,22 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: server3.beheshtbaneh.com
+      Host: server8.beheshtbaneh.com
+  udp: true
+- name: 🏁RELAY-172.67.162.124-4752
+  server: akrab1.v-pn.my.id
+  port: 8443
+  type: vmess
+  uuid: 430b6895-2e0f-4716-9410-e1339d0f9af6
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /v2us01
+    headers:
+      Host: cf-us01-90.clashzone.xyz
   udp: true
 - name: 🏁RELAY-172.67.164.125-0064
   server: akrab1.v-pn.my.id
@@ -5451,7 +5733,7 @@ proxies:
     headers:
       Host: oplg1.cfcdn2.xyz
   udp: true
-- name: 🏁RELAY-172.67.166.190-0148
+- name: 🏁RELAY-172.67.166.190-0163
   server: akrab1.v-pn.my.id
   port: 8080
   type: vmess
@@ -5466,37 +5748,7 @@ proxies:
     headers:
       Host: www.crispyrainbow.online
   udp: true
-- name: 🏁RELAY-172.67.166.190-0237
-  server: akrab1.v-pn.my.id
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.crispyrainbow.online
-  udp: true
-- name: 🏁RELAY-172.67.166.192-1327
-  server: akrab1.v-pn.my.id
-  port: 80
-  type: vmess
-  uuid: 6101f6c5-86a2-46d1-a0b0-3dafdf2a8535
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: dk1.xv2ray.net
-  udp: true
-- name: 🏁RELAY-172.67.166.194-1260
+- name: 🏁RELAY-172.67.166.194-1247
   server: akrab1.v-pn.my.id
   port: 8080
   type: vmess
@@ -5511,7 +5763,7 @@ proxies:
     headers:
       Host: www.coldstone.club
   udp: true
-- name: 🏁RELAY-172.67.166.194-1355
+- name: 🏁RELAY-172.67.166.194-1342
   server: akrab1.v-pn.my.id
   port: 8080
   type: vmess
@@ -5526,7 +5778,22 @@ proxies:
     headers:
       Host: www.coldstone.club
   udp: true
-- name: 🏁RELAY-172.67.168.221-4342
+- name: 🏁RELAY-172.67.166.194-2598
+  server: akrab1.v-pn.my.id
+  port: 8080
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: www.coldstone.club
+  udp: true
+- name: 🏁RELAY-172.67.168.221-4422
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -5541,7 +5808,7 @@ proxies:
     headers:
       Host: vfly3.win
   udp: true
-- name: 🏁RELAY-172.67.169.131-1662
+- name: 🏁RELAY-172.67.169.131-1666
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -5556,37 +5823,23 @@ proxies:
     headers:
       Host: oplg1.cfcdn2.xyz
   udp: true
-- name: 🏁RELAY-172.67.170.169-1652
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: vmess
-  uuid: 6fb9a750-55b8-4e6e-857b-242b795399dc
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /imkcpyyds
-    headers:
-      Host: buyvm.imkcp.eu.org
-  udp: true
-- name: 🏁RELAY-172.67.171.177-0975
+- name: 🏁RELAY-172.67.170.155-3963
   server: akrab1.v-pn.my.id
   port: 8080
   type: vmess
-  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
+  uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
+  servername: eu2.openxai.link
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: eu3.openxai.link
+      Host: cf.openxai.link
   udp: true
-- name: 🏁RELAY-172.67.172.197-1278
+- name: 🏁RELAY-172.67.172.197-1265
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -5601,7 +5854,7 @@ proxies:
     headers:
       Host: lovemylive.top
   udp: true
-- name: 🏁RELAY-172.67.173.39-9117
+- name: 🏁RELAY-172.67.173.39-9197
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -5616,7 +5869,22 @@ proxies:
     headers:
       Host: cjmahdi.online
   udp: true
-- name: 🏁RELAY-172.67.177.243-1290
+- name: 🏁RELAY-172.67.174.42-0150
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
+  alterId: 1
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gwdef.sbs
+  udp: true
+- name: 🏁RELAY-172.67.177.243-1277
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -5631,7 +5899,7 @@ proxies:
     headers:
       Host: 116.supermanapp.top
   udp: true
-- name: 🏁RELAY-172.67.178.127-1775
+- name: 🏁RELAY-172.67.178.127-1779
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -5646,7 +5914,7 @@ proxies:
     headers:
       Host: en1.wanwushenghua.me
   udp: true
-- name: 🏁RELAY-172.67.178.165-1300
+- name: 🏁RELAY-172.67.178.165-1287
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -5661,7 +5929,7 @@ proxies:
     headers:
       Host: 116.supermanapp.top
   udp: true
-- name: 🏁RELAY-172.67.178.55-6243
+- name: 🏁RELAY-172.67.178.55-6323
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -5677,7 +5945,7 @@ proxies:
     headers:
       Host: www.aoopmiss.cf
   udp: true
-- name: 🏁RELAY-172.67.179.232-0171
+- name: 🏁RELAY-172.67.179.232-0798
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -5686,14 +5954,13 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: urnxewzvh.site
   network: ws
   ws-opts:
-    path: /kwhmvws
+    path: /
     headers:
       Host: urnxewzvh.site
   udp: true
-- name: 🏁RELAY-172.67.179.232-0792
+- name: 🏁RELAY-172.67.179.232-0801
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -5709,22 +5976,7 @@ proxies:
     headers:
       Host: urnxewzvh.site
   udp: true
-- name: 🏁RELAY-172.67.179.232-1519
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: vmess
-  uuid: 06195b5b-3815-4a07-96f7-47eefbb1b143
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /kwhmvws
-    headers:
-      Host: urnxewzvh.site
-  udp: true
-- name: 🏁RELAY-172.67.180.248-1429
+- name: 🏁RELAY-172.67.180.248-0230
   server: akrab1.v-pn.my.id
   port: 8080
   type: vmess
@@ -5739,22 +5991,7 @@ proxies:
     headers:
       Host: www.nahck.site
   udp: true
-- name: 🏁RELAY-172.67.180.248-1433
-  server: akrab1.v-pn.my.id
-  port: 8080
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.nahck.site
-  udp: true
-- name: 🏁RELAY-172.67.183.110-2656
+- name: 🏁RELAY-172.67.183.110-2760
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -5770,7 +6007,7 @@ proxies:
     headers:
       Host: waynn.makeup
   udp: true
-- name: 🏁RELAY-172.67.183.35-1617
+- name: 🏁RELAY-172.67.183.35-1621
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -5785,7 +6022,7 @@ proxies:
     headers:
       Host: 38.72img.xyz
   udp: true
-- name: 🏁RELAY-172.67.184.13-2713
+- name: 🏁RELAY-172.67.184.13-2817
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -5800,7 +6037,22 @@ proxies:
     headers:
       Host: cc2.shabijichang.com
   udp: true
-- name: 🏁RELAY-172.67.184.13-7052
+- name: 🏁RELAY-172.67.184.13-7134
+  server: akrab1.v-pn.my.id
+  port: 80
+  type: vmess
+  uuid: 56278a1a-c7cc-459f-b00c-3037e4f99590
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: jd2.shabijichang.com
+  udp: true
+- name: 🏁RELAY-172.67.184.13-7140
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -5813,24 +6065,9 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: sbl2.shabijichang.com
+      Host: yhnsb3.shabijichang.com
   udp: true
-- name: 🏁RELAY-172.67.184.13-7059
-  server: akrab1.v-pn.my.id
-  port: 80
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ld2.shabijichang.com
-  udp: true
-- name: 🏁RELAY-172.67.184.13-7063
+- name: 🏁RELAY-172.67.184.13-7143
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -5845,52 +6082,7 @@ proxies:
     headers:
       Host: asb2.shabijichang.com
   udp: true
-- name: 🏁RELAY-172.67.184.13-7064
-  server: akrab1.v-pn.my.id
-  port: 80
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jd3.shabijichang.com
-  udp: true
-- name: 🏁RELAY-172.67.184.13-7065
-  server: akrab1.v-pn.my.id
-  port: 80
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: mm3.shabijichang.com
-  udp: true
-- name: 🏁RELAY-172.67.184.235-1144
-  server: akrab1.v-pn.my.id
-  port: 80
-  type: vmess
-  uuid: 8ddfa270-aab5-45f0-b964-a729b957c70e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: daxiongda.top
-  udp: true
-- name: 🏁RELAY-172.67.184.97-1404
+- name: 🏁RELAY-172.67.184.97-1396
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -5905,22 +6097,7 @@ proxies:
     headers:
       Host: caonimashabiwanyi22.daxiongda.top
   udp: true
-- name: 🏁RELAY-172.67.184.97-1409
-  server: akrab1.v-pn.my.id
-  port: 80
-  type: vmess
-  uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: caonimashabiwanyi22.daxiongda.top
-  udp: true
-- name: 🏁RELAY-172.67.185.208-1236
+- name: 🏁RELAY-172.67.185.208-1223
   server: akrab1.v-pn.my.id
   port: 2095
   type: vmess
@@ -5935,7 +6112,7 @@ proxies:
     headers:
       Host: ebiii.fozool76.lol
   udp: true
-- name: 🏁RELAY-172.67.185.71-1282
+- name: 🏁RELAY-172.67.185.71-1269
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -5950,7 +6127,7 @@ proxies:
     headers:
       Host: 116.supermanapp.top
   udp: true
-- name: 🏁RELAY-172.67.190.140-0383
+- name: 🏁RELAY-172.67.190.140-0387
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -5965,38 +6142,22 @@ proxies:
     headers:
       Host: vfly4.win
   udp: true
-- name: 🏁RELAY-172.67.190.72-3278
-  server: akrab1.v-pn.my.id
-  port: 80
-  type: vmess
-  uuid: 05ab5fed-281d-4882-c29c-3c6dc8434fb0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: cf.515188.xyz
-  udp: true
-- name: 🏁RELAY-172.67.192.150-0062
+- name: 🏁RELAY-172.67.190.72-3529
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  uuid: 68fe8d27-cbc8-4e72-90b7-70d3bb69dfd3
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: opc-jp.sharecentre.online
   network: ws
   ws-opts:
-    path: /shirker
+    path: /api
     headers:
-      Host: opc-jp.sharecentre.online
+      Host: cdn.xia.me
   udp: true
-- name: 🏁RELAY-172.67.192.150-0084
+- name: 🏁RELAY-172.67.190.87-0084
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -6012,7 +6173,7 @@ proxies:
     headers:
       Host: us-dp2.sharecentre.online
   udp: true
-- name: 🏁RELAY-172.67.192.150-0088
+- name: 🏁RELAY-172.67.190.87-0088
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -6028,7 +6189,23 @@ proxies:
     headers:
       Host: uk-1.sharecentre.online
   udp: true
-- name: 🏁RELAY-172.67.192.150-0100
+- name: 🏁RELAY-172.67.190.87-0096
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: sg-1.sharecentre.online
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: sg-1.sharecentre.online
+  udp: true
+- name: 🏁RELAY-172.67.190.87-0100
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -6044,38 +6221,37 @@ proxies:
     headers:
       Host: kh.sharecentre.online
   udp: true
-- name: 🏁RELAY-172.67.192.150-6256
+- name: 🏁RELAY-172.67.190.87-1300
   server: akrab1.v-pn.my.id
-  port: 443
+  port: 2052
   type: vmess
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  uuid: e7663aaf-bf76-3b8d-8cd5-29791ec136f6
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /shirker
+    path: /uasfbbc
     headers:
-      Host: lvryzenkvm1gb.sharecentre.online
+      Host: baxcc.5489265.xyz
   udp: true
-- name: 🏁RELAY-172.67.192.150-6514
+- name: 🏁RELAY-172.67.190.87-1768
   server: akrab1.v-pn.my.id
-  port: 443
+  port: 80
   type: vmess
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  uuid: 6c46e17d-4f90-4fda-8484-98f192524bc7
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: false
-  servername: hk.sharecentre.online
   network: ws
   ws-opts:
-    path: /shirker
+    path: /api/v3/download.getFile
     headers:
-      Host: hk.sharecentre.online
+      Host: ssrsub.v10.asuka.buzz
   udp: true
-- name: 🏁RELAY-172.67.196.0-1206
+- name: 🏁RELAY-172.67.196.0-1193
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -6090,7 +6266,7 @@ proxies:
     headers:
       Host: localhoster.ml
   udp: true
-- name: 🏁RELAY-172.67.196.112-0845
+- name: 🏁RELAY-172.67.196.112-0841
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -6105,7 +6281,7 @@ proxies:
     headers:
       Host: kellie.makeup
   udp: true
-- name: 🏁RELAY-172.67.196.38-9108
+- name: 🏁RELAY-172.67.196.38-9188
   server: akrab1.v-pn.my.id
   port: 443
   type: trojan
@@ -6117,19 +6293,6 @@ proxies:
     path: /5CSwsJSwLmxCxOCSBhOZubb
     headers:
       Host: c5mt.cdncisco.org
-  udp: true
-- name: 🏁RELAY-172.67.196.38-9113
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: trojan
-  password: 0ad5e311-7189-4124-ac8f-f828b681f10e
-  sni: c5mc.cdncisco.org
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /5CSwsJSwLmxCxOCSBhOZubb
-    headers:
-      Host: c5mc.cdncisco.org
   udp: true
 - name: 🏁RELAY-172.67.199.34-0037
   server: akrab1.v-pn.my.id
@@ -6236,22 +6399,7 @@ proxies:
     headers:
       Host: lv.awsbest.com
   udp: true
-- name: 🏁RELAY-172.67.199.34-4349
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: vmess
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /5QNROSRV
-    headers:
-      Host: hohm.microsoft.com
-  udp: true
-- name: 🏁RELAY-172.67.199.34-6446
+- name: 🏁RELAY-172.67.199.34-6526
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -6266,7 +6414,7 @@ proxies:
     headers:
       Host: gcssg.sylu.cyou
   udp: true
-- name: 🏁RELAY-172.67.199.34-6497
+- name: 🏁RELAY-172.67.199.34-6577
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -6281,7 +6429,7 @@ proxies:
     headers:
       Host: us-lb.sshkit.org
   udp: true
-- name: 🏁RELAY-172.67.199.34-6499
+- name: 🏁RELAY-172.67.199.34-6579
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -6296,7 +6444,7 @@ proxies:
     headers:
       Host: lu1.gogogoo.cyou
   udp: true
-- name: 🏁RELAY-172.67.199.34-6512
+- name: 🏁RELAY-172.67.199.34-6592
   server: akrab1.v-pn.my.id
   port: 2053
   type: vmess
@@ -6311,7 +6459,7 @@ proxies:
     headers:
       Host: foxdeovz1.fovi.tk
   udp: true
-- name: 🏁RELAY-172.67.199.34-6517
+- name: 🏁RELAY-172.67.199.34-6597
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -6326,7 +6474,7 @@ proxies:
     headers:
       Host: lvryzenkvm1gb.sharecentre.online
   udp: true
-- name: 🏁RELAY-172.67.199.34-6519
+- name: 🏁RELAY-172.67.199.34-6599
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -6341,7 +6489,7 @@ proxies:
     headers:
       Host: us-lb.sshkit.org
   udp: true
-- name: 🏁RELAY-172.67.199.34-6523
+- name: 🏁RELAY-172.67.199.34-6603
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -6356,7 +6504,7 @@ proxies:
     headers:
       Host: 51vfly1.win
   udp: true
-- name: 🏁RELAY-172.67.199.34-6525
+- name: 🏁RELAY-172.67.199.34-6605
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -6371,7 +6519,7 @@ proxies:
     headers:
       Host: gcorehk.sylu.cyou
   udp: true
-- name: 🏁RELAY-172.67.199.34-6526
+- name: 🏁RELAY-172.67.199.34-6606
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -6386,7 +6534,7 @@ proxies:
     headers:
       Host: gcoresgg.sylu.cyou
   udp: true
-- name: 🏁RELAY-172.67.199.34-6527
+- name: 🏁RELAY-172.67.199.34-6607
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -6401,7 +6549,7 @@ proxies:
     headers:
       Host: id5.v2rayserv.com
   udp: true
-- name: 🏁RELAY-172.67.199.34-6529
+- name: 🏁RELAY-172.67.199.34-6609
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -6416,7 +6564,7 @@ proxies:
     headers:
       Host: gcsssg.sylu.cyou
   udp: true
-- name: 🏁RELAY-172.67.199.34-6530
+- name: 🏁RELAY-172.67.199.34-6610
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -6431,7 +6579,22 @@ proxies:
     headers:
       Host: us-lb.sshkit.org
   udp: true
-- name: 🏁RELAY-172.67.200.30-1209
+- name: 🏁RELAY-172.67.199.34-6926
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /9JZFDTKE
+    headers:
+      Host: fr1.trump2023.org
+  udp: true
+- name: 🏁RELAY-172.67.200.30-1196
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -6446,7 +6609,7 @@ proxies:
     headers:
       Host: linode.sharecentre.xyz
   udp: true
-- name: 🏁RELAY-172.67.201.14-1767
+- name: 🏁RELAY-172.67.201.14-1771
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -6461,7 +6624,7 @@ proxies:
     headers:
       Host: oplg1.cfcdn2.xyz
   udp: true
-- name: 🏁RELAY-172.67.201.19-1281
+- name: 🏁RELAY-172.67.201.19-1268
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -6476,7 +6639,7 @@ proxies:
     headers:
       Host: 116.supermanapp.top
   udp: true
-- name: 🏁RELAY-172.67.203.160-0155
+- name: 🏁RELAY-172.67.203.160-0191
   server: akrab1.v-pn.my.id
   port: 8880
   type: vmess
@@ -6491,7 +6654,7 @@ proxies:
     headers:
       Host: pla.yj2022.gq
   udp: true
-- name: 🏁RELAY-172.67.203.160-1435
+- name: 🏁RELAY-172.67.203.160-1422
   server: akrab1.v-pn.my.id
   port: 8880
   type: vmess
@@ -6521,7 +6684,7 @@ proxies:
     headers:
       Host: oplg1.cfcdn2.xyz
   udp: true
-- name: 🏁RELAY-172.67.204.84-1241
+- name: 🏁RELAY-172.67.204.84-1228
   server: akrab1.v-pn.my.id
   port: 8880
   type: vmess
@@ -6536,7 +6699,7 @@ proxies:
     headers:
       Host: server3.beheshtbaneh.com
   udp: true
-- name: 🏁RELAY-172.67.204.84-1266
+- name: 🏁RELAY-172.67.204.84-1253
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -6551,7 +6714,7 @@ proxies:
     headers:
       Host: zula.ir
   udp: true
-- name: 🏁RELAY-172.67.204.84-9049
+- name: 🏁RELAY-172.67.204.84-9129
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -6566,7 +6729,7 @@ proxies:
     headers:
       Host: mci.bamarambash.monster
   udp: true
-- name: 🏁RELAY-172.67.205.139-0157
+- name: 🏁RELAY-172.67.205.139-0842
   server: akrab1.v-pn.my.id
   port: 8880
   type: vmess
@@ -6596,7 +6759,7 @@ proxies:
     headers:
       Host: sg-gcore.sharecentre.online
   udp: true
-- name: 🏁RELAY-172.67.207.114-2650
+- name: 🏁RELAY-172.67.207.114-2754
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -6627,7 +6790,7 @@ proxies:
     headers:
       Host: hao.huaqian.icu
   udp: true
-- name: 🏁RELAY-172.67.207.26-1521
+- name: 🏁RELAY-172.67.207.26-1525
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -6642,7 +6805,7 @@ proxies:
     headers:
       Host: glweidf.sbs
   udp: true
-- name: 🏁RELAY-172.67.208.46-1411
+- name: 🏁RELAY-172.67.208.46-1398
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -6657,7 +6820,7 @@ proxies:
     headers:
       Host: caonimashabiwanyi22.daxiongda.top
   udp: true
-- name: 🏁RELAY-172.67.212.114-0143
+- name: 🏁RELAY-172.67.212.114-0174
   server: akrab1.v-pn.my.id
   port: 8080
   type: vmess
@@ -6672,7 +6835,7 @@ proxies:
     headers:
       Host: www.crispyrainbow.biz
   udp: true
-- name: 🏁RELAY-172.67.212.114-0248
+- name: 🏁RELAY-172.67.215.103-0147
   server: akrab1.v-pn.my.id
   port: 8080
   type: vmess
@@ -6685,9 +6848,9 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: www.crispyrainbow.biz
+      Host: www.darkroom.lol
   udp: true
-- name: 🏁RELAY-172.67.215.202-2639
+- name: 🏁RELAY-172.67.215.202-2743
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -6703,7 +6866,7 @@ proxies:
     headers:
       Host: octavi.cfd
   udp: true
-- name: 🏁RELAY-172.67.217.144-0211
+- name: 🏁RELAY-172.67.217.144-0208
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -6718,7 +6881,7 @@ proxies:
     headers:
       Host: lv1.xv2ray.net
   udp: true
-- name: 🏁RELAY-172.67.218.162-1205
+- name: 🏁RELAY-172.67.218.162-1192
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -6733,7 +6896,7 @@ proxies:
     headers:
       Host: eu.ptuu.tk
   udp: true
-- name: 🏁RELAY-172.67.219.228-1286
+- name: 🏁RELAY-172.67.219.228-1273
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -6748,7 +6911,7 @@ proxies:
     headers:
       Host: 116.supermanapp.top
   udp: true
-- name: 🏁RELAY-172.67.219.34-2210
+- name: 🏁RELAY-172.67.219.34-7114
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -6763,37 +6926,84 @@ proxies:
     headers:
       Host: hkd1.quickerlink.xyz
   udp: true
-- name: 🏁RELAY-172.67.219.34-7034
+- name: 🏁RELAY-172.67.220.179-0047
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
-  uuid: 3853a2ab-6bec-4503-89b9-d3cbcc6b69c9
-  alterId: 64
+  uuid: 18849b38-719b-483e-958b-45397595a8ec
+  alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /h6jr23x9h3lqiitg
+    path: /
     headers:
-      Host: hkd1.quickerlink.xyz
+      Host: lsb.wqxzhang.online
   udp: true
-- name: 🏁RELAY-172.67.220.13-6765
+- name: 🏁RELAY-172.67.220.179-0050
   server: akrab1.v-pn.my.id
-  port: 80
+  port: 443
   type: vmess
-  uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: uk-2.sharecentre.online
+  udp: true
+- name: 🏁RELAY-172.67.220.179-0069
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: de-2.sharecentre.online
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: de-2.sharecentre.online
+  udp: true
+- name: 🏁RELAY-172.67.220.179-0081
+  server: akrab1.v-pn.my.id
+  port: 8080
+  type: vmess
+  uuid: 35b50ae8-93ba-4f1e-96d8-fa682cc385d8
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
+    path: /api/v3/download.getFile
     headers:
-      Host: exa.nextvpn.cc
+      Host: ssrsub.v10.asuka.buzz
   udp: true
-- name: 🏁RELAY-172.67.221.183-0221
+- name: 🏁RELAY-172.67.220.179-6594
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: hk.sharecentre.online
+  network: ws
+  ws-opts:
+    path: /shirker
+    headers:
+      Host: hk.sharecentre.online
+  udp: true
+- name: 🏁RELAY-172.67.221.183-0194
   server: akrab1.v-pn.my.id
   port: 8080
   type: vmess
@@ -6808,7 +7018,7 @@ proxies:
     headers:
       Host: www.blueberrywindow.online
   udp: true
-- name: 🏁RELAY-172.67.221.183-3830
+- name: 🏁RELAY-172.67.221.183-3934
   server: akrab1.v-pn.my.id
   port: 8080
   type: vmess
@@ -6823,7 +7033,22 @@ proxies:
     headers:
       Host: www.blueberrywindow.online
   udp: true
-- name: 🏁RELAY-172.67.222.105-2279
+- name: 🏁RELAY-172.67.222.105-2289
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: 6c7c5e3a-73ad-467a-1241-206987daa04f
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: /ws
+  udp: true
+- name: 🏁RELAY-172.67.222.105-2290
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -6838,7 +7063,7 @@ proxies:
     headers:
       Host: /ws
   udp: true
-- name: 🏁RELAY-172.67.222.46-2439
+- name: 🏁RELAY-172.67.222.46-2433
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -6853,7 +7078,7 @@ proxies:
     headers:
       Host: 172.67.222.46
   udp: true
-- name: 🏁RELAY-172.67.222.46-6832
+- name: 🏁RELAY-172.67.222.46-6912
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -6868,7 +7093,7 @@ proxies:
     headers:
       Host: us-lb.sshkit.org
   udp: true
-- name: 🏁RELAY-172.67.229.13-2635
+- name: 🏁RELAY-172.67.229.13-2739
   server: akrab1.v-pn.my.id
   port: 8880
   type: vmess
@@ -6883,7 +7108,7 @@ proxies:
     headers:
       Host: fr7.tehme100.fun
   udp: true
-- name: 🏁RELAY-172.67.229.13-2676
+- name: 🏁RELAY-172.67.229.13-2780
   server: akrab1.v-pn.my.id
   port: 2086
   type: vmess
@@ -6898,7 +7123,7 @@ proxies:
     headers:
       Host: ca6.tehme100.fun
   udp: true
-- name: 🏁RELAY-172.67.229.25-2646
+- name: 🏁RELAY-172.67.229.25-2750
   server: akrab1.v-pn.my.id
   port: 8880
   type: vmess
@@ -6913,7 +7138,7 @@ proxies:
     headers:
       Host: fr7.tehme100.fun
   udp: true
-- name: 🏁RELAY-172.67.229.25-2661
+- name: 🏁RELAY-172.67.229.25-2765
   server: akrab1.v-pn.my.id
   port: 2086
   type: vmess
@@ -6928,7 +7153,7 @@ proxies:
     headers:
       Host: ca6.tehme100.fun
   udp: true
-- name: 🏁RELAY-172.67.229.28-2642
+- name: 🏁RELAY-172.67.229.28-2746
   server: akrab1.v-pn.my.id
   port: 8880
   type: vmess
@@ -6943,7 +7168,7 @@ proxies:
     headers:
       Host: fr7.tehme100.fun
   udp: true
-- name: 🏁RELAY-172.67.229.29-2674
+- name: 🏁RELAY-172.67.229.29-2778
   server: akrab1.v-pn.my.id
   port: 8880
   type: vmess
@@ -6958,7 +7183,7 @@ proxies:
     headers:
       Host: fr7.tehme100.fun
   udp: true
-- name: 🏁RELAY-172.67.229.31-2628
+- name: 🏁RELAY-172.67.229.31-2732
   server: akrab1.v-pn.my.id
   port: 8880
   type: vmess
@@ -6973,7 +7198,7 @@ proxies:
     headers:
       Host: fr7.tehme100.fun
   udp: true
-- name: 🏁RELAY-172.67.229.33-2645
+- name: 🏁RELAY-172.67.229.33-2749
   server: akrab1.v-pn.my.id
   port: 2086
   type: vmess
@@ -6988,7 +7213,7 @@ proxies:
     headers:
       Host: ca6.tehme100.fun
   udp: true
-- name: 🏁RELAY-172.67.229.34-2681
+- name: 🏁RELAY-172.67.229.34-2785
   server: akrab1.v-pn.my.id
   port: 2086
   type: vmess
@@ -7003,7 +7228,22 @@ proxies:
     headers:
       Host: ca6.tehme100.fun
   udp: true
-- name: 🏁RELAY-172.67.229.35-2637
+- name: 🏁RELAY-172.67.229.35-1853
+  server: akrab1.v-pn.my.id
+  port: 2086
+  type: vmess
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ca6.tehme100.fun
+  udp: true
+- name: 🏁RELAY-172.67.229.35-2741
   server: akrab1.v-pn.my.id
   port: 2086
   type: vmess
@@ -7018,7 +7258,7 @@ proxies:
     headers:
       Host: ca6.tehme100.fun
   udp: true
-- name: 🏁RELAY-172.67.229.38-2682
+- name: 🏁RELAY-172.67.229.38-2786
   server: akrab1.v-pn.my.id
   port: 2086
   type: vmess
@@ -7033,7 +7273,7 @@ proxies:
     headers:
       Host: ca6.tehme100.fun
   udp: true
-- name: 🏁RELAY-172.67.229.39-2675
+- name: 🏁RELAY-172.67.229.39-2779
   server: akrab1.v-pn.my.id
   port: 2086
   type: vmess
@@ -7048,7 +7288,7 @@ proxies:
     headers:
       Host: ca6.tehme100.fun
   udp: true
-- name: 🏁RELAY-172.67.26.173-2623
+- name: 🏁RELAY-172.67.26.173-2727
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7064,7 +7304,22 @@ proxies:
     headers:
       Host: sand.blanku.me
   udp: true
-- name: 🏁RELAY-172.67.5.100-5830
+- name: 🏁RELAY-172.67.36.67-9203
+  server: akrab1.v-pn.my.id
+  port: 80
+  type: vmess
+  uuid: 4a47e680-d860-4e63-9fa6-813857fb0f42
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: 4a47e680
+    headers:
+      Host: cf-lt.sharecentre.online
+  udp: true
+- name: 🏁RELAY-172.67.5.100-5910
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7079,99 +7334,22 @@ proxies:
     headers:
       Host: cf-dx-dns.sharecentre.online
   udp: true
-- name: 🏁RELAY-172.67.50.28-0047
+- name: 🏁RELAY-172.67.62.218-3968
   server: akrab1.v-pn.my.id
-  port: 443
+  port: 8080
   type: vmess
-  uuid: 18849b38-719b-483e-958b-45397595a8ec
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lsb.wqxzhang.online
-  udp: true
-- name: 🏁RELAY-172.67.50.28-0095
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: vmess
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: de-1.sharecentre.online
-  network: ws
-  ws-opts:
-    path: /shirker
-    headers:
-      Host: de-1.sharecentre.online
-  udp: true
-- name: 🏁RELAY-172.67.50.28-0096
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: vmess
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: sg-1.sharecentre.online
-  network: ws
-  ws-opts:
-    path: /shirker
-    headers:
-      Host: sg-1.sharecentre.online
-  udp: true
-- name: 🏁RELAY-172.67.50.28-1419
-  server: akrab1.v-pn.my.id
-  port: 80
-  type: vmess
-  uuid: ae056da6-d893-4f06-94f5-1876a6a76fcf
+  uuid: 5e203864-6170-4056-fa90-b1fdbda3a3ca
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed
+    path: /?ed=2048
     headers:
-      Host: mianfei-uk-0001.bpjc.site
+      Host: eu4.openxai.link
   udp: true
-- name: 🏁RELAY-172.67.50.28-6258
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: vmess
-  uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /shirker
-    headers:
-      Host: us-east.sharecentre.online
-  udp: true
-- name: 🏁RELAY-172.67.66.124-0919
-  server: akrab1.v-pn.my.id
-  port: 2052
-  type: vmess
-  uuid: ae056da6-d893-4f06-94f5-1876a6a76fcf
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: mianfei-jp-0001.bpjc.site
-  udp: true
-- name: 🏁RELAY-172.67.66.124-1237
+- name: 🏁RELAY-172.67.66.124-1224
   server: akrab1.v-pn.my.id
   port: 2052
   type: vmess
@@ -7186,22 +7364,7 @@ proxies:
     headers:
       Host: mianfei-jp-0001.bpjc.site
   udp: true
-- name: 🏁RELAY-172.67.66.124-1844
-  server: akrab1.v-pn.my.id
-  port: 2052
-  type: vmess
-  uuid: ae056da6-d893-4f06-94f5-1876a6a76fcf
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: mianfei-jp-0001.bpjc.site
-  udp: true
-- name: 🏁RELAY-172.67.68.246-0168
+- name: 🏁RELAY-172.67.68.246-0182
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7216,7 +7379,22 @@ proxies:
     headers:
       Host: vip2323.cfd
   udp: true
-- name: 🏁RELAY-172.67.68.246-1320
+- name: 🏁RELAY-172.67.68.246-0184
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vip2323.cfd
+  udp: true
+- name: 🏁RELAY-172.67.68.246-1307
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7231,7 +7409,7 @@ proxies:
     headers:
       Host: vip2323.cfd
   udp: true
-- name: 🏁RELAY-172.67.69.244-2502
+- name: 🏁RELAY-172.67.69.244-2496
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7246,7 +7424,7 @@ proxies:
     headers:
       Host: powerservice.com
   udp: true
-- name: 🏁RELAY-172.67.69.244-6849
+- name: 🏁RELAY-172.67.69.244-6929
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7276,37 +7454,22 @@ proxies:
     headers:
       Host: oplg1.cfcdn2.xyz
   udp: true
-- name: 🏁RELAY-172.67.70.79-0525
+- name: 🏁RELAY-172.67.70.40-2230
   server: akrab1.v-pn.my.id
   port: 8080
   type: vmess
-  uuid: 010c265f-5455-4141-ca23-4d69357ded0d
+  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: aktw.daozhang.love
+      Host: eu3.openxai.link
   udp: true
-- name: 🏁RELAY-172.67.70.79-2003
-  server: akrab1.v-pn.my.id
-  port: 8080
-  type: vmess
-  uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hytron.io
-  udp: true
-- name: 🏁RELAY-172.67.71.160-0164
+- name: 🏁RELAY-172.67.71.160-0889
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7318,11 +7481,26 @@ proxies:
   servername: obdii.cfd
   network: ws
   ws-opts:
+    path: /
+    headers:
+      Host: obdii.cfd
+  udp: true
+- name: 🏁RELAY-172.67.71.160-1438
+  server: akrab1.v-pn.my.id
+  port: 443
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
     path: /linkws
     headers:
       Host: obdii.cfd
   udp: true
-- name: 🏁RELAY-172.67.72.172-6251
+- name: 🏁RELAY-172.67.72.172-6331
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7337,22 +7515,7 @@ proxies:
     headers:
       Host: nat.998808.xyz
   udp: true
-- name: 🏁RELAY-172.67.72.2-2328
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: vmess
-  uuid: 3a3e263d-223f-49cc-bbdb-f7e07a55e6fe
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /111111.online
-    headers:
-      Host: by.6111.online
-  udp: true
-- name: 🏁RELAY-172.67.73.208-0031
+- name: 🏁RELAY-172.67.73.208-3556
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -7365,24 +7528,24 @@ proxies:
   ws-opts:
     path: /shared
     headers:
-      Host: lv.awsbest.com
+      Host: get.tech
   udp: true
-- name: 🏁RELAY-172.67.75.172-1238
+- name: 🏁RELAY-172.67.73.39-1608
   server: akrab1.v-pn.my.id
-  port: 80
+  port: 443
   type: vmess
-  uuid: 113a74cc-f13b-48ec-bbb2-2bbab77a2f35
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
+    path: /sshkit/401452697/635b464921141/
     headers:
-      Host: kr1.ljyyds.top
+      Host: sg1-v2ray.sshkit.org
   udp: true
-- name: 🏁RELAY-172.67.75.172-1311
+- name: 🏁RELAY-172.67.75.172-1298
   server: akrab1.v-pn.my.id
   port: 8080
   type: vmess
@@ -7397,7 +7560,7 @@ proxies:
     headers:
       Host: cokdcnodkcnokdcnwod.dsdsdsd-weweD.cwdcdwwwwddcwdcwdcw-d-d-s-a-dcf.who-the-fuc.tk
   udp: true
-- name: 🏁RELAY-172.67.77.95-1788
+- name: 🏁RELAY-172.67.77.95-1792
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7412,7 +7575,7 @@ proxies:
     headers:
       Host: nat.998808.xyz
   udp: true
-- name: 🏁RELAY-172.67.79.117-6253
+- name: 🏁RELAY-172.67.79.117-6333
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7427,7 +7590,7 @@ proxies:
     headers:
       Host: www.998808.xyz
   udp: true
-- name: 🏁RELAY-172.67.81.238-2679
+- name: 🏁RELAY-172.67.81.238-2783
   server: akrab1.v-pn.my.id
   port: 8880
   type: vmess
@@ -7442,7 +7605,7 @@ proxies:
     headers:
       Host: fr7.tehme100.fun
   udp: true
-- name: 🏁RELAY-172.67.84.21-1676
+- name: 🏁RELAY-172.67.84.21-1680
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7457,7 +7620,7 @@ proxies:
     headers:
       Host: cf-lt-dns.sharecentre.online
   udp: true
-- name: 🏁RELAY-172.67.84.21-6835
+- name: 🏁RELAY-172.67.84.21-6915
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7472,7 +7635,7 @@ proxies:
     headers:
       Host: us-dp.sharecentre.online
   udp: true
-- name: 🏁RELAY-173.245.49.10-2455
+- name: 🏁RELAY-173.245.49.10-2449
   server: akrab1.v-pn.my.id
   port: 8443
   type: vmess
@@ -7488,7 +7651,7 @@ proxies:
     headers:
       Host: 173.245.49.10
   udp: true
-- name: 🏁RELAY-173.245.49.10-6842
+- name: 🏁RELAY-173.245.49.10-6922
   server: akrab1.v-pn.my.id
   port: 8443
   type: vmess
@@ -7504,7 +7667,7 @@ proxies:
     headers:
       Host: us-171-78.shoptunnel.live
   udp: true
-- name: 🏁RELAY-173.245.49.23-2551
+- name: 🏁RELAY-173.245.49.23-2545
   server: akrab1.v-pn.my.id
   port: 8443
   type: vmess
@@ -7520,7 +7683,7 @@ proxies:
     headers:
       Host: 173.245.49.23
   udp: true
-- name: 🏁RELAY-173.245.49.23-6843
+- name: 🏁RELAY-173.245.49.23-6923
   server: akrab1.v-pn.my.id
   port: 8443
   type: vmess
@@ -7536,7 +7699,7 @@ proxies:
     headers:
       Host: us-171-78.shoptunnel.live
   udp: true
-- name: 🏁RELAY-185.148.105.52-1325
+- name: 🏁RELAY-185.148.105.52-1312
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7551,7 +7714,7 @@ proxies:
     headers:
       Host: sn1.publcenem.shop
   udp: true
-- name: 🏁RELAY-185.148.105.52-9050
+- name: 🏁RELAY-185.148.105.52-9130
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7566,7 +7729,7 @@ proxies:
     headers:
       Host: mbt.ircf.space
   udp: true
-- name: 🏁RELAY-185.162.228.110-1717
+- name: 🏁RELAY-185.162.228.110-1721
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7581,7 +7744,7 @@ proxies:
     headers:
       Host: oplg1.cfcdn2.xyz
   udp: true
-- name: 🏁RELAY-185.162.228.228-1664
+- name: 🏁RELAY-185.162.228.228-1668
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7596,7 +7759,7 @@ proxies:
     headers:
       Host: lg1.trump2023.us
   udp: true
-- name: 🏁RELAY-185.162.228.229-1330
+- name: 🏁RELAY-185.162.228.229-1317
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7611,7 +7774,7 @@ proxies:
     headers:
       Host: oplg1.cfcdn2.xyz
   udp: true
-- name: 🏁RELAY-185.162.228.229-6472
+- name: 🏁RELAY-185.162.228.229-6552
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7626,7 +7789,7 @@ proxies:
     headers:
       Host: opfr1.v2rayfree1.xyz
   udp: true
-- name: 🏁RELAY-185.162.228.229-6490
+- name: 🏁RELAY-185.162.228.229-6570
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7641,7 +7804,7 @@ proxies:
     headers:
       Host: oplg1.zhujicn2.com
   udp: true
-- name: 🏁RELAY-185.162.228.230-1724
+- name: 🏁RELAY-185.162.228.230-1728
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7656,7 +7819,7 @@ proxies:
     headers:
       Host: lg10.cfcdn1.xyz
   udp: true
-- name: 🏁RELAY-185.193.31.201-2672
+- name: 🏁RELAY-185.193.31.201-2776
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7672,7 +7835,22 @@ proxies:
     headers:
       Host: sand.blanku.me
   udp: true
-- name: 🏁RELAY-188.114.96.11-0170
+- name: 🏁RELAY-188.114.96.11-0198
+  server: akrab1.v-pn.my.id
+  port: 80
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: a.prapt5.ir
+  udp: true
+- name: 🏁RELAY-188.114.96.11-1434
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -7687,7 +7865,7 @@ proxies:
     headers:
       Host: a.prapt5.ir
   udp: true
-- name: 🏁RELAY-188.114.96.2-2686
+- name: 🏁RELAY-188.114.96.2-2790
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7703,7 +7881,7 @@ proxies:
     headers:
       Host: ophelia.mom
   udp: true
-- name: 🏁RELAY-188.114.96.3-2712
+- name: 🏁RELAY-188.114.96.3-2816
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7719,7 +7897,7 @@ proxies:
     headers:
       Host: oliv.beauty
   udp: true
-- name: 🏁RELAY-188.114.96.46-1316
+- name: 🏁RELAY-188.114.96.46-1303
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7734,7 +7912,7 @@ proxies:
     headers:
       Host: zhuyong.hucloud-dns.xyz
   udp: true
-- name: 🏁RELAY-188.114.96.7-2659
+- name: 🏁RELAY-188.114.96.7-2763
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7750,7 +7928,7 @@ proxies:
     headers:
       Host: octavi.cfd
   udp: true
-- name: 🏁RELAY-188.114.97.1-2641
+- name: 🏁RELAY-188.114.97.1-2745
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7766,7 +7944,7 @@ proxies:
     headers:
       Host: odelia.autos
   udp: true
-- name: 🏁RELAY-188.114.97.7-2630
+- name: 🏁RELAY-188.114.97.7-2734
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7782,7 +7960,7 @@ proxies:
     headers:
       Host: waynn.makeup
   udp: true
-- name: 🏁RELAY-188.114.98.0-2684
+- name: 🏁RELAY-188.114.98.0-2788
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7798,7 +7976,7 @@ proxies:
     headers:
       Host: odelia.autos
   udp: true
-- name: 🏁RELAY-188.114.99.0-2627
+- name: 🏁RELAY-188.114.99.0-2731
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7814,7 +7992,7 @@ proxies:
     headers:
       Host: ophelia.mom
   udp: true
-- name: 🏁RELAY-188.114.99.10-1737
+- name: 🏁RELAY-188.114.99.10-1741
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7829,7 +8007,7 @@ proxies:
     headers:
       Host: oplg1.zhujicn2.com
   udp: true
-- name: 🏁RELAY-188.114.99.9-1657
+- name: 🏁RELAY-188.114.99.9-1661
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7844,7 +8022,7 @@ proxies:
     headers:
       Host: lg1.trump2023.us
   udp: true
-- name: 🏁RELAY-188.42.145.73-1228
+- name: 🏁RELAY-188.42.145.73-1215
   server: akrab1.v-pn.my.id
   port: 443
   type: trojan
@@ -7857,7 +8035,7 @@ proxies:
     headers:
       Host: k6nl1.yfjc.sbs
   udp: true
-- name: 🏁RELAY-188.42.88.227-2620
+- name: 🏁RELAY-188.42.88.227-2724
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7873,7 +8051,7 @@ proxies:
     headers:
       Host: sand.blanku.me
   udp: true
-- name: 🏁RELAY-190.93.244.2-1674
+- name: 🏁RELAY-190.93.244.2-1678
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7888,7 +8066,7 @@ proxies:
     headers:
       Host: lg1.trump2023.us
   udp: true
-- name: 🏁RELAY-190.93.244.2-2516
+- name: 🏁RELAY-190.93.244.2-2510
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7903,7 +8081,7 @@ proxies:
     headers:
       Host: 190.93.244.2
   udp: true
-- name: 🏁RELAY-190.93.244.3-1710
+- name: 🏁RELAY-190.93.244.3-1714
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7918,7 +8096,7 @@ proxies:
     headers:
       Host: oplg1.zhujicn2.com
   udp: true
-- name: 🏁RELAY-190.93.245.2-1712
+- name: 🏁RELAY-190.93.245.2-1716
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7933,7 +8111,7 @@ proxies:
     headers:
       Host: lg1.trump2023.us
   udp: true
-- name: 🏁RELAY-190.93.245.3-1681
+- name: 🏁RELAY-190.93.245.3-1685
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7948,7 +8126,7 @@ proxies:
     headers:
       Host: oplg1.zhujicn2.com
   udp: true
-- name: 🏁RELAY-190.93.246.137-1349
+- name: 🏁RELAY-190.93.246.137-1370
   server: akrab1.v-pn.my.id
   port: 2096
   type: vmess
@@ -7963,22 +8141,7 @@ proxies:
     headers:
       Host: s1.shargh.shop
   udp: true
-- name: 🏁RELAY-190.93.246.137-1383
-  server: akrab1.v-pn.my.id
-  port: 2096
-  type: vmess
-  uuid: 12009e57-6fd8-46d6-94af-539514a7e7c7
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: s1.shargh.shop
-  udp: true
-- name: 🏁RELAY-190.93.246.2-1673
+- name: 🏁RELAY-190.93.246.2-1677
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -7993,7 +8156,7 @@ proxies:
     headers:
       Host: lg1.trump2023.us
   udp: true
-- name: 🏁RELAY-190.93.246.3-1708
+- name: 🏁RELAY-190.93.246.3-1712
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8008,7 +8171,7 @@ proxies:
     headers:
       Host: oplg1.zhujicn2.com
   udp: true
-- name: 🏁RELAY-192.65.217.200-1227
+- name: 🏁RELAY-192.65.217.200-1214
   server: akrab1.v-pn.my.id
   port: 443
   type: trojan
@@ -8021,7 +8184,7 @@ proxies:
     headers:
       Host: k6us1.yfjc.sbs
   udp: true
-- name: 🏁RELAY-192.65.217.247-1219
+- name: 🏁RELAY-192.65.217.247-1206
   server: akrab1.v-pn.my.id
   port: 443
   type: trojan
@@ -8034,7 +8197,7 @@ proxies:
     headers:
       Host: k5us2.yfjc.sbs
   udp: true
-- name: 🏁RELAY-195.85.59.161-1343
+- name: 🏁RELAY-195.85.59.95-1330
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8049,7 +8212,7 @@ proxies:
     headers:
       Host: tw02.nttkk.com
   udp: true
-- name: 🏁RELAY-198.41.203.5-1587
+- name: 🏁RELAY-198.41.203.5-1591
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8064,7 +8227,7 @@ proxies:
     headers:
       Host: lg30.cfcdn3.xyz
   udp: true
-- name: 🏁RELAY-198.41.203.5-6482
+- name: 🏁RELAY-198.41.203.5-6562
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8079,7 +8242,7 @@ proxies:
     headers:
       Host: opfr1.v2rayfree1.xyz
   udp: true
-- name: 🏁RELAY-198.41.203.6-1589
+- name: 🏁RELAY-198.41.203.6-1593
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8094,7 +8257,7 @@ proxies:
     headers:
       Host: fr2.cfcdn4.xyz
   udp: true
-- name: 🏁RELAY-198.41.203.6-6481
+- name: 🏁RELAY-198.41.203.6-6561
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8109,22 +8272,7 @@ proxies:
     headers:
       Host: fr1.trump2023.org
   udp: true
-- name: 🏁RELAY-198.41.208.19-0901
-  server: akrab1.v-pn.my.id
-  port: 8080
-  type: vmess
-  uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: eu2.openxai.link
-  udp: true
-- name: 🏁RELAY-198.41.208.200-6521
+- name: 🏁RELAY-198.41.208.200-6601
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -8139,7 +8287,7 @@ proxies:
     headers:
       Host: sg1-v2ray.sshkit.org
   udp: true
-- name: 🏁RELAY-198.41.212.100-1636
+- name: 🏁RELAY-198.41.212.100-1640
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8154,7 +8302,7 @@ proxies:
     headers:
       Host: lg30.cfcdn3.xyz
   udp: true
-- name: 🏁RELAY-198.41.212.12-1734
+- name: 🏁RELAY-198.41.212.12-1738
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8169,7 +8317,7 @@ proxies:
     headers:
       Host: oplg1.cfcdn2.xyz
   udp: true
-- name: 🏁RELAY-198.41.212.122-1644
+- name: 🏁RELAY-198.41.212.122-1648
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8184,7 +8332,7 @@ proxies:
     headers:
       Host: fr2.cfcdn4.xyz
   udp: true
-- name: 🏁RELAY-198.41.212.145-1612
+- name: 🏁RELAY-198.41.212.145-1616
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8199,7 +8347,7 @@ proxies:
     headers:
       Host: lg1.cfcdn3.xyz
   udp: true
-- name: 🏁RELAY-198.41.212.30-1197
+- name: 🏁RELAY-198.41.212.30-1184
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8214,7 +8362,7 @@ proxies:
     headers:
       Host: lg2.zhujicn2.com
   udp: true
-- name: 🏁RELAY-198.41.212.92-6250
+- name: 🏁RELAY-198.41.212.92-6330
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8229,22 +8377,7 @@ proxies:
     headers:
       Host: www.998808.xyz
   udp: true
-- name: 🏁RELAY-203.22.223.2-8959
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vuk2.0bad.com/chat
-    headers:
-      Host: wi.saintink.eu.org
-  udp: true
-- name: 🏁RELAY-203.24.108.10-1718
+- name: 🏁RELAY-203.24.108.10-1722
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8259,7 +8392,7 @@ proxies:
     headers:
       Host: lg10.cfcdn1.xyz
   udp: true
-- name: 🏁RELAY-203.24.108.8-1765
+- name: 🏁RELAY-203.24.108.8-1769
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8274,7 +8407,7 @@ proxies:
     headers:
       Host: oplg1.cfcdn2.xyz
   udp: true
-- name: 🏁RELAY-203.24.108.8-2454
+- name: 🏁RELAY-203.24.108.8-2448
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8289,7 +8422,7 @@ proxies:
     headers:
       Host: 203.24.108.8
   udp: true
-- name: 🏁RELAY-203.24.108.8-6492
+- name: 🏁RELAY-203.24.108.8-6572
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8304,7 +8437,7 @@ proxies:
     headers:
       Host: lg1.trump2023.us
   udp: true
-- name: 🏁RELAY-203.24.108.9-1740
+- name: 🏁RELAY-203.24.108.9-1744
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8319,7 +8452,7 @@ proxies:
     headers:
       Host: oplg1.zhujicn2.com
   udp: true
-- name: 🏁RELAY-203.30.188.120-6474
+- name: 🏁RELAY-203.30.188.120-6554
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8334,7 +8467,7 @@ proxies:
     headers:
       Host: opfr1.v2rayfree1.xyz
   udp: true
-- name: 🏁RELAY-203.30.188.121-1770
+- name: 🏁RELAY-203.30.188.121-1774
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8349,7 +8482,7 @@ proxies:
     headers:
       Host: oplg1.cfcdn2.xyz
   udp: true
-- name: 🏁RELAY-203.30.188.188-1670
+- name: 🏁RELAY-203.30.188.188-1674
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8364,7 +8497,7 @@ proxies:
     headers:
       Host: lg1.trump2023.us
   udp: true
-- name: 🏁RELAY-203.30.188.189-1761
+- name: 🏁RELAY-203.30.188.189-1765
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8379,7 +8512,7 @@ proxies:
     headers:
       Host: oplg1.zhujicn2.com
   udp: true
-- name: 🏁RELAY-203.30.188.190-1728
+- name: 🏁RELAY-203.30.188.190-1732
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8394,7 +8527,7 @@ proxies:
     headers:
       Host: lg10.cfcdn1.xyz
   udp: true
-- name: 🏁RELAY-203.30.189.189-1720
+- name: 🏁RELAY-203.30.189.189-1724
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8409,7 +8542,7 @@ proxies:
     headers:
       Host: lg1.trump2023.us
   udp: true
-- name: 🏁RELAY-203.30.189.190-1725
+- name: 🏁RELAY-203.30.189.190-1729
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8424,7 +8557,7 @@ proxies:
     headers:
       Host: oplg1.zhujicn2.com
   udp: true
-- name: 🏁RELAY-203.30.189.190-2507
+- name: 🏁RELAY-203.30.189.190-2501
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8439,7 +8572,7 @@ proxies:
     headers:
       Host: 203.30.189.190
   udp: true
-- name: 🏁RELAY-203.30.189.191-1723
+- name: 🏁RELAY-203.30.189.191-1727
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8454,7 +8587,7 @@ proxies:
     headers:
       Host: lg10.cfcdn1.xyz
   udp: true
-- name: 🏁RELAY-203.30.190.190-1669
+- name: 🏁RELAY-203.30.190.190-1673
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8469,7 +8602,7 @@ proxies:
     headers:
       Host: lg1.trump2023.us
   udp: true
-- name: 🏁RELAY-203.30.190.191-1704
+- name: 🏁RELAY-203.30.190.191-1708
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8484,7 +8617,7 @@ proxies:
     headers:
       Host: oplg1.zhujicn2.com
   udp: true
-- name: 🏁RELAY-203.30.190.192-1746
+- name: 🏁RELAY-203.30.190.192-1750
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8499,7 +8632,7 @@ proxies:
     headers:
       Host: lg10.cfcdn1.xyz
   udp: true
-- name: 🏁RELAY-203.30.191.10-1714
+- name: 🏁RELAY-203.30.191.10-1718
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8514,7 +8647,7 @@ proxies:
     headers:
       Host: oplg1.cfcdn2.xyz
   udp: true
-- name: 🏁RELAY-203.30.191.18-1668
+- name: 🏁RELAY-203.30.191.18-1672
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8529,7 +8662,7 @@ proxies:
     headers:
       Host: clash6.ssr-free.xyz
   udp: true
-- name: 🏁RELAY-203.30.191.19-1658
+- name: 🏁RELAY-203.30.191.19-1662
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8544,7 +8677,7 @@ proxies:
     headers:
       Host: clash6.ssr-free.xyz
   udp: true
-- name: 🏁RELAY-203.30.191.191-1690
+- name: 🏁RELAY-203.30.191.191-1694
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8559,7 +8692,7 @@ proxies:
     headers:
       Host: oplg1.cfcdn2.xyz
   udp: true
-- name: 🏁RELAY-203.30.191.192-1757
+- name: 🏁RELAY-203.30.191.192-1761
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8574,7 +8707,7 @@ proxies:
     headers:
       Host: oplg1.zhujicn2.com
   udp: true
-- name: 🏁RELAY-203.30.191.193-6494
+- name: 🏁RELAY-203.30.191.193-6574
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8589,7 +8722,7 @@ proxies:
     headers:
       Host: lg10.cfcdn1.xyz
   udp: true
-- name: 🏁RELAY-203.30.191.2-1772
+- name: 🏁RELAY-203.30.191.2-1776
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8604,7 +8737,7 @@ proxies:
     headers:
       Host: oplg1.cfcdn2.xyz
   udp: true
-- name: 🏁RELAY-203.30.191.20-1683
+- name: 🏁RELAY-203.30.191.20-1687
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8619,7 +8752,7 @@ proxies:
     headers:
       Host: clash6.ssr-free.xyz
   udp: true
-- name: 🏁RELAY-203.30.191.3-1702
+- name: 🏁RELAY-203.30.191.3-1706
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8634,7 +8767,7 @@ proxies:
     headers:
       Host: oplg1.cfcdn2.xyz
   udp: true
-- name: 🏁RELAY-203.30.191.4-1688
+- name: 🏁RELAY-203.30.191.4-1692
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8649,7 +8782,7 @@ proxies:
     headers:
       Host: oplg1.cfcdn2.xyz
   udp: true
-- name: 🏁RELAY-203.30.191.5-1754
+- name: 🏁RELAY-203.30.191.5-1758
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8664,7 +8797,7 @@ proxies:
     headers:
       Host: oplg1.cfcdn2.xyz
   udp: true
-- name: 🏁RELAY-203.30.191.6-1687
+- name: 🏁RELAY-203.30.191.6-1691
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8679,7 +8812,7 @@ proxies:
     headers:
       Host: oplg1.cfcdn2.xyz
   udp: true
-- name: 🏁RELAY-203.30.191.7-1729
+- name: 🏁RELAY-203.30.191.7-1733
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8694,7 +8827,7 @@ proxies:
     headers:
       Host: oplg1.cfcdn2.xyz
   udp: true
-- name: 🏁RELAY-203.30.191.9-1672
+- name: 🏁RELAY-203.30.191.9-1676
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8724,7 +8857,7 @@ proxies:
     headers:
       Host: v2ray1.zhujicn2.org
   udp: true
-- name: 🏁RELAY-23.227.38.135-1385
+- name: 🏁RELAY-23.227.38.135-1372
   server: akrab1.v-pn.my.id
   port: 2086
   type: vmess
@@ -8739,7 +8872,7 @@ proxies:
     headers:
       Host: hamrah.fun
   udp: true
-- name: 🏁RELAY-23.227.38.18-0267
+- name: 🏁RELAY-23.227.38.18-0271
   server: akrab1.v-pn.my.id
   port: 443
   type: trojan
@@ -8752,7 +8885,7 @@ proxies:
     headers:
       Host: jus1.jsjc.sbs
   udp: true
-- name: 🏁RELAY-23.227.38.18-1318
+- name: 🏁RELAY-23.227.38.18-1305
   server: akrab1.v-pn.my.id
   port: 443
   type: trojan
@@ -8765,7 +8898,7 @@ proxies:
     headers:
       Host: jus1.jsjc.sbs
   udp: true
-- name: 🏁RELAY-23.227.38.20-1682
+- name: 🏁RELAY-23.227.38.20-1686
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8780,7 +8913,7 @@ proxies:
     headers:
       Host: oplg1.cfcdn2.xyz
   udp: true
-- name: 🏁RELAY-23.227.38.21-1733
+- name: 🏁RELAY-23.227.38.21-1737
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8795,7 +8928,7 @@ proxies:
     headers:
       Host: oplg1.cfcdn2.xyz
   udp: true
-- name: 🏁RELAY-23.227.38.22-1677
+- name: 🏁RELAY-23.227.38.22-1681
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8810,7 +8943,7 @@ proxies:
     headers:
       Host: oplg1.cfcdn2.xyz
   udp: true
-- name: 🏁RELAY-23.227.38.23-1661
+- name: 🏁RELAY-23.227.38.23-1665
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8825,7 +8958,7 @@ proxies:
     headers:
       Host: oplg1.cfcdn2.xyz
   udp: true
-- name: 🏁RELAY-23.227.38.24-1742
+- name: 🏁RELAY-23.227.38.24-1746
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8840,7 +8973,7 @@ proxies:
     headers:
       Host: oplg1.cfcdn2.xyz
   udp: true
-- name: 🏁RELAY-23.227.38.25-1736
+- name: 🏁RELAY-23.227.38.25-1740
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8855,7 +8988,7 @@ proxies:
     headers:
       Host: oplg1.cfcdn2.xyz
   udp: true
-- name: 🏁RELAY-23.227.38.26-1769
+- name: 🏁RELAY-23.227.38.26-1773
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8870,7 +9003,7 @@ proxies:
     headers:
       Host: oplg1.cfcdn2.xyz
   udp: true
-- name: 🏁RELAY-23.227.38.27-1750
+- name: 🏁RELAY-23.227.38.27-1754
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -8885,7 +9018,7 @@ proxies:
     headers:
       Host: oplg1.cfcdn2.xyz
   udp: true
-- name: 🏁RELAY-23.227.38.30-1317
+- name: 🏁RELAY-23.227.38.30-1304
   server: akrab1.v-pn.my.id
   port: 443
   type: trojan
@@ -8898,7 +9031,7 @@ proxies:
     headers:
       Host: jus2.jsjc.sbs
   udp: true
-- name: 🏁RELAY-23.227.38.33-1173
+- name: 🏁RELAY-23.227.38.33-1160
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -8913,7 +9046,7 @@ proxies:
     headers:
       Host: tgus.cloudflare.quest
   udp: true
-- name: 🏁RELAY-23.227.38.33-1191
+- name: 🏁RELAY-23.227.38.33-1178
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -8928,7 +9061,7 @@ proxies:
     headers:
       Host: linode.cloudflare.quest
   udp: true
-- name: 🏁RELAY-23.227.38.33-1195
+- name: 🏁RELAY-23.227.38.33-1182
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -8943,7 +9076,7 @@ proxies:
     headers:
       Host: tguk.cloudflare.quest
   udp: true
-- name: 🏁RELAY-23.227.38.33-6483
+- name: 🏁RELAY-23.227.38.33-6563
   server: akrab1.v-pn.my.id
   port: 2086
   type: vmess
@@ -8958,7 +9091,7 @@ proxies:
     headers:
       Host: scw.cloudflare.quest
   udp: true
-- name: 🏁RELAY-23.227.38.33-6639
+- name: 🏁RELAY-23.227.38.33-6719
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -8988,7 +9121,7 @@ proxies:
     headers:
       Host: lg1.trump2023.us
   udp: true
-- name: 🏁RELAY-23.227.38.38-1774
+- name: 🏁RELAY-23.227.38.38-1778
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -9018,7 +9151,7 @@ proxies:
     headers:
       Host: oplg1.zhujicn2.com
   udp: true
-- name: 🏁RELAY-23.227.38.40-1759
+- name: 🏁RELAY-23.227.38.40-1763
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -9033,7 +9166,7 @@ proxies:
     headers:
       Host: lg10.cfcdn1.xyz
   udp: true
-- name: 🏁RELAY-23.227.38.46-0256
+- name: 🏁RELAY-23.227.38.46-0260
   server: akrab1.v-pn.my.id
   port: 443
   type: trojan
@@ -9046,7 +9179,7 @@ proxies:
     headers:
       Host: jus3.jsjc.sbs
   udp: true
-- name: 🏁RELAY-23.227.39.166-2638
+- name: 🏁RELAY-23.227.39.166-2742
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -9062,7 +9195,7 @@ proxies:
     headers:
       Host: sand.blanku.me
   udp: true
-- name: 🏁RELAY-45.131.209.32-2631
+- name: 🏁RELAY-45.131.209.32-2735
   server: akrab1.v-pn.my.id
   port: 8880
   type: vmess
@@ -9077,7 +9210,7 @@ proxies:
     headers:
       Host: fr7.tehme100.fun
   udp: true
-- name: 🏁RELAY-45.131.5.27-2649
+- name: 🏁RELAY-45.131.5.27-2753
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -9123,7 +9256,7 @@ proxies:
     headers:
       Host: lg10.cfcdn1.xyz
   udp: true
-- name: 🏁RELAY-66.81.247.49-9139
+- name: 🏁RELAY-66.81.247.49-9219
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -9138,7 +9271,7 @@ proxies:
     headers:
       Host: arvancloud.ir-Uc.snappfood.SO.ddns001.net
   udp: true
-- name: 🏁RELAY-66.81.247.58-2668
+- name: 🏁RELAY-66.81.247.58-2772
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -9154,7 +9287,7 @@ proxies:
     headers:
       Host: sand.blanku.me
   udp: true
-- name: 🏁RELAY-89.116.161.133-1214
+- name: 🏁RELAY-89.116.161.133-1201
   server: akrab1.v-pn.my.id
   port: 443
   type: trojan
@@ -9167,7 +9300,7 @@ proxies:
     headers:
       Host: p1us1.pqjc.buzz
   udp: true
-- name: 🏁RELAY-89.116.180.158-1222
+- name: 🏁RELAY-89.116.180.158-1209
   server: akrab1.v-pn.my.id
   port: 443
   type: trojan
@@ -9180,7 +9313,7 @@ proxies:
     headers:
       Host: 3us2.pqjc.buzz
   udp: true
-- name: 🏁RELAY-89.116.180.179-1213
+- name: 🏁RELAY-89.116.180.179-1200
   server: akrab1.v-pn.my.id
   port: 443
   type: trojan
@@ -9193,7 +9326,7 @@ proxies:
     headers:
       Host: p6us4.pqjc.buzz
   udp: true
-- name: 🇸🇬SG-103.253.26.134-0373
+- name: 🇸🇬SG-103.253.26.134-0377
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -9208,7 +9341,7 @@ proxies:
     headers:
       Host: eeh7iewe.com
   udp: true
-- name: 🇸🇬SG-103.253.26.20-0378
+- name: 🇸🇬SG-103.253.26.20-0382
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -9223,7 +9356,7 @@ proxies:
     headers:
       Host: zecjk.com
   udp: true
-- name: 🇸🇬SG-103.83.156.89-2333
+- name: 🇸🇬SG-103.83.156.89-2344
   server: akrab1.v-pn.my.id
   port: 8888
   type: vmess
@@ -9238,7 +9371,7 @@ proxies:
     headers:
       Host: 103.83.156.89
   udp: true
-- name: 🇸🇬SG-104.248.148.147-2338
+- name: 🇸🇬SG-104.248.148.147-2349
   server: akrab1.v-pn.my.id
   port: 21888
   type: vmess
@@ -9253,7 +9386,22 @@ proxies:
     headers:
       Host: 104.248.148.147
   udp: true
-- name: 🇸🇬SG-139.180.186.6-1254
+- name: 🇸🇬SG-138.2.101.175-1381
+  server: akrab1.v-pn.my.id
+  port: 80
+  type: vmess
+  uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: caonimashabiwanyi5.daxiongda.top
+  udp: true
+- name: 🇸🇬SG-139.180.186.6-1241
   server: akrab1.v-pn.my.id
   port: 28305
   type: vmess
@@ -9268,7 +9416,7 @@ proxies:
     headers:
       Host: m.instagram.com
   udp: true
-- name: 🇸🇬SG-139.180.186.6-1257
+- name: 🇸🇬SG-139.180.186.6-1244
   server: akrab1.v-pn.my.id
   port: 37695
   type: vmess
@@ -9283,7 +9431,7 @@ proxies:
     headers:
       Host: android.googleapis.com
   udp: true
-- name: 🇸🇬SG-139.99.61.154-2471
+- name: 🇸🇬SG-139.99.61.154-2465
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -9298,7 +9446,7 @@ proxies:
     headers:
       Host: 139.99.61.154
   udp: true
-- name: 🇸🇬SG-139.99.61.53-2424
+- name: 🇸🇬SG-139.99.61.53-2418
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -9313,7 +9461,7 @@ proxies:
     headers:
       Host: 139.99.61.53
   udp: true
-- name: 🇸🇬SG-146.190.97.8-0520
+- name: 🇸🇬SG-146.190.97.8-0524
   server: akrab1.v-pn.my.id
   port: 20552
   type: vmess
@@ -9328,7 +9476,22 @@ proxies:
     headers:
       Host: m.linkedin.com
   udp: true
-- name: 🇸🇬SG-146.190.99.160-0218
+- name: 🇸🇬SG-146.190.99.160-0213
+  server: akrab1.v-pn.my.id
+  port: 27249
+  type: vmess
+  uuid: 58a7e71e-05a7-4406-b8d5-8d69bc4d009c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 146.190.99.160
+  udp: true
+- name: 🇸🇬SG-146.190.99.160-1439
   server: akrab1.v-pn.my.id
   port: 27249
   type: vmess
@@ -9343,7 +9506,7 @@ proxies:
     headers:
       Host: 146.190.99.160
   udp: true
-- name: 🇸🇬SG-15.235.147.186-1111
+- name: 🇸🇬SG-15.235.147.186-1115
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -9358,7 +9521,7 @@ proxies:
     headers:
       Host: sg-lb.vhax.net
   udp: true
-- name: 🇸🇬SG-15.235.147.186-6498
+- name: 🇸🇬SG-15.235.147.186-6578
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -9373,7 +9536,7 @@ proxies:
     headers:
       Host: zoom.us
   udp: true
-- name: 🇸🇬SG-15.235.147.186-6507
+- name: 🇸🇬SG-15.235.147.186-6587
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -9388,7 +9551,7 @@ proxies:
     headers:
       Host: 15.235.147.186
   udp: true
-- name: 🇸🇬SG-15.235.202.196-2499
+- name: 🇸🇬SG-15.235.202.196-2493
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -9403,37 +9566,7 @@ proxies:
     headers:
       Host: 15.235.202.196
   udp: true
-- name: 🇸🇬SG-158.178.228.0-1395
-  server: akrab1.v-pn.my.id
-  port: 80
-  type: vmess
-  uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: caonimashabiwanyi5.daxiongda.top
-  udp: true
-- name: 🇸🇬SG-158.178.232.111-1394
-  server: akrab1.v-pn.my.id
-  port: 80
-  type: vmess
-  uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: caonimashabiwanyi5.daxiongda.top
-  udp: true
-- name: 🇸🇬SG-159.223.32.230-0284
+- name: 🇸🇬SG-159.223.32.230-0288
   server: akrab1.v-pn.my.id
   port: 8080
   type: vmess
@@ -9448,7 +9581,7 @@ proxies:
     headers:
       Host: 159.223.32.230
   udp: true
-- name: 🇸🇬SG-172.105.117.129-0214
+- name: 🇸🇬SG-172.105.117.129-0203
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -9463,7 +9596,7 @@ proxies:
     headers:
       Host: www.tesla.com
   udp: true
-- name: 🇸🇬SG-172.105.123.4-3589
+- name: 🇸🇬SG-172.105.123.4-3693
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -9478,7 +9611,7 @@ proxies:
     headers:
       Host: sg2.safepn.net
   udp: true
-- name: 🇸🇬SG-172.105.123.4-3592
+- name: 🇸🇬SG-172.105.123.4-3696
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -9494,7 +9627,7 @@ proxies:
     headers:
       Host: sg2.safepn.net
   udp: true
-- name: 🇸🇬SG-174.138.22.186-3546
+- name: 🇸🇬SG-174.138.22.186-3650
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -9510,7 +9643,7 @@ proxies:
     headers:
       Host: 6ofj69.scvps.my.id
   udp: true
-- name: 🇸🇬SG-180.215.130.123-0374
+- name: 🇸🇬SG-180.215.130.123-0378
   server: akrab1.v-pn.my.id
   port: 46452
   type: vmess
@@ -9525,7 +9658,7 @@ proxies:
     headers:
       Host: 180.215.130.123
   udp: true
-- name: 🇸🇬SG-180.215.130.123-0379
+- name: 🇸🇬SG-180.215.130.123-0383
   server: akrab1.v-pn.my.id
   port: 11584
   type: vmess
@@ -9540,7 +9673,7 @@ proxies:
     headers:
       Host: 180.215.130.123
   udp: true
-- name: 🇸🇬SG-20.212.162.170-1253
+- name: 🇸🇬SG-20.212.162.170-1240
   server: akrab1.v-pn.my.id
   port: 49498
   type: vmess
@@ -9555,7 +9688,7 @@ proxies:
     headers:
       Host: www.taobao.com
   udp: true
-- name: 🇸🇬SG-202.61.141.130-0377
+- name: 🇸🇬SG-202.61.141.130-0381
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -9570,7 +9703,7 @@ proxies:
     headers:
       Host: 202.61.141.130
   udp: true
-- name: 🇸🇬SG-202.61.141.130-6799
+- name: 🇸🇬SG-202.61.141.130-6879
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -9585,7 +9718,7 @@ proxies:
     headers:
       Host: 202.61.141.130
   udp: true
-- name: 🇸🇬SG-202.79.169.44-1421
+- name: 🇸🇬SG-202.79.169.44-1408
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -9601,22 +9734,7 @@ proxies:
     headers:
       Host: www.55174688.xyz
   udp: true
-- name: 🇸🇬SG-202.79.171.239-0967
-  server: akrab1.v-pn.my.id
-  port: 443
-  type: vmess
-  uuid: fb3583a3-7717-4fe5-9146-3301861f9f41
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.46130221.xyz
-  udp: true
-- name: 🇸🇬SG-202.79.171.239-1515
+- name: 🇸🇬SG-202.79.171.239-1519
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -9631,7 +9749,7 @@ proxies:
     headers:
       Host: www.46130221.xyz
   udp: true
-- name: 🇸🇬SG-207.148.64.32-1245
+- name: 🇸🇬SG-207.148.64.32-1232
   server: akrab1.v-pn.my.id
   port: 34920
   type: vmess
@@ -9646,11 +9764,11 @@ proxies:
     headers:
       Host: m.zoom.us
   udp: true
-- name: 🇸🇬SG-213.35.102.141-1369
+- name: 🇸🇬SG-213.35.112.27-1382
   server: akrab1.v-pn.my.id
-  port: 64952
+  port: 80
   type: vmess
-  uuid: e29f1446-1d4f-4d09-ad62-b3776481cad2
+  uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929
   alterId: 0
   cipher: auto
   tls: false
@@ -9659,9 +9777,9 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: sg-singapore-oracle-4f34e8.ip1.shop
+      Host: caonimashabiwanyi5.daxiongda.top
   udp: true
-- name: 🇸🇬SG-213.35.113.150-0184
+- name: 🇸🇬SG-213.35.113.150-0186
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -9676,7 +9794,22 @@ proxies:
     headers:
       Host: 213.35.113.150
   udp: true
-- name: 🇸🇬SG-43.159.52.16-5816
+- name: 🇸🇬SG-213.35.125.159-1356
+  server: akrab1.v-pn.my.id
+  port: 64952
+  type: vmess
+  uuid: e29f1446-1d4f-4d09-ad62-b3776481cad2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg-singapore-oracle-4f34e8.ip1.shop
+  udp: true
+- name: 🇸🇬SG-43.159.52.16-5896
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -9691,7 +9824,7 @@ proxies:
     headers:
       Host: do5.yyhm9.com
   udp: true
-- name: 🇸🇬SG-45.76.144.158-1243
+- name: 🇸🇬SG-45.76.144.158-1230
   server: akrab1.v-pn.my.id
   port: 17187
   type: vmess
@@ -9706,7 +9839,7 @@ proxies:
     headers:
       Host: android.googleapis.com
   udp: true
-- name: 🇸🇬SG-47.245.107.174-1295
+- name: 🇸🇬SG-47.245.107.174-1282
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -9721,7 +9854,7 @@ proxies:
     headers:
       Host: 116.supermanapp.top
   udp: true
-- name: 🇸🇬SG-51.79.146.225-3387
+- name: 🇸🇬SG-51.79.146.225-3491
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -9737,7 +9870,7 @@ proxies:
     headers:
       Host: sg-5.0rd.net
   udp: true
-- name: 🇸🇬SG-8.214.33.158-0375
+- name: 🇸🇬SG-8.214.33.158-0379
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -9752,7 +9885,7 @@ proxies:
     headers:
       Host: 8.214.33.158
   udp: true
-- name: 🇸🇬SG-8.219.106.156-1298
+- name: 🇸🇬SG-8.219.106.156-1285
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -9767,7 +9900,7 @@ proxies:
     headers:
       Host: 116.supermanapp.top
   udp: true
-- name: 🇸🇬SG-8.219.159.232-1304
+- name: 🇸🇬SG-8.219.159.232-1291
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -9782,7 +9915,7 @@ proxies:
     headers:
       Host: 116.supermanapp.top
   udp: true
-- name: 🇸🇬SG-8.219.193.202-1306
+- name: 🇸🇬SG-8.219.193.202-1293
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -9797,7 +9930,7 @@ proxies:
     headers:
       Host: 116.supermanapp.top
   udp: true
-- name: 🇸🇬SG-8.219.196.117-1303
+- name: 🇸🇬SG-8.219.196.117-1290
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -9812,7 +9945,7 @@ proxies:
     headers:
       Host: 116.supermanapp.top
   udp: true
-- name: 🇸🇬SG-8.219.240.160-1302
+- name: 🇸🇬SG-8.219.240.160-1289
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -9827,7 +9960,7 @@ proxies:
     headers:
       Host: 116.supermanapp.top
   udp: true
-- name: 🇸🇬SG-8.222.152.165-1297
+- name: 🇸🇬SG-8.222.152.165-1284
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -9842,7 +9975,7 @@ proxies:
     headers:
       Host: 116.supermanapp.top
   udp: true
-- name: 🇸🇬SG-8.222.212.172-1307
+- name: 🇸🇬SG-8.222.212.172-1294
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -9857,7 +9990,7 @@ proxies:
     headers:
       Host: 116.supermanapp.top
   udp: true
-- name: 🇸🇬SG-8.222.212.219-1296
+- name: 🇸🇬SG-8.222.212.219-1283
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -9872,7 +10005,7 @@ proxies:
     headers:
       Host: 116.supermanapp.top
   udp: true
-- name: 🇸🇬SG-8.222.214.231-1301
+- name: 🇸🇬SG-8.222.214.231-1288
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -9887,22 +10020,7 @@ proxies:
     headers:
       Host: 116.supermanapp.top
   udp: true
-- name: 🇸🇬SG-8.222.215.228-9128
-  server: akrab1.v-pn.my.id
-  port: 80
-  type: vmess
-  uuid: 4a47e680-d860-4e63-9fa6-813857fb0f42
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: 4a47e680
-    headers:
-      Host: cdn.anycast.eu.org
-  udp: true
-- name: 🇸🇬SG-8.222.221.86-1308
+- name: 🇸🇬SG-8.222.221.86-1295
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -9917,7 +10035,7 @@ proxies:
     headers:
       Host: 116.supermanapp.top
   udp: true
-- name: 🇸🇬SG-8.222.221.90-1305
+- name: 🇸🇬SG-8.222.221.90-1292
   server: akrab1.v-pn.my.id
   port: 443
   type: vmess
@@ -9932,7 +10050,7 @@ proxies:
     headers:
       Host: 116.cloudreve.top
   udp: true
-- name: 🇸🇬SG-8.222.235.92-2665
+- name: 🇸🇬SG-8.222.235.92-2769
   server: akrab1.v-pn.my.id
   port: 80
   type: vmess
@@ -9946,4 +10064,19 @@ proxies:
     path: /
     headers:
       Host: warp.chigua.tk
+  udp: true
+- name: 🇸🇬SG-8.222.248.188-9208
+  server: akrab1.v-pn.my.id
+  port: 80
+  type: vmess
+  uuid: 4a47e680-d860-4e63-9fa6-813857fb0f42
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: 4a47e680
+    headers:
+      Host: cdn.anycast.eu.org
   udp: true
