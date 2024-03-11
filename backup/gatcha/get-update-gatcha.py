@@ -122,7 +122,7 @@ def get_update_filter_proxies(urls):
     for account in filtered_accounts:
         entry = yaml.safe_load(account[2:])
         if "server" in entry:
-            entry["server"] = "akrab1.v-pn.my.id"
+            entry["server"] = "104.18.49.163"
         if "udp" not in entry:
             entry["udp"] = True
 #        if "key" not in entry:
@@ -138,7 +138,7 @@ def get_update_filter_proxies(urls):
     output_dir_1 = "backup/proxy_provider"
     output_dir_2 = "backup/proxy_provider"
     output_path_1 = os.path.join(output_dir_1, "filter-liv.yaml")
-    output_path_2 = os.path.join(output_dir_2, "filter-akrab.yaml")
+    output_path_2 = os.path.join(output_dir_2, "filter-XL.yaml")
 
     # Create the folders if they don't exist
     os.makedirs(output_dir_1, exist_ok=True)
