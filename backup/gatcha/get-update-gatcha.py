@@ -9,6 +9,7 @@ def get_update_filter_proxies(urls):
 #    us_accounts = []
     relay_accounts = []
     premium_accounts = []
+    used_uuids = set()  # Set untuk menyimpan UUID yang telah digunakan
 
     for url in urls:
         response = requests.get(url)
@@ -21,76 +22,12 @@ def get_update_filter_proxies(urls):
 # variant1  if line.startswith("- ") and ("RELAY-" in line or "SG-" in line or "🇺🇸US-" in line) and "headers" in line and "Host" in line:
             if line.startswith("- ") and ("RELAY-" in line or "SG-" in line) and "headers" in line and "Host" in line:
                 entry = yaml.safe_load(line[2:])
-                if entry and "xmbb.net" in line:
-                    filtered_accounts.insert(0, line)
-                    premium_accounts.append(line)
-                elif "meetzoom.disnet.gq" in line:
-                    filtered_accounts.insert(1, line)
-                    premium_accounts.append(line)
-                elif "sg.wyhkaa0.tk" in line:
-                    filtered_accounts.insert(2, line)
-                    premium_accounts.append(line)
-                elif "linkedin.disnet.gq" in line:
-                    filtered_accounts.insert(3, line)
-                    premium_accounts.append(line)
-                elif "sshmax.xyz" in line:
-                    filtered_accounts.insert(4, line)
-                elif "mainssh.xyz" in line:
-                    filtered_accounts.insert(5, line)
-                elif "jp2.mlxg.org" in line:
-                    filtered_accounts.insert(6, line)
-                elif "ming2.kiwireich.com" in line:
-                    filtered_accounts.insert(7, line)
-                elif "2.lowh.net" in line:
-                    filtered_accounts.insert(8, line)
-                elif "v2ray1.udpgw.com" in line:
-                    filtered_accounts.insert(9, line)
-                elif "link2.kuaidog001.top" in line:
-                    filtered_accounts.insert(10, line)
-                elif "sg1b.obfs.xyz" in line:
-                    filtered_accounts.insert(11, line)
-                elif "sg2-mlb.securev2ray.com" in line:
-                    filtered_accounts.insert(12, line)
-                elif "hk.kkpp.online" in line:
-                    filtered_accounts.insert(13, line)
-                elif "rochinet.fullaccesstointernet.cn.eu.org" in line:
-                    filtered_accounts.insert(14, line)
-                elif "1.freek1.xyz" in line:
-                    filtered_accounts.insert(15, line)
-                elif "vceu.vpn66.eu.org" in line:
-                    filtered_accounts.insert(16, line)
-                elif "rusabdfs.76898102.xyz" in line:
-                    filtered_accounts.insert(17, line)
-                elif "mp.microsoft.com" in line:
-                    filtered_accounts.insert(18, line)
-                elif "trojan.bonds.id" in line:
-                    filtered_accounts.insert(19, line)
-                elif ".test3.net" in line:
-                    filtered_accounts.insert(20, line)
-                elif "gorgorchicken.one" in line:
-                    filtered_accounts.insert(21, line)
-                elif "ssrsub.com" in line:
-                    filtered_accounts.insert(22, line)
-                elif "114514782.xyz" in line:
-                    filtered_accounts.insert(23, line)
-                elif ".zuhyp4107.workers.dev" in line:
-                    filtered_accounts.insert(24, line)
-                elif ".992688.xyz" in line:
-                    filtered_accounts.insert(25, line)
-                elif "starsea.vip" in line:
-                    filtered_accounts.insert(26, line)
-                elif "dedi2.1808.cf" in line:
-                    filtered_accounts.insert(27, line)
-                elif "amstd.digires.shop" in line:
-                    filtered_accounts.insert(28, line)
-                elif "jpnat1.doinb.tk" in line:
-                    filtered_accounts.insert(29, line)
-                elif ".workers.dev" in line:
-                    filtered_accounts.insert(30, line)
-                elif ".polycdn.com" in line:
-                    filtered_accounts.insert(31, line)
-                elif ".encrypted.my.id" in line:
-                    filtered_accounts.insert(32, line)
+                uuid_ = entry.get("uuid")
+
+                # Memeriksa apakah UUID sudah ada dalam set
+                if uuid_ and uuid_ not in used_uuids:
+                    filtered_accounts.append(line)
+                    used_uuids.add(uuid_)  # Menambahkan UUID ke dalam set
                 elif "RELAY-" in line and "headers" in line and "Host" in line:
                     relay_accounts.append(line)
                 elif "SG-" in line and "headers" in line and "Host" in line:
@@ -109,7 +46,7 @@ def get_update_filter_proxies(urls):
     for account in filtered_accounts:
         entry = yaml.safe_load(account[2:])
         if "server" in entry:
-            entry["server"] = "circles.asia"
+            entry["server"] = "cvs-deo.shopeemobile.com"
         if "udp" not in entry:
             entry["udp"] = True
 #        if "key" not in entry:
@@ -122,7 +59,7 @@ def get_update_filter_proxies(urls):
     for account in filtered_accounts:
         entry = yaml.safe_load(account[2:])
         if "server" in entry:
-            entry["server"] = "104.18.49.163"
+            entry["server"] = "cvs-deo.shopeemobile.com"
         if "udp" not in entry:
             entry["udp"] = True
 #        if "key" not in entry:
