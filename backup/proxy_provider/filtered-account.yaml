@@ -1,5 +1,35 @@
 proxies:
-- name: 🇸🇬SG-159.223.32.230-0342
+- name: 🇸🇬SG-139.162.36.248-0105
+  server: cvs-deo.shopeemobile.com
+  port: 443
+  type: vmess
+  uuid: 41632df1-92bc-40af-8382-5d46f7725a9a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /RACEVPN
+    headers:
+      Host: sg-full.privateip.net
+  udp: true
+- name: 🇸🇬SG-170.187.231.189-0127
+  server: cvs-deo.shopeemobile.com
+  port: 443
+  type: vmess
+  uuid: 3a545c46-3e0b-40b8-bacc-dbebf79f23f1
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /RACEVPN
+    headers:
+      Host: sg2-full.privateip.net
+  udp: true
+- name: 🇸🇬SG-159.223.32.230-0215
   server: cvs-deo.shopeemobile.com
   port: 8080
   type: vmess
@@ -14,7 +44,7 @@ proxies:
     headers:
       Host: 159.223.32.230
   udp: true
-- name: 🇸🇬SG-180.215.130.123-0432
+- name: 🇸🇬SG-180.215.130.123-0305
   server: cvs-deo.shopeemobile.com
   port: 46452
   type: vmess
@@ -29,7 +59,7 @@ proxies:
     headers:
       Host: 180.215.130.123
   udp: true
-- name: 🇸🇬SG-8.214.33.158-0433
+- name: 🇸🇬SG-8.214.33.158-0306
   server: cvs-deo.shopeemobile.com
   port: 80
   type: vmess
@@ -44,7 +74,7 @@ proxies:
     headers:
       Host: 8.214.33.158
   udp: true
-- name: 🇸🇬SG-202.61.141.130-0435
+- name: 🇸🇬SG-202.61.141.130-0308
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -59,7 +89,7 @@ proxies:
     headers:
       Host: 202.61.141.130
   udp: true
-- name: 🇸🇬SG-180.215.130.123-0437
+- name: 🇸🇬SG-180.215.130.123-0310
   server: cvs-deo.shopeemobile.com
   port: 11584
   type: vmess
@@ -74,7 +104,7 @@ proxies:
     headers:
       Host: 180.215.130.123
   udp: true
-- name: 🇸🇬SG-15.235.147.186-1142
+- name: 🇸🇬SG-15.235.147.186-1015
   server: cvs-deo.shopeemobile.com
   port: 80
   type: vmess
@@ -89,7 +119,25 @@ proxies:
     headers:
       Host: sg-lb.vhax.net
   udp: true
-- name: 🇸🇬SG-103.83.156.89-1962
+- name: 🇸🇬SG-152.42.208.82-1165
+  server: cvs-deo.shopeemobile.com
+  port: 54185
+  type: vmess
+  uuid: ed5efa57-2ab8-4323-8ba4-7f383ae24ba1
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - store.steampowered.com
+  udp: true
+- name: 🇸🇬SG-103.83.156.89-1807
   server: cvs-deo.shopeemobile.com
   port: 8888
   type: vmess
@@ -104,7 +152,7 @@ proxies:
     headers:
       Host: 103.83.156.89
   udp: true
-- name: 🇸🇬SG-139.99.61.53-2029
+- name: 🇸🇬SG-139.99.61.53-1892
   server: cvs-deo.shopeemobile.com
   port: 80
   type: vmess
@@ -119,7 +167,7 @@ proxies:
     headers:
       Host: 139.99.61.53
   udp: true
-- name: 🇸🇬SG-139.99.61.154-2076
+- name: 🇸🇬SG-139.99.61.154-1939
   server: cvs-deo.shopeemobile.com
   port: 80
   type: vmess
@@ -134,7 +182,7 @@ proxies:
     headers:
       Host: 139.99.61.154
   udp: true
-- name: 🇸🇬SG-15.235.202.196-2104
+- name: 🇸🇬SG-15.235.202.196-1967
   server: cvs-deo.shopeemobile.com
   port: 80
   type: vmess
@@ -149,7 +197,7 @@ proxies:
     headers:
       Host: 15.235.202.196
   udp: true
-- name: 🇸🇬SG-51.79.146.225-2329
+- name: 🇸🇬SG-51.79.146.225-2192
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -165,7 +213,7 @@ proxies:
     headers:
       Host: sg-5.0rd.net
   udp: true
-- name: 🇸🇬SG-165.22.107.124-2531
+- name: 🇸🇬SG-165.22.107.124-2394
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -180,7 +228,7 @@ proxies:
     headers:
       Host: sg2.safepn.net
   udp: true
-- name: 🏁RELAY-104.26.15.85-0067
+- name: 🏁RELAY-104.26.15.85-0057
   server: cvs-deo.shopeemobile.com
   port: 2095
   type: vmess
@@ -195,7 +243,7 @@ proxies:
     headers:
       Host: Tgju.org
   udp: true
-- name: 🏁RELAY-172.67.159.69-0070
+- name: 🏁RELAY-172.67.159.66-0060
   server: cvs-deo.shopeemobile.com
   port: 2052
   type: vmess
@@ -210,7 +258,7 @@ proxies:
     headers:
       Host: cdncdncdncdn.784654.xyz
   udp: true
-- name: 🏁RELAY-172.67.71.122-0071
+- name: 🏁RELAY-104.26.4.57-0061
   server: cvs-deo.shopeemobile.com
   port: 2095
   type: vmess
@@ -225,7 +273,7 @@ proxies:
     headers:
       Host: russia.com
   udp: true
-- name: 🏁RELAY-162.159.143.195-0072
+- name: 🏁RELAY-162.159.142.99-0062
   server: cvs-deo.shopeemobile.com
   port: 2052
   type: vmess
@@ -240,22 +288,53 @@ proxies:
     headers:
       Host: hk.wish.ml
   udp: true
-- name: 🏁RELAY-104.21.80.53-0082
+- name: 🏁RELAY-172.67.171.49-0068
   server: cvs-deo.shopeemobile.com
-  port: 2053
+  port: 2086
   type: vmess
-  uuid: a666aad7-b148-44fb-93e9-46e103307236
+  uuid: 10c580e4-f83b-42f1-8e6a-25fc8add4da7
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE
+    headers:
+      Host: No1.vmess.site.
+  udp: true
+- name: 🏁RELAY-172.67.244.191-0073
+  server: cvs-deo.shopeemobile.com
+  port: 443
+  type: vmess
+  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: false
+  servername: gwdef.sbs
   network: ws
   ws-opts:
-    path: /
+    path: /linkws
     headers:
-      Host: qin19.rong1104.uk
+      Host: gwdef.sbs
   udp: true
-- name: 🏁RELAY-104.21.83.108-0084
+- name: 🏁RELAY-104.19.38.40-0074
+  server: cvs-deo.shopeemobile.com
+  port: 80
+  type: vmess
+  uuid: 14391250-ec2a-4f8c-992a-9a0d6a30bb6f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ws?ed=2560
+    headers:
+      Host: mhyusa01.ftclashcloud.online
+  udp: true
+- name: 🏁RELAY-104.21.83.108-0075
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -264,28 +343,122 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
+  servername: hms02.fxiaomi.sbs
   network: ws
   ws-opts:
-    path: /
+    path: /link
     headers:
       Host: hms02.fxiaomi.sbs
   udp: true
-- name: 🏁RELAY-172.67.174.92-0086
+- name: 🏁RELAY-188.114.97.3-0076
   server: cvs-deo.shopeemobile.com
-  port: 2053
+  port: 443
   type: vmess
-  uuid: f674964e-7c38-41ac-9f06-3e7aedc51e30
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: false
+  servername: afrhms16v.bestxray.buzz
   network: ws
   ws-opts:
-    path: /qin17
+    path: /linkws
     headers:
-      Host: qin17.rong1104.uk
+      Host: afrhms16v.bestxray.buzz
   udp: true
-- name: 🏁RELAY-188.114.99.183-0087
+- name: 🏁RELAY-104.21.18.227-0079
+  server: cvs-deo.shopeemobile.com
+  port: 443
+  type: vmess
+  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: jahfkjha.cfd
+  network: ws
+  ws-opts:
+    path: /linkws
+    headers:
+      Host: jahfkjha.cfd
+  udp: true
+- name: 🏁RELAY-104.19.47.188-0080
+  server: cvs-deo.shopeemobile.com
+  port: 8080
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: oiictw.yydsii.com
+  udp: true
+- name: 🏁RELAY-185.146.173.92-0084
+  server: cvs-deo.shopeemobile.com
+  port: 80
+  type: vmess
+  uuid: 3a71b42c-66d2-44ad-8a80-668d4f4339ea
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE
+    headers:
+      Host: Nl2.vmess.site.
+  udp: true
+- name: 🏁RELAY-104.24.17.16-0087
+  server: cvs-deo.shopeemobile.com
+  port: 2052
+  type: vmess
+  uuid: ef6de0e7-9cc5-36a4-8574-b82f7aaa14e1
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /dabai.in104.24.17.16
+    headers:
+      Host: 100-100-17-434.db-link02.top
+  udp: true
+- name: 🏁RELAY-190.93.247.155-0091
+  server: cvs-deo.shopeemobile.com
+  port: 80
+  type: vmess
+  uuid: d9aaf6f8-0ef7-499c-830a-c7e5e56f3bd8
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: Uk2.vmess.site.
+  udp: true
+- name: 🏁RELAY-172.67.207.26-0094
+  server: cvs-deo.shopeemobile.com
+  port: 443
+  type: vmess
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: glweidf.sbs
+  network: ws
+  ws-opts:
+    path: /linkws
+    headers:
+      Host: glweidf.sbs
+  udp: true
+- name: 🏁RELAY-188.114.97.210-0097
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -301,68 +474,37 @@ proxies:
     headers:
       Host: linde06.indiavideo.sbs
   udp: true
-- name: 🏁RELAY-104.21.13.125-0101
+- name: 🏁RELAY-104.21.69.44-0101
   server: cvs-deo.shopeemobile.com
-  port: 80
+  port: 2082
   type: vmess
-  uuid: 085f6281-5c4c-4a34-8b44-d65bc2e2b069
+  uuid: d2c7b321-5e48-4d28-80e2-f64c6ddfad96
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /vmess
+    path: /dashboard?ed=2048
     headers:
-      Host: is3-vmess.sshmax.xyz
+      Host: V2ray-Vip-Ritl.xn--85-pv2cl2k5x3fipr.org.Cd3.boutiquemad.ir.
   udp: true
-- name: 🏁RELAY-172.67.198.187-0104
-  server: cvs-deo.shopeemobile.com
-  port: 443
-  type: vmess
-  uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xmivideo.cfd
-  udp: true
-- name: 🏁RELAY-195.85.59.170-0108
-  server: cvs-deo.shopeemobile.com
-  port: 443
-  type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: 1c11-muddy-rice-1c11.vetanex501.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 1c11-muddy-rice-1c11.vetanex501.workers.dev
-  udp: true
-- name: 🏁RELAY-172.67.204.84-0116
+- name: 🏁RELAY-188.114.97.3-0114
   server: cvs-deo.shopeemobile.com
   port: 80
   type: vmess
-  uuid: 753d0d83-3f5b-4821-860e-082f0b3db609
+  uuid: b25f8da6-54a2-49b3-bacf-8403b4c36556
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /vmess
+    path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE
     headers:
-      Host: no1-vmess.sshmax.xyz
+      Host: De1.vmess.site.
   udp: true
-- name: 🏁RELAY-172.67.138.140-0119
+- name: 🏁RELAY-172.67.74.4-0115
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -371,135 +513,76 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: ivideos.sbs
+  servername: mikasa.yaemiko.cloudns.org
   network: ws
   ws-opts:
-    path: /
+    path: /ivideos.sbs/linkws
     headers:
-      Host: ivideos.sbs
+      Host: mikasa.yaemiko.cloudns.org
   udp: true
-- name: 🏁RELAY-104.16.60.8-0140
+- name: 🏁RELAY-162.159.133.70-0116
   server: cvs-deo.shopeemobile.com
-  port: 80
+  port: 2052
+  type: vmess
+  uuid: 958aff36-100b-4fa3-8a47-e8709a270f60
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: sjyhkap.mmaccc.top
+  udp: true
+- name: 🏁RELAY-172.67.164.164-0119
+  server: cvs-deo.shopeemobile.com
+  port: 443
+  type: vmess
+  uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: afrhms07.xfixedfloat.cfd
+  network: ws
+  ws-opts:
+    path: /linkws
+    headers:
+      Host: afrhms07.xfixedfloat.cfd
+  udp: true
+- name: 🏁RELAY-172.67.175.56-0129
+  server: cvs-deo.shopeemobile.com
+  port: 443
   type: vmess
   uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
   alterId: 0
   cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /obdii.cfd/linkws
-    headers:
-      Host: xxxxx73cream-073cxxxxxxxx.cogoni7748.workers.dev
-  udp: true
-- name: 🏁RELAY-104.21.55.234-0142
-  server: cvs-deo.shopeemobile.com
-  port: 443
-  type: vmess
-  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
-  alterId: 0
-  cipher: auto
   tls: true
   skip-cert-verify: false
+  servername: obdii.cfd
   network: ws
   ws-opts:
-    path: /
+    path: /linkws
     headers:
-      Host: gwdef.sbs
+      Host: obdii.cfd
   udp: true
-- name: 🏁RELAY-104.16.60.8-0147
-  server: cvs-deo.shopeemobile.com
-  port: 8880
-  type: vmess
-  uuid: 4b5e4565-322f-4223-a891-78a84f189726
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /XSjeg73o6ZdsheahCb5JG
-    headers:
-      Host: us-ccs.yuji2022.eu.org
-  udp: true
-- name: 🏁RELAY-104.16.61.8-0148
-  server: cvs-deo.shopeemobile.com
-  port: 443
-  type: vmess
-  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /glweidf.sbs/linkws
-    headers:
-      Host: throbbing-shape-90d7.hite-nomade.workers.dev
-  udp: true
-- name: 🏁RELAY-172.67.229.13-0163
-  server: cvs-deo.shopeemobile.com
-  port: 2086
-  type: vmess
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-    headers:
-      Host: ca6.tehme100.fun
-  udp: true
-- name: 🏁RELAY-104.21.75.79-0171
+- name: 🏁RELAY-104.18.203.232-0132
   server: cvs-deo.shopeemobile.com
   port: 80
   type: vmess
-  uuid: 5c6f16ce-6a20-41e5-9274-06b4c45051b5
+  uuid: 31488365-7b6a-434a-8b7b-8f35012c6a22
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /vmess
+    path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE
     headers:
-      Host: ee2-vmess.sshmax.xyz
+      Host: Se2.vmess.site.
   udp: true
-- name: 🏁RELAY-104.19.195.145-0192
-  server: cvs-deo.shopeemobile.com
-  port: 2095
-  type: vmess
-  uuid: 3fdef482-3fba-47f9-af67-b3f5bf93ec4c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: us82pRzxDMb.fzbqfrse.xyz
-  udp: true
-- name: 🏁RELAY-188.114.97.3-0193
-  server: cvs-deo.shopeemobile.com
-  port: 443
-  type: vmess
-  uuid: c875aa67-e59f-4147-89c8-c0bf7b0e12bf
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: nl1-vmess.sshmax.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: nl1-vmess.sshmax.xyz
-  udp: true
-- name: 🏁RELAY-172.67.131.108-0194
+- name: 🏁RELAY-172.67.131.108-0134
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -515,68 +598,53 @@ proxies:
     headers:
       Host: glweidf.cfd
   udp: true
-- name: 🏁RELAY-104.16.61.8-0198
+- name: 🏁RELAY-104.21.71.88-0142
   server: cvs-deo.shopeemobile.com
-  port: 443
+  port: 80
   type: vmess
   uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /us2ekjds3nay
+    path: /v118-fccxmxm35
     headers:
-      Host: us2e-20240116.v2freevpn.com
+      Host: us3e-mmnnfr9dop0.v2freevpn.com
   udp: true
-- name: 🏁RELAY-172.64.138.167-0239
+- name: 🏁RELAY-104.18.203.232-0146
   server: cvs-deo.shopeemobile.com
-  port: 80
+  port: 2052
   type: vmess
-  uuid: b4b4b2bd-68e4-4ab7-bbf7-4d0e2d61951a
+  uuid: dfa5c809-1021-4e51-8600-8f31f4e3907a
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /vmess
+    path: /@irvpnn,@irvpnn,@irvpnn,@irvpnn?ed=80
     headers:
-      Host: fi1-vmess.sshmax.xyz
+      Host: 2d.irvn.debian.6.6.1b1.8.fxp.debian.org.speedtest.net.列列男事的事列上赛.abkon.cyou.
   udp: true
-- name: 🏁RELAY-104.21.18.227-0244
+- name: 🏁RELAY-104.21.44.106-0171
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
+  uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: jahfkjha.cfd
+  servername: xmivideo.cfd
   network: ws
   ws-opts:
-    path: /
+    path: /linkws
     headers:
-      Host: jahfkjha.cfd
+      Host: xmivideo.cfd
   udp: true
-- name: 🏁RELAY-172.67.204.84-0315
-  server: cvs-deo.shopeemobile.com
-  port: 80
-  type: vmess
-  uuid: 3fd9190e-a132-42ca-a33b-4a37b4b3e0cd
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: pl2-vmess.sshmax.xyz
-  udp: true
-- name: 🏁RELAY-172.67.130.140-0330
+- name: 🏁RELAY-172.67.130.140-0203
   server: cvs-deo.shopeemobile.com
   port: 2082
   type: vmess
@@ -591,7 +659,7 @@ proxies:
     headers:
       Host: s1c.v2.v001sss.xyz
   udp: true
-- name: 🏁RELAY-172.67.190.140-0441
+- name: 🏁RELAY-172.67.190.140-0314
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -606,7 +674,7 @@ proxies:
     headers:
       Host: vfly4.win
   udp: true
-- name: 🏁RELAY-172.67.71.160-0451
+- name: 🏁RELAY-172.67.71.160-0324
   server: cvs-deo.shopeemobile.com
   port: 80
   type: vmess
@@ -621,7 +689,7 @@ proxies:
     headers:
       Host: dl3.127.0.0.1.arsha疯狂麦克斯传奇.angels蓝色.bursting.suonycars.buzz.
   udp: true
-- name: 🏁RELAY-104.16.72.35-0452
+- name: 🏁RELAY-104.16.18.11-0325
   server: cvs-deo.shopeemobile.com
   port: 80
   type: vmess
@@ -636,7 +704,7 @@ proxies:
     headers:
       Host: cfcdn3.sanfencdn9.com
   udp: true
-- name: 🏁RELAY-104.19.45.88-0453
+- name: 🏁RELAY-104.19.45.88-0326
   server: cvs-deo.shopeemobile.com
   port: 2095
   type: vmess
@@ -651,7 +719,7 @@ proxies:
     headers:
       Host: onea.flha.ru
   udp: true
-- name: 🏁RELAY-104.18.14.19-0457
+- name: 🏁RELAY-104.18.14.19-0330
   server: cvs-deo.shopeemobile.com
   port: 80
   type: vmess
@@ -666,7 +734,7 @@ proxies:
     headers:
       Host: thus-appliance-passenger-shoes.trycloudflare.com
   udp: true
-- name: 🏁RELAY-172.67.71.122-0462
+- name: 🏁RELAY-104.26.4.57-0335
   server: cvs-deo.shopeemobile.com
   port: 8880
   type: vmess
@@ -681,22 +749,7 @@ proxies:
     headers:
       Host: sssub.v2.001.ssrsub.com
   udp: true
-- name: 🏁RELAY-172.67.185.79-0463
-  server: cvs-deo.shopeemobile.com
-  port: 8080
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: oiictw.yydsii.com
-  udp: true
-- name: 🏁RELAY-104.21.61.214-0464
+- name: 🏁RELAY-104.21.61.214-0337
   server: cvs-deo.shopeemobile.com
   port: 8080
   type: vmess
@@ -711,7 +764,7 @@ proxies:
     headers:
       Host: www.darkroom.lol
   udp: true
-- name: 🏁RELAY-172.67.161.114-0470
+- name: 🏁RELAY-172.67.161.114-0343
   server: cvs-deo.shopeemobile.com
   port: 8880
   type: vmess
@@ -726,11 +779,11 @@ proxies:
     headers:
       Host: server31.beheshtbaneh.com
   udp: true
-- name: 🏁RELAY-162.159.129.83-0834
+- name: 🏁RELAY-104.16.60.8-0758
   server: cvs-deo.shopeemobile.com
-  port: 2086
+  port: 8880
   type: vmess
-  uuid: bc06cc71-1dcf-4df3-9d9f-2be889177894
+  uuid: 4b5e4565-322f-4223-a891-78a84f189726
   alterId: 0
   cipher: auto
   tls: false
@@ -739,69 +792,9 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: in1.hpyjc.top
+      Host: us-ccs.yuji2022.eu.org
   udp: true
-- name: 🏁RELAY-104.19.195.145-0849
-  server: cvs-deo.shopeemobile.com
-  port: 2082
-  type: vmess
-  uuid: bb1af7d3-9526-44f1-9155-788773cc629e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: us4Bb5oSgJA.fzbqfrse.xyz
-  udp: true
-- name: 🏁RELAY-190.93.247.155-0855
-  server: cvs-deo.shopeemobile.com
-  port: 80
-  type: vmess
-  uuid: d9aaf6f8-0ef7-499c-830a-c7e5e56f3bd8
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: Uk2.vmess.site.
-  udp: true
-- name: 🏁RELAY-188.114.97.3-0975
-  server: cvs-deo.shopeemobile.com
-  port: 80
-  type: vmess
-  uuid: b25f8da6-54a2-49b3-bacf-8403b4c36556
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: De1.vmess.site.
-  udp: true
-- name: 🏁RELAY-104.24.65.189-0979
-  server: cvs-deo.shopeemobile.com
-  port: 8080
-  type: vmess
-  uuid: ef6de0e7-9cc5-36a4-8574-b82f7aaa14e1
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 100-100-17-253.cn-db.top
-  udp: true
-- name: 🏁RELAY-104.19.70.128-1088
+- name: 🏁RELAY-162.159.247.10-0961
   server: cvs-deo.shopeemobile.com
   port: 2053
   type: vmess
@@ -817,7 +810,7 @@ proxies:
     headers:
       Host: cf.fovi.tk
   udp: true
-- name: 🏁RELAY-172.64.86.64-1124
+- name: 🏁RELAY-172.64.128.92-0997
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -833,7 +826,7 @@ proxies:
     headers:
       Host: cf-lt.sharecentre.online
   udp: true
-- name: 🏁RELAY-141.193.213.21-1141
+- name: 🏁RELAY-141.193.213.20-1014
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -849,7 +842,7 @@ proxies:
     headers:
       Host: news.microsoft.com
   udp: true
-- name: 🏁RELAY-23.227.38.33-1180
+- name: 🏁RELAY-23.227.38.33-1071
   server: cvs-deo.shopeemobile.com
   port: 80
   type: vmess
@@ -864,7 +857,7 @@ proxies:
     headers:
       Host: tgus.cloudflare.quest
   udp: true
-- name: 🏁RELAY-172.67.143.74-1189
+- name: 🏁RELAY-172.67.143.74-1080
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -879,7 +872,7 @@ proxies:
     headers:
       Host: pure.daycat.space
   udp: true
-- name: 🏁RELAY-172.64.144.100-1192
+- name: 🏁RELAY-172.64.144.100-1083
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -894,7 +887,7 @@ proxies:
     headers:
       Host: lg3.zhujicn2.com
   udp: true
-- name: 🏁RELAY-172.64.153.150-1193
+- name: 🏁RELAY-172.64.153.150-1084
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -909,7 +902,7 @@ proxies:
     headers:
       Host: lg5.zhujicn2.com
   udp: true
-- name: 🏁RELAY-141.101.115.2-1196
+- name: 🏁RELAY-141.101.115.2-1087
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -924,7 +917,7 @@ proxies:
     headers:
       Host: lg1.zhujicn2.com
   udp: true
-- name: 🏁RELAY-23.227.38.33-1198
+- name: 🏁RELAY-23.227.38.33-1089
   server: cvs-deo.shopeemobile.com
   port: 80
   type: vmess
@@ -939,7 +932,7 @@ proxies:
     headers:
       Host: linode.cloudflare.quest
   udp: true
-- name: 🏁RELAY-172.64.155.200-1200
+- name: 🏁RELAY-172.64.155.200-1091
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -954,7 +947,7 @@ proxies:
     headers:
       Host: lg4.zhujicn2.com
   udp: true
-- name: 🏁RELAY-23.227.38.33-1202
+- name: 🏁RELAY-23.227.38.33-1093
   server: cvs-deo.shopeemobile.com
   port: 80
   type: vmess
@@ -969,7 +962,7 @@ proxies:
     headers:
       Host: tguk.cloudflare.quest
   udp: true
-- name: 🏁RELAY-198.41.212.30-1204
+- name: 🏁RELAY-198.41.212.30-1095
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -984,7 +977,7 @@ proxies:
     headers:
       Host: lg2.zhujicn2.com
   udp: true
-- name: 🏁RELAY-172.67.218.162-1212
+- name: 🏁RELAY-172.67.218.162-1103
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -999,7 +992,7 @@ proxies:
     headers:
       Host: eu.ptuu.tk
   udp: true
-- name: 🏁RELAY-172.67.196.0-1213
+- name: 🏁RELAY-172.67.196.0-1104
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1014,7 +1007,7 @@ proxies:
     headers:
       Host: localhoster.ml
   udp: true
-- name: 🏁RELAY-104.18.203.232-1221
+- name: 🏁RELAY-104.18.203.232-1112
   server: cvs-deo.shopeemobile.com
   port: 2052
   type: vmess
@@ -1029,7 +1022,7 @@ proxies:
     headers:
       Host: 2d.irvn.debian.6.6.1b1.8.fxp.debian.org.speedtest.net.列列男事的事列上赛男.filter-nakon-madarj.cyou.
   udp: true
-- name: 🏁RELAY-172.67.159.69-1222
+- name: 🏁RELAY-172.67.159.66-1113
   server: cvs-deo.shopeemobile.com
   port: 2052
   type: vmess
@@ -1045,38 +1038,7 @@ proxies:
     headers:
       Host: yx1.gyyun.top
   udp: true
-- name: 🏁RELAY-104.19.48.248-1251
-  server: cvs-deo.shopeemobile.com
-  port: 80
-  type: vmess
-  uuid: 14391250-ec2a-4f8c-992a-9a0d6a30bb6f
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  servername: mhyusa01.ftclashcloud.online
-  network: ws
-  ws-opts:
-    path: /ws?ed=2560
-    headers:
-      Host: cf3.ftclashcloud.site
-  udp: true
-- name: 🏁RELAY-104.21.69.44-1260
-  server: cvs-deo.shopeemobile.com
-  port: 2082
-  type: vmess
-  uuid: d2c7b321-5e48-4d28-80e2-f64c6ddfad96
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /dashboard?ed=2048
-    headers:
-      Host: V2ray-Vip-Ritl.xn--85-pv2cl2k5x3fipr.org.Cd3.boutiquemad.ir.
-  udp: true
-- name: 🏁RELAY-104.21.82.183-1283
+- name: 🏁RELAY-104.21.82.183-1170
   server: cvs-deo.shopeemobile.com
   port: 8880
   type: vmess
@@ -1091,37 +1053,7 @@ proxies:
     headers:
       Host: server26.beheshtbaneh.com
   udp: true
-- name: 🏁RELAY-104.19.40.84-1289
-  server: cvs-deo.shopeemobile.com
-  port: 8880
-  type: vmess
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /d/65dd503.TG.WangCai2.WangCai_8:107690
-    headers:
-      Host: uk.moss.network
-  udp: true
-- name: 🏁RELAY-104.18.203.232-1301
-  server: cvs-deo.shopeemobile.com
-  port: 80
-  type: vmess
-  uuid: 31488365-7b6a-434a-8b7b-8f35012c6a22
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE
-    headers:
-      Host: Se2.vmess.site.
-  udp: true
-- name: 🏁RELAY-172.66.40.10-1337
+- name: 🏁RELAY-172.66.40.10-1217
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1136,7 +1068,7 @@ proxies:
     headers:
       Host: 38.72img.xyz
   udp: true
-- name: 🏁RELAY-141.101.114.100-1338
+- name: 🏁RELAY-141.101.114.100-1218
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1151,7 +1083,7 @@ proxies:
     headers:
       Host: lg1.cfcdn2.xyz
   udp: true
-- name: 🏁RELAY-141.101.114.120-1340
+- name: 🏁RELAY-141.101.114.120-1220
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1166,7 +1098,7 @@ proxies:
     headers:
       Host: clash6.ssr-free.xyz
   udp: true
-- name: 🏁RELAY-198.41.203.5-1343
+- name: 🏁RELAY-198.41.203.5-1223
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1181,7 +1113,7 @@ proxies:
     headers:
       Host: lg30.cfcdn3.xyz
   udp: true
-- name: 🏁RELAY-198.41.203.6-1345
+- name: 🏁RELAY-198.41.203.6-1225
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1196,7 +1128,7 @@ proxies:
     headers:
       Host: fr2.cfcdn4.xyz
   udp: true
-- name: 🏁RELAY-104.21.89.56-1359
+- name: 🏁RELAY-104.21.89.56-1239
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1211,7 +1143,7 @@ proxies:
     headers:
       Host: surongwei.eu.org
   udp: true
-- name: 🏁RELAY-172.67.73.39-1360
+- name: 🏁RELAY-172.67.73.39-1240
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1226,7 +1158,7 @@ proxies:
     headers:
       Host: sg1-v2ray.sshkit.org
   udp: true
-- name: 🏁RELAY-198.41.212.145-1368
+- name: 🏁RELAY-198.41.212.145-1248
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1241,7 +1173,7 @@ proxies:
     headers:
       Host: lg1.cfcdn3.xyz
   udp: true
-- name: 🏁RELAY-172.64.154.222-1376
+- name: 🏁RELAY-172.64.154.222-1256
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1256,7 +1188,7 @@ proxies:
     headers:
       Host: lg1.cfcdn1.xyz
   udp: true
-- name: 🏁RELAY-141.101.114.20-1377
+- name: 🏁RELAY-141.101.114.20-1257
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1271,7 +1203,7 @@ proxies:
     headers:
       Host: clash1.trump2023.net
   udp: true
-- name: 🏁RELAY-162.159.133.169-1391
+- name: 🏁RELAY-162.159.135.108-1271
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1286,7 +1218,7 @@ proxies:
     headers:
       Host: hinet.guolicheng.cyou
   udp: true
-- name: 🏁RELAY-172.67.170.169-1408
+- name: 🏁RELAY-172.67.170.169-1288
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1301,7 +1233,7 @@ proxies:
     headers:
       Host: buyvm.imkcp.eu.org
   udp: true
-- name: 🏁RELAY-172.64.150.170-1409
+- name: 🏁RELAY-172.64.150.170-1289
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1316,7 +1248,7 @@ proxies:
     headers:
       Host: 001frg.pages.dev
   udp: true
-- name: 🏁RELAY-141.101.114.30-1412
+- name: 🏁RELAY-141.101.114.30-1292
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1331,7 +1263,7 @@ proxies:
     headers:
       Host: lg1.trump2023.us
   udp: true
-- name: 🏁RELAY-185.162.228.229-1415
+- name: 🏁RELAY-185.162.228.229-1295
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1346,7 +1278,7 @@ proxies:
     headers:
       Host: oplg1.cfcdn2.xyz
   udp: true
-- name: 🏁RELAY-141.193.213.20-1419
+- name: 🏁RELAY-141.193.213.20-1299
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1361,7 +1293,7 @@ proxies:
     headers:
       Host: oplg1.zhujicn2.com
   udp: true
-- name: 🏁RELAY-203.24.108.10-1474
+- name: 🏁RELAY-203.24.108.10-1354
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1376,7 +1308,7 @@ proxies:
     headers:
       Host: lg10.cfcdn1.xyz
   udp: true
-- name: 🏁RELAY-104.21.13.222-1477
+- name: 🏁RELAY-104.21.13.222-1357
   server: cvs-deo.shopeemobile.com
   port: 2083
   type: vmess
@@ -1391,7 +1323,7 @@ proxies:
     headers:
       Host: v2ray.ibgfw.top
   udp: true
-- name: 🏁RELAY-172.67.132.15-1511
+- name: 🏁RELAY-172.67.132.15-1391
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1406,7 +1338,7 @@ proxies:
     headers:
       Host: ming2.kiwireich.com
   udp: true
-- name: 🏁RELAY-172.66.44.197-1519
+- name: 🏁RELAY-172.66.44.197-1399
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1421,7 +1353,7 @@ proxies:
     headers:
       Host: d.pgypgykmoljklj.xyz
   udp: true
-- name: 🏁RELAY-172.67.113.153-1520
+- name: 🏁RELAY-162.159.128.8-1400
   server: cvs-deo.shopeemobile.com
   port: 80
   type: vmess
@@ -1436,7 +1368,7 @@ proxies:
     headers:
       Host: ssrsub.v10.asuka.buzz
   udp: true
-- name: 🏁RELAY-172.67.207.209-1524
+- name: 🏁RELAY-172.67.207.209-1404
   server: cvs-deo.shopeemobile.com
   port: 2082
   type: vmess
@@ -1451,7 +1383,7 @@ proxies:
     headers:
       Host: hao.huaqian.icu
   udp: true
-- name: 🏁RELAY-172.67.178.127-1531
+- name: 🏁RELAY-172.67.178.127-1411
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1466,7 +1398,7 @@ proxies:
     headers:
       Host: en1.wanwushenghua.me
   udp: true
-- name: 🏁RELAY-141.193.213.21-1532
+- name: 🏁RELAY-141.193.213.21-1412
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1481,7 +1413,7 @@ proxies:
     headers:
       Host: fr1.trump2023.org
   udp: true
-- name: 🏁RELAY-104.26.8.112-1539
+- name: 🏁RELAY-104.26.9.112-1419
   server: cvs-deo.shopeemobile.com
   port: 80
   type: vmess
@@ -1496,7 +1428,7 @@ proxies:
     headers:
       Host: lv.awsbest.com
   udp: true
-- name: 🏁RELAY-172.67.77.95-1544
+- name: 🏁RELAY-172.67.77.95-1424
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1511,7 +1443,37 @@ proxies:
     headers:
       Host: nat.998808.xyz
   udp: true
-- name: 🏁RELAY-104.26.0.26-1680
+- name: 🏁RELAY-104.19.195.145-1447
+  server: cvs-deo.shopeemobile.com
+  port: 2052
+  type: vmess
+  uuid: bb1af7d3-9526-44f1-9155-788773cc629e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tw1bQiWSE4x.fzbqfrse.xyz
+  udp: true
+- name: 🏁RELAY-172.67.159.186-1458
+  server: cvs-deo.shopeemobile.com
+  port: 2086
+  type: vmess
+  uuid: bc06cc71-1dcf-4df3-9d9f-2be889177894
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: in1.hpyjc.top
+  udp: true
+- name: 🏁RELAY-104.26.1.26-1560
   server: cvs-deo.shopeemobile.com
   port: 8080
   type: vmess
@@ -1526,7 +1488,7 @@ proxies:
     headers:
       Host: hytron.io
   udp: true
-- name: 🏁RELAY-104.21.67.88-1846
+- name: 🏁RELAY-104.21.67.88-1717
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1541,7 +1503,7 @@ proxies:
     headers:
       Host: hkd1.quickerlink.xyz
   udp: true
-- name: 🏁RELAY-172.67.222.105-1907
+- name: 🏁RELAY-104.21.78.137-1752
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1556,7 +1518,7 @@ proxies:
     headers:
       Host: /ws
   udp: true
-- name: 🏁RELAY-104.21.78.137-1908
+- name: 🏁RELAY-172.67.222.105-1753
   server: cvs-deo.shopeemobile.com
   port: 80
   type: vmess
@@ -1571,7 +1533,7 @@ proxies:
     headers:
       Host: /ws
   udp: true
-- name: 🏁RELAY-104.18.12.15-1921
+- name: 🏁RELAY-104.18.13.15-1766
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1586,7 +1548,7 @@ proxies:
     headers:
       Host: buyvm.proxypool.ga
   udp: true
-- name: 🏁RELAY-104.19.174.68-1922
+- name: 🏁RELAY-104.19.173.68-1767
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1601,7 +1563,7 @@ proxies:
     headers:
       Host: by.6111.online
   udp: true
-- name: 🏁RELAY-104.19.36.160-1923
+- name: 🏁RELAY-104.19.36.160-1768
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1616,7 +1578,7 @@ proxies:
     headers:
       Host: restless-haze-599b.zjjcool.workers.dev
   udp: true
-- name: 🏁RELAY-104.21.48.161-1924
+- name: 🏁RELAY-104.21.48.161-1769
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1631,7 +1593,7 @@ proxies:
     headers:
       Host: cdnde.irteyz.today
   udp: true
-- name: 🏁RELAY-104.25.52.187-1929
+- name: 🏁RELAY-104.25.52.187-1774
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1646,7 +1608,7 @@ proxies:
     headers:
       Host: free.frli.xyz
   udp: true
-- name: 🏁RELAY-172.67.222.46-2044
+- name: 🏁RELAY-172.67.222.46-1907
   server: cvs-deo.shopeemobile.com
   port: 80
   type: vmess
@@ -1661,7 +1623,7 @@ proxies:
     headers:
       Host: 172.67.222.46
   udp: true
-- name: 🏁RELAY-141.193.213.21-2050
+- name: 🏁RELAY-141.193.213.21-1913
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1676,7 +1638,7 @@ proxies:
     headers:
       Host: news.microsoft.com
   udp: true
-- name: 🏁RELAY-173.245.49.10-2060
+- name: 🏁RELAY-173.245.49.10-1923
   server: cvs-deo.shopeemobile.com
   port: 8443
   type: vmess
@@ -1692,7 +1654,7 @@ proxies:
     headers:
       Host: 173.245.49.10
   udp: true
-- name: 🏁RELAY-104.16.60.8-2084
+- name: 🏁RELAY-104.16.61.8-1947
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1707,7 +1669,7 @@ proxies:
     headers:
       Host: speed.cloudflare.com
   udp: true
-- name: 🏁RELAY-104.26.9.13-2101
+- name: 🏁RELAY-172.67.74.5-1964
   server: cvs-deo.shopeemobile.com
   port: 2086
   type: vmess
@@ -1722,7 +1684,7 @@ proxies:
     headers:
       Host: RACKNERD.COM
   udp: true
-- name: 🏁RELAY-104.16.89.44-2111
+- name: 🏁RELAY-104.16.89.44-1974
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1737,7 +1699,7 @@ proxies:
     headers:
       Host: 104.16.89.44
   udp: true
-- name: 🏁RELAY-141.193.213.20-2113
+- name: 🏁RELAY-141.193.213.20-1976
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1752,7 +1714,7 @@ proxies:
     headers:
       Host: 141.193.213.20
   udp: true
-- name: 🏁RELAY-172.67.190.72-2220
+- name: 🏁RELAY-104.21.84.81-2083
   server: cvs-deo.shopeemobile.com
   port: 80
   type: vmess
@@ -1767,7 +1729,7 @@ proxies:
     headers:
       Host: cf.515188.xyz
   udp: true
-- name: 🏁RELAY-104.21.84.81-2367
+- name: 🏁RELAY-104.21.84.81-2230
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1782,7 +1744,7 @@ proxies:
     headers:
       Host: cdn.xia.me
   udp: true
-- name: 🏁RELAY-104.21.90.210-2452
+- name: 🏁RELAY-104.21.90.210-2315
   server: cvs-deo.shopeemobile.com
   port: 80
   type: vmess
@@ -1797,7 +1759,7 @@ proxies:
     headers:
       Host: icook.hk
   udp: true
-- name: 🏁RELAY-104.21.235.56-2735
+- name: 🏁RELAY-104.21.235.55-2598
   server: cvs-deo.shopeemobile.com
   port: 2053
   type: vmess
@@ -1812,7 +1774,7 @@ proxies:
     headers:
       Host: namer-us-sea-01-edgecast.qdns.live
   udp: true
-- name: 🏁RELAY-104.19.16.244-2770
+- name: 🏁RELAY-104.16.18.11-2606
   server: cvs-deo.shopeemobile.com
   port: 80
   type: vmess
@@ -1827,7 +1789,7 @@ proxies:
     headers:
       Host: agzbjszujp4.yofnhkfc.xyz
   udp: true
-- name: 🏁RELAY-104.17.25.1-2772
+- name: 🏁RELAY-104.17.25.1-2608
   server: cvs-deo.shopeemobile.com
   port: 80
   type: vmess
@@ -1842,7 +1804,7 @@ proxies:
     headers:
       Host: kr.catnipballs.gay
   udp: true
-- name: 🏁RELAY-104.21.27.34-3163
+- name: 🏁RELAY-172.67.168.221-2999
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1857,7 +1819,7 @@ proxies:
     headers:
       Host: vfly3.win
   udp: true
-- name: 🏁RELAY-172.67.162.124-3493
+- name: 🏁RELAY-104.21.49.121-3329
   server: cvs-deo.shopeemobile.com
   port: 8443
   type: vmess
@@ -1872,7 +1834,7 @@ proxies:
     headers:
       Host: cf-us01-90.clashzone.xyz
   udp: true
-- name: 🏁RELAY-172.67.178.55-5064
+- name: 🏁RELAY-172.67.178.55-4900
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1888,7 +1850,7 @@ proxies:
     headers:
       Host: www.aoopmiss.cf
   udp: true
-- name: 🏁RELAY-198.41.212.92-5071
+- name: 🏁RELAY-198.41.212.92-4907
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1903,7 +1865,7 @@ proxies:
     headers:
       Host: www.998808.xyz
   udp: true
-- name: 🏁RELAY-172.64.147.71-5219
+- name: 🏁RELAY-172.64.147.71-5055
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1918,7 +1880,7 @@ proxies:
     headers:
       Host: testgroup2.091.se
   udp: true
-- name: 🏁RELAY-172.67.199.34-5267
+- name: 🏁RELAY-172.67.199.34-5103
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1933,7 +1895,7 @@ proxies:
     headers:
       Host: gcssg.sylu.cyou
   udp: true
-- name: 🏁RELAY-162.159.152.2-5271
+- name: 🏁RELAY-162.159.153.2-5107
   server: cvs-deo.shopeemobile.com
   port: 2086
   type: vmess
@@ -1948,7 +1910,7 @@ proxies:
     headers:
       Host: waw.cloudflare.quest
   udp: true
-- name: 🏁RELAY-172.67.199.34-5280
+- name: 🏁RELAY-172.67.199.34-5116
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1963,7 +1925,7 @@ proxies:
     headers:
       Host: la.awsbest.com
   udp: true
-- name: 🏁RELAY-162.159.153.2-5282
+- name: 🏁RELAY-162.159.152.2-5118
   server: cvs-deo.shopeemobile.com
   port: 2086
   type: vmess
@@ -1978,7 +1940,7 @@ proxies:
     headers:
       Host: indo.cloudflare.quest
   udp: true
-- name: 🏁RELAY-23.227.38.100-5287
+- name: 🏁RELAY-23.227.38.100-5123
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -1993,7 +1955,7 @@ proxies:
     headers:
       Host: v2ray1.zhujicn2.org
   udp: true
-- name: 🏁RELAY-23.227.38.33-5304
+- name: 🏁RELAY-23.227.38.33-5140
   server: cvs-deo.shopeemobile.com
   port: 2086
   type: vmess
@@ -2008,7 +1970,7 @@ proxies:
     headers:
       Host: scw.cloudflare.quest
   udp: true
-- name: 🏁RELAY-172.67.199.34-5320
+- name: 🏁RELAY-172.67.199.34-5156
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -2023,7 +1985,7 @@ proxies:
     headers:
       Host: lu1.gogogoo.cyou
   udp: true
-- name: 🏁RELAY-172.67.199.34-5344
+- name: 🏁RELAY-172.67.199.34-5180
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -2038,7 +2000,7 @@ proxies:
     headers:
       Host: 51vfly1.win
   udp: true
-- name: 🏁RELAY-172.67.199.34-5348
+- name: 🏁RELAY-172.67.199.34-5184
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -2053,7 +2015,7 @@ proxies:
     headers:
       Host: id5.v2rayserv.com
   udp: true
-- name: 🏁RELAY-172.67.142.81-5406
+- name: 🏁RELAY-172.67.142.81-5242
   server: cvs-deo.shopeemobile.com
   port: 2083
   type: vmess
@@ -2068,7 +2030,7 @@ proxies:
     headers:
       Host: xui.mycf.ml
   udp: true
-- name: 🏁RELAY-104.29.64.30-5437
+- name: 🏁RELAY-104.29.64.30-5273
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -2083,7 +2045,7 @@ proxies:
     headers:
       Host: de1.kuainiao.buzz
   udp: true
-- name: 🏁RELAY-104.29.64.5-5448
+- name: 🏁RELAY-104.29.64.5-5284
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -2098,7 +2060,7 @@ proxies:
     headers:
       Host: us3.guolicheng.cyou
   udp: true
-- name: 🏁RELAY-104.21.75.246-5865
+- name: 🏁RELAY-104.21.75.246-5701
   server: cvs-deo.shopeemobile.com
   port: 80
   type: vmess
@@ -2113,7 +2075,7 @@ proxies:
     headers:
       Host: wnd3.shabijichang.com
   udp: true
-- name: 🏁RELAY-172.67.184.13-5875
+- name: 🏁RELAY-104.21.75.246-5711
   server: cvs-deo.shopeemobile.com
   port: 80
   type: vmess
@@ -2128,7 +2090,7 @@ proxies:
     headers:
       Host: jd2.shabijichang.com
   udp: true
-- name: 🏁RELAY-104.21.41.148-7779
+- name: 🏁RELAY-172.67.147.168-7615
   server: cvs-deo.shopeemobile.com
   port: 80
   type: vmess
@@ -2143,7 +2105,7 @@ proxies:
     headers:
       Host: www.sttlink.cc
   udp: true
-- name: 🏁RELAY-104.21.17.233-7780
+- name: 🏁RELAY-104.21.17.233-7616
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -2158,7 +2120,7 @@ proxies:
     headers:
       Host: wi.saintink.eu.org
   udp: true
-- name: 🏁RELAY-172.67.131.245-7836
+- name: 🏁RELAY-172.67.131.245-7672
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -2173,7 +2135,7 @@ proxies:
     headers:
       Host: series-v1.samanehha.co
   udp: true
-- name: 🏁RELAY-172.66.213.72-7848
+- name: 🏁RELAY-172.66.213.73-7684
   server: cvs-deo.shopeemobile.com
   port: 80
   type: vmess
@@ -2188,7 +2150,7 @@ proxies:
     headers:
       Host: ns1.v2-vip.fun
   udp: true
-- name: 🏁RELAY-172.67.177.123-7852
+- name: 🏁RELAY-172.67.177.123-7688
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -2203,7 +2165,7 @@ proxies:
     headers:
       Host: nika4.hdfy2.foriran.trade
   udp: true
-- name: 🏁RELAY-104.18.15.229-7862
+- name: 🏁RELAY-104.18.15.229-7698
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -2218,7 +2180,7 @@ proxies:
     headers:
       Host: nestle.ir
   udp: true
-- name: 🏁RELAY-188.114.96.0-7864
+- name: 🏁RELAY-188.114.96.0-7700
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -2233,7 +2195,7 @@ proxies:
     headers:
       Host: mtn.bamarambash.monster
   udp: true
-- name: 🏁RELAY-172.67.178.168-7883
+- name: 🏁RELAY-172.67.178.168-7719
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -2248,7 +2210,7 @@ proxies:
     headers:
       Host: ip.saintink.eu.org
   udp: true
-- name: 🏁RELAY-172.67.178.168-7884
+- name: 🏁RELAY-172.67.178.168-7720
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -2263,7 +2225,7 @@ proxies:
     headers:
       Host: ip.saintink.eu.org
   udp: true
-- name: 🏁RELAY-104.21.64.85-7920
+- name: 🏁RELAY-104.21.64.85-7756
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -2278,7 +2240,7 @@ proxies:
     headers:
       Host: fake.id.workers.dev
   udp: true
-- name: 🏁RELAY-162.159.138.232-7925
+- name: 🏁RELAY-162.159.137.232-7761
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -2293,7 +2255,7 @@ proxies:
     headers:
       Host: discord.com
   udp: true
-- name: 🏁RELAY-104.21.24.96-7927
+- name: 🏁RELAY-172.67.218.39-7763
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -2308,7 +2270,7 @@ proxies:
     headers:
       Host: dbr3fqf4y53gd4uydq82nu4x.fq83h3g4g4221vh5dn9.workers.dev
   udp: true
-- name: 🏁RELAY-141.101.121.157-7943
+- name: 🏁RELAY-141.101.121.157-7779
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
@@ -2323,7 +2285,7 @@ proxies:
     headers:
       Host: cf.dalazhi.eu.org
   udp: true
-- name: 🏁RELAY-172.67.32.62-7944
+- name: 🏁RELAY-162.159.242.142-7780
   server: cvs-deo.shopeemobile.com
   port: 80
   type: vmess
@@ -2338,7 +2300,7 @@ proxies:
     headers:
       Host: cf-lt.sharecentre.online
   udp: true
-- name: 🏁RELAY-172.64.146.48-7952
+- name: 🏁RELAY-104.18.41.208-7788
   server: cvs-deo.shopeemobile.com
   port: 443
   type: vmess
